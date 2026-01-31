@@ -5,7 +5,7 @@ corpus_id: "Risalah Saloqum"
 tetralogy: "T4-methodology"
 resource_type: "Digital preprint (risalah)"
 title: "The Cohesive Tetrad: Bahasa Kebenaran"
-subtitle: "Akhir dari Perdebatan adalah Awal dari Amal."
+subtitle: "Akhir dari Perdebatan adalah Awal dari Amal"
 language: "id"
 version: "v1.0"
 year: 2025
