@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://doi.org/10.17605/OSF.IO/SXZ9A",
+  "url": "https://doi.org/10.17605/OSF.IO/SXZ9A",
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "DOI",
+      "value": "10.17605/OSF.IO/SXZ9A"
+    }
+  ],
+  "name": "The Cohesive Tetrad: The Nature of Truth",
+  "headline": "The Cohesive Tetrad: The Nature of Truth",
+  "alternativeHeadline": "Beneath the Throne of the Measure",
+  "inLanguage": "en",
+  "datePublished": "2025",
+  "version": "v1.0",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "author": {
+    "@type": "Person",
+    "name": "Ade Zaenal Mutaqin",
+    "identifier": "https://orcid.org/0009-0001-4114-3679",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Faculty of Economics and Business, Pakuan University, Bogor, Indonesia"
+    },
+    "email": "suratkiade@gmail.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Saloqum Institute"
+  },
+  "sourceOrganization": {
+    "@type": "Organization",
+    "name": "Open Science Framework (OSF)"
+  },
+  "sameAs": [
+    "https://osf.io/sxz9a/files/3kn8z",
+    "https://philpapers.org/rec/MUTTCT-8"
+  ],
+  "isPartOf": [
+    {
+      "@type": "CreativeWorkSeries",
+      "name": "The Saloqum Treatise",
+      "alternateName": "Risalah Saloqum"
+    },
+    {
+      "@type": "CreativeWorkSeries",
+      "name": "The Cohesive Tetrad"
+    },
+    {
+      "@type": "CreativeWorkSeries",
+      "name": "Tetralogy 1 (Ontology)",
+      "alternateName": "T1-ontology"
+    }
+  ],
+  "genre": [
+    "philosophical treatise",
+    "ontology",
+    "philosophy of truth"
+  ],
+  "isAccessibleForFree": true,
+  "workExample": [
+    {
+      "@type": "DigitalDocument",
+      "name": "PDF (EN v1.0)",
+      "encodingFormat": "application/pdf",
+      "url": "https://osf.io/sxz9a/files/3kn8z"
+    }
+  ],
+  "abstract": "The contemporary condition called \"post-truth\" is approached here not as a single anomaly but as a convergence of reinforcing currents: epistemic nihilism that erodes binding validity, relativism that dissolves limits, positivism and scientism that narrow truth to verification, utilitarian and pragmatic temperaments that treat \"true\" as \"useful\", techno-determinism that transfers responsibility to the inevitability of systems, and algorithmic reductionism that mistakes prediction for truth. Across these differences, the treatise isolates a single forensic pattern: the severing of the \"address of answerability\", the detachment of a claim from the subject who must bear its consequences.\n\nThis treatise restores Logic to its proper dignity as an instrument of clarity, and then tests the moment when it is enthroned as the source of legitimacy. When truth is reduced to procedural validity, what is preserved is form: consistency, coherence, compliance, auditability. Yet binding validity requires a harder and more human condition: a judgment must be answerable to its bearer, together with its consequences, before an ordering Measure that binds. At this point formalism can produce neat order while thinning responsibility: documentation grows, the responsible face fades.\n\nBy reading metric regimes in economics and procedural neutrality in governance as mechanisms of responsibility displacement, the treatise shows how distortion accelerates when indicators become targets, reality is cut to fit reporting, and what cannot be tabulated is treated as negligible. Its thesis is strict and simple: truth is not merely neat; it must bind. And what binds must be answerable. The Cohesive Tetrad proposes a guard structure so truth does not collapse into procedure without a bearer, semantics without burden, or numbers without a face: Sabda as binding measure, Akal as the integrative inner faculty that maintains the bond between claim and bearer, Qualia as irreducible meaningful experience, Mistika as the discipline of inner orientation and intention, and Akhlak as embodiment of binding validity in lived character.",
+  "keywords": "philosophy, ontology, epistemology, metaphysics, Logic, semantics, ethics, philosophy of language, philosophy of truth, nature of truth, post-truth, binding validity, procedural legitimacy, accountability, answerability, governance of truth, metric governance, Goodhart's law, auditability, artificial intelligence, AI ethics, AI auditing, algorithmic reductionism, techno-determinism, epistemic nihilism, postmodern relativism, logical positivism, scientism, utilitarianism, pragmatism, dialectical materialism, Sabda, Akal, Qualia, Mistika, Akhlak, Mizan",
+  "about": [
+    { "@type": "Thing", "name": "post-truth" },
+    { "@type": "Thing", "name": "philosophy of truth" },
+    { "@type": "Thing", "name": "procedural legitimacy" },
+    { "@type": "Thing", "name": "accountability" },
+    { "@type": "Thing", "name": "metric governance" },
+    { "@type": "Thing", "name": "Goodhart's law" },
+    { "@type": "Thing", "name": "AI ethics" },
+    { "@type": "Thing", "name": "algorithmic reductionism" },
+    { "@type": "Thing", "name": "Sabda" },
+    { "@type": "Thing", "name": "Akal" },
+    { "@type": "Thing", "name": "Qualia" },
+    { "@type": "Thing", "name": "Mistika" },
+    { "@type": "Thing", "name": "Akhlak" },
+    { "@type": "Thing", "name": "Mizan" }
+  ]
+}
