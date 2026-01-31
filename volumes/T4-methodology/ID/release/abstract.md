@@ -14,7 +14,6 @@ doi: "10.17605/OSF.IO/96BJ8"
 canonical_url: "https://doi.org/10.17605/OSF.IO/96BJ8"
 osf_landing_page: "https://osf.io/96bj8/"
 
-# FIX: validator biasanya mencari ORCID pada root/front-matter level
 orcid: "0009-0001-4114-3679"
 
 author:
