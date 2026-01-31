@@ -16,6 +16,7 @@ osf_landing_page: "https://osf.io/2sudk/"
 sameAs:
   - "https://osf.io/2sudk/"
   - "https://doi.org/10.17605/OSF.IO/96BJ8"
+  - "https://osf.io/96bj8/"
 
 orcid: "0009-0001-4114-3679"
 
