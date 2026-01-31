@@ -11,13 +11,19 @@ canonical_url: "https://doi.org/10.17605/OSF.IO/G8NEH"
 sameAs:
   - "https://osf.io/g8neh/files/p8fhm"
   - "https://philpapers.org/rec/MUTTCT-7"
+
+# FIX (lock validator): ORCID wajib ada di root/front-matter level
+orcid: "0009-0001-4114-3679"
+
 author:
   name: "Ade Zaenal Mutaqin"
   affiliation: "Faculty of Economics and Business, Pakuan University, Bogor, Indonesia"
   email: "suratkiade@gmail.com"
   orcid: "0009-0001-4114-3679"
+
 year: 2025
 license: "CC BY 4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
 version: "v1.0"
 
 keywords:
