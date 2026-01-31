@@ -1,0 +1,76 @@
+canon_lock: true
+lock_schema: tct-corpus-lock
+lock_version: '1.2'
+lock_created_utc: '2026-01-31T00:00:00Z'
+corpus:
+  id: Risalah Saloqum
+  en: The Saloqum Treatise
+  author:
+    name: Ade Zaenal Mutaqin
+    orcid: 0009-0001-4114-3679
+  year_authored: 2025
+  license:
+    spdx_id: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    short: CC BY 4.0
+  framework: The Cohesive Tetrad
+tetralogy:
+- key: t1-ontology
+  domain_id: Ontologi
+  domain_en: Ontology
+  id:
+    doi: 10.17605/OSF.IO/G8NEH
+    title: 'The Cohesive Tetrad: Hakikat Kebenaran'
+    subtitle: Di Bawah Takhta Neraca
+  en:
+    doi: 10.17605/OSF.IO/SXZ9A
+    title: 'The Cohesive Tetrad: The Nature of Truth'
+    subtitle: Beneath the Throne of the Measure
+- key: t2-epistemology
+  domain_id: Epistemologi
+  domain_en: Epistemology
+  id:
+    doi: null
+    title: 'The Cohesive Tetrad: Jalan Kebenaran'
+    subtitle: Akal sebagai Fakultas Batin Integratif
+  en:
+    doi: null
+    title: 'The Cohesive Tetrad: The Way of Truth'
+    subtitle: Akal as the Integrative Inner Faculty
+- key: t3-axiology
+  domain_id: Aksiologi
+  domain_en: Axiology
+  id:
+    doi: null
+    title: 'The Cohesive Tetrad: Amal kebenaran'
+    subtitle: Akhlak sebagai Keterjelmaan
+  en:
+    doi: null
+    title: 'The Cohesive Tetrad: The Amal of Truth'
+    subtitle: Akhlak as Embodiment
+- key: t4-methodology
+  domain_id: Metodologi
+  domain_en: Methodology
+  id:
+    doi: 10.17605/OSF.IO/96BJ8
+    title: 'The Cohesive Tetrad: Bahasa Kebenaran'
+    subtitle: Akhir dari Perdebatan adalah Awal dari Amal
+  en:
+    doi: 10.17605/OSF.IO/2SUDK
+    title: 'The Cohesive Tetrad: The Languages of Truth'
+    subtitle: The end of debate is the beginning of Amal
+policies:
+  doi:
+    rule_no_invented_doi: true
+    rule_md_doi_must_match_lock: true
+    null_means_absent: true
+  subtitle:
+    forbidden_as_volume_subtitle:
+    - Risalah Saloqum
+    - The Saloqum Treatise
+  filenames:
+    forbidden_substrings:
+    - Langguage
+  content:
+    forbidden_phrases_public_docs:
+    - Lex Saloqum
