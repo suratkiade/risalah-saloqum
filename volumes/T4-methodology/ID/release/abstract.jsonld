@@ -3,13 +3,16 @@
   "@type": "ScholarlyArticle",
   "@id": "https://doi.org/10.17605/OSF.IO/96BJ8",
   "url": "https://doi.org/10.17605/OSF.IO/96BJ8",
+  "mainEntityOfPage": "https://osf.io/96bj8/",
   "name": "The Cohesive Tetrad: Bahasa Kebenaran",
-  "alternateName": "Akhir dari Perdebatan adalah Awal dari Amal.",
-  "inLanguage": "id-ID",
+  "headline": "Akhir dari Perdebatan adalah Awal dari Amal.",
+  "inLanguage": "id",
   "version": "v1.0",
+  "datePublished": "2025",
   "copyrightYear": 2025,
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "isAccessibleForFree": true,
+  "creativeWorkStatus": "Preprint",
   "identifier": [
     {
       "@type": "PropertyValue",
@@ -48,16 +51,329 @@
     }
   },
   "sameAs": [
-    "https://osf.io/96bj8/",
-    "https://github.com/suratkiade/risalah-saloqum"
+    "https://osf.io/96bj8/"
   ],
-  "workTranslation": {
-    "@type": "ScholarlyArticle",
-    "@id": "https://doi.org/10.17605/OSF.IO/2SUDK",
-    "name": "The Cohesive Tetrad: The Languages of Truth",
-    "alternateName": "The end of debate is the beginning of Amal",
-    "inLanguage": "en"
-  },
-  "keywords": "The Cohesive Tetrad, Risalah Saloqum, Bahasa Kebenaran, Languages of Truth, tata kelola kebenaran, truth governance, klaim mengikat, standing to bind, legitimasi mengikat, binding legitimacy, kelayakan normatif, normative permissibility, jurang is-ought, is-ought gap, logika sebagai instrumen, Logic as instrument, validitas vs legitimasi, validity vs legitimacy, koherensi formal, formal coherence, kepatuhan prosedural, procedural compliance, legitimasi prosedural, procedural legitimacy, nalar publik, public reason, pembenaran publik, public justification, auditabilitas publik, public auditability, pertanggungjawaban, accountability, answerability, alamat penagihan, address of accountability, kedaulatan metrik, metric sovereignty, rezim metrik, metric governance, indikator menjadi target, metric fixation, Goodhart's law, Campbell's law, tata kelola algoritmik, algorithmic governance, reduksionisme algoritmik, algorithmic reductionism, kecerdasan buatan, artificial intelligence, etika AI, AI ethics, audit AI, AI auditing, kepatuhan, compliance, trade-off keadilan, fairness trade-off, martabat manusia, human dignity, Sabda, Akal, Qualia, Mistika, Akhlak, Amal, Mizan, T_v⇒A^+, osf:filsafat, osf:ontologi, osf:epistemologi, osf:logika, osf:etika, osf:semantik, osf:nalar publik, osf:klaim mengikat, osf:pertanggungjawaban, osf:Akhlak, osf:jurang is-ought, osf:kedaulatan metrik, osf:Goodhart's law, osf:etika AI, osf:The Cohesive Tetrad",
-  "abstract": "Risalah ini merumuskan pembatasan tegas atas klaim-klaim rasionalitas publik: logika adalah instrumen untuk menguji inferensi, bukan sumber internal kelayakan normatif bagi tindakan, kebijakan, atau tatanan. Logika dapat memastikan bahwa bila premis diterima maka kesimpulan mengikuti secara valid, tetapi logika tidak dapat mengubah fakta, koherensi formal, atau keterukuran menjadi kewajiban tanpa premis normatif yang dinyatakan secara eksplisit. Jurang is-ought menandai batas tersebut. Risalah ini kemudian mendiagnosis penyempitan kriteria kebenaran publik ketika logika diposisikan sebagai hakim tunggal kebenaran. Dalam kondisi itu, koherensi formal, kepatuhan prosedural, dan indikator terukur diperlakukan sebagai pengganti kelayakan normatif, keadilan, dan martabat manusia. Kekeliruan kategori ini berujung pada kedaulatan metrik: ukuran menjadi target, keputusan terdorong pada optimasi instrumental, dan tatanan menjadi rentan terhadap manipulasi, sebagaimana ditangkap oleh Goodhart's law dan Campbell's law. Dalam ranah publik, distorsi ini tampak lebih keras karena keputusan kolektif selalu memuat konflik nilai dan trade-off keadilan yang tidak dapat diselesaikan oleh validitas formal semata. Pertanyaan pokoknya bukan hanya benar-salah proposisional, melainkan apakah sebuah klaim berhak mengikat. Tesis kanoniknya adalah bahwa klaim kebenaran memiliki standing untuk mengikat peradaban hanya sejauh ia dapat diperiksa dan dipertanggungjawabkan secara publik sebagai Akhlak, yakni jejak karakter dan perilaku yang teramati lintas waktu dan lintas konteks, tahan terhadap insentif performatif, serta tidak dapat digantikan oleh retorika atau kepatuhan prosedural belaka. T_v⇒A^+ Kebenaran mengikat peradaban hanya bila ia terbukti dan terjelma dalam Akhlak."
+  "workTranslation": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.17605/OSF.IO/2SUDK",
+      "url": "https://doi.org/10.17605/OSF.IO/2SUDK",
+      "name": "The Cohesive Tetrad: The Languages of Truth",
+      "headline": "The end of debate is the beginning of Amal",
+      "inLanguage": "en",
+      "version": "v1.0",
+      "datePublished": "2025"
+    }
+  ],
+  "keywords": "The Cohesive Tetrad, Risalah Saloqum, Bahasa Kebenaran, Languages of Truth, tata kelola kebenaran, truth governance, klaim mengikat, standing to bind, legitimasi mengikat, binding legitimacy, kelayakan normatif, normative permissibility, jurang is-ought, is-ought gap, logika sebagai instrumen, logic as instrument, validitas vs legitimasi, validity vs legitimacy, kepatuhan prosedural, procedural compliance, legitimasi prosedural, procedural legitimacy, nalar publik, public reason, pembenaran publik, public justification, auditabilitas publik, public auditability, pertanggungjawaban, accountability, alamat penagihan, address of accountability, kedaulatan metrik, metric sovereignty, indikator menjadi target, metric fixation, Goodhart's law, Campbell's law, tata kelola algoritmik, algorithmic governance, reduksionisme algoritmik, algorithmic reductionism, kecerdasan buatan, artificial intelligence, etika AI, AI ethics, audit AI, AI auditing, kepatuhan, compliance, Akhlak, Akal, Sabda, Qualia, Mistika, Amal, Mizan, T_v⇒A^+, osf:filsafat, osf:ontologi, osf:epistemologi, osf:logika, osf:etika, osf:semantik, osf:nalar publik, osf:klaim mengikat, osf:pertanggungjawaban, osf:Akhlak, osf:jurang is-ought, osf:kedaulatan metrik, osf:Goodhart's law, osf:etika AI, osf:The Cohesive Tetrad",
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "The Cohesive Tetrad"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Risalah Saloqum"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Bahasa Kebenaran"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Languages of Truth"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "tata kelola kebenaran"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "truth governance"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "klaim mengikat"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "standing to bind"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "legitimasi mengikat"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "binding legitimacy"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "kelayakan normatif"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "normative permissibility"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "jurang is-ought"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "is-ought gap"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "logika sebagai instrumen"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "logic as instrument"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "validitas vs legitimasi"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "validity vs legitimacy"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "kepatuhan prosedural"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "procedural compliance"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "legitimasi prosedural"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "procedural legitimacy"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "nalar publik"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "public reason"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "pembenaran publik"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "public justification"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "auditabilitas publik"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "public auditability"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "pertanggungjawaban"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "accountability"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "alamat penagihan"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "address of accountability"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "kedaulatan metrik"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "metric sovereignty"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "indikator menjadi target"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "metric fixation"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Goodhart's law"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Campbell's law"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "tata kelola algoritmik"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "algorithmic governance"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "reduksionisme algoritmik"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "algorithmic reductionism"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "kecerdasan buatan"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "artificial intelligence"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "etika AI"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "AI ethics"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "audit AI"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "AI auditing"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "kepatuhan"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "compliance"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Akhlak"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Akal"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Sabda"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Qualia"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Mistika"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Amal"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Mizan"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "T_v⇒A^+"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "filsafat",
+      "inDefinedTermSet": "https://osf.io/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "ontologi",
+      "inDefinedTermSet": "https://osf.io/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "epistemologi",
+      "inDefinedTermSet": "https://osf.io/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "logika",
+      "inDefinedTermSet": "https://osf.io/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "etika",
+      "inDefinedTermSet": "https://osf.io/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "semantik",
+      "inDefinedTermSet": "https://osf.io/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "nalar publik",
+      "inDefinedTermSet": "https://osf.io/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "klaim mengikat",
+      "inDefinedTermSet": "https://osf.io/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "pertanggungjawaban",
+      "inDefinedTermSet": "https://osf.io/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Akhlak",
+      "inDefinedTermSet": "https://osf.io/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "jurang is-ought",
+      "inDefinedTermSet": "https://osf.io/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "kedaulatan metrik",
+      "inDefinedTermSet": "https://osf.io/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Goodhart's law",
+      "inDefinedTermSet": "https://osf.io/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "etika AI",
+      "inDefinedTermSet": "https://osf.io/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "The Cohesive Tetrad",
+      "inDefinedTermSet": "https://osf.io/"
+    }
+  ],
+  "abstract": "Risalah ini merumuskan pembatasan tegas atas klaim-klaim rasionalitas publik: logika adalah instrumen untuk menguji inferensi, bukan sumber internal kelayakan normatif bagi tindakan, kebijakan, atau tatanan. Logika dapat memastikan bahwa bila premis diterima maka kesimpulan mengikuti secara valid, tetapi logika tidak dapat mengubah fakta, koherensi formal, atau keterukuran menjadi kewajiban tanpa premis normatif yang dinyatakan secara eksplisit. Jurang is-ought menandai batas tersebut. Risalah ini kemudian mendiagnosis penyempitan kriteria kebenaran publik ketika logika diposisikan sebagai hakim tunggal kebenaran. Dalam kondisi itu, koherensi formal, kepatuhan prosedural, dan indikator terukur diperlakukan sebagai pengganti kelayakan normatif, keadilan, dan martabat manusia. Kekeliruan kategori ini berujung pada kedaulatan metrik: ukuran berubah menjadi target, keputusan terdorong pada optimasi instrumental, dan tatanan menjadi rentan terhadap manipulasi, sebagaimana ditangkap oleh Goodhart's law dan Campbell's law. Dalam ranah publik, distorsi ini tampak lebih keras karena keputusan kolektif selalu memuat konflik nilai dan trade-off keadilan yang tidak dapat diselesaikan oleh validitas formal semata. Pertanyaan pokoknya bukan hanya benar-salah proposisional, melainkan apakah sebuah klaim berhak mengikat. Tesis kanonik risalah ini adalah bahwa klaim kebenaran memiliki standing untuk mengikat peradaban hanya sejauh ia dapat diperiksa dan dipertanggungjawabkan secara publik sebagai Akhlak, yakni jejak karakter dan perilaku yang teramati lintas waktu dan lintas konteks, tahan terhadap insentif performatif, serta tidak dapat digantikan oleh retorika atau kepatuhan prosedural belaka. T_v⇒A^+ Kebenaran mengikat peradaban hanya bila ia terbukti dan terjelma dalam Akhlak."
 }
