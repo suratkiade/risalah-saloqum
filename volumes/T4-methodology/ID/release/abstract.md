@@ -7,8 +7,8 @@ resource_type: "Digital preprint (risalah)"
 title: "The Cohesive Tetrad: Bahasa Kebenaran"
 subtitle: "Akhir dari Perdebatan adalah Awal dari Amal"
 language: "id"
-version: "v1.0"
 year: 2025
+version: "v1.0"
 
 doi: "10.17605/OSF.IO/96BJ8"
 canonical_url: "https://doi.org/10.17605/OSF.IO/96BJ8"
