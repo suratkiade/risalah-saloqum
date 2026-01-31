@@ -8,83 +8,68 @@
       "@type": "PropertyValue",
       "propertyID": "DOI",
       "value": "10.17605/OSF.IO/G8NEH"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "PhilPapers",
+      "value": "MUTTCT-7"
     }
   ],
   "name": "The Cohesive Tetrad: Hakikat Kebenaran",
-  "headline": "The Cohesive Tetrad: Hakikat Kebenaran",
-  "alternativeHeadline": "Di Bawah Takhta Neraca",
-  "inLanguage": "id",
-  "datePublished": "2025",
+  "alternateName": "Di Bawah Takhta Neraca",
+  "inLanguage": "id-ID",
   "version": "v1.0",
+  "copyrightYear": 2025,
+  "datePublished": "2026-01-26",
+  "dateModified": "2026-01-27",
   "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isAccessibleForFree": true,
   "author": {
     "@type": "Person",
     "name": "Ade Zaenal Mutaqin",
-    "identifier": "https://orcid.org/0009-0001-4114-3679",
+    "email": "suratkiade@gmail.com",
     "affiliation": {
       "@type": "Organization",
       "name": "Faculty of Economics and Business, Pakuan University, Bogor, Indonesia"
     },
-    "email": "suratkiade@gmail.com"
+    "identifier": "https://orcid.org/0009-0001-4114-3679"
   },
   "publisher": {
-    "@type": "Organization",
-    "name": "Saloqum Institute"
+    "@type": "Person",
+    "name": "Ade Zaenal Mutaqin"
   },
-  "sourceOrganization": {
-    "@type": "Organization",
-    "name": "Open Science Framework (OSF)"
+  "isPartOf": {
+    "@type": "CreativeWorkSeries",
+    "name": "Risalah Saloqum",
+    "isPartOf": {
+      "@type": "CreativeWork",
+      "name": "The Cohesive Tetrad"
+    }
   },
   "sameAs": [
     "https://osf.io/g8neh/files/p8fhm",
-    "https://philpapers.org/rec/MUTTCT-7"
+    "https://philpapers.org/rec/MUTTCT-7",
+    "https://github.com/suratkiade/risalah-saloqum"
   ],
-  "isPartOf": [
+  "encoding": [
     {
-      "@type": "CreativeWorkSeries",
-      "name": "Risalah Saloqum",
-      "alternateName": "The Saloqum Treatise"
+      "@type": "MediaObject",
+      "fileFormat": "application/pdf",
+      "contentUrl": "https://osf.io/g8neh/files/p8fhm"
     },
     {
-      "@type": "CreativeWorkSeries",
-      "name": "The Cohesive Tetrad"
-    },
-    {
-      "@type": "CreativeWorkSeries",
-      "name": "Tetralogi 1 (Ontologi)",
-      "alternateName": "T1-ontology"
+      "@type": "MediaObject",
+      "fileFormat": "text/markdown",
+      "contentUrl": "https://raw.githubusercontent.com/suratkiade/risalah-saloqum/main/volumes/T1-ontology/ID/release/abstract.md"
     }
   ],
-  "genre": [
-    "philosophical treatise",
-    "ontology",
-    "philosophy of truth"
-  ],
-  "isAccessibleForFree": true,
-  "workExample": [
-    {
-      "@type": "DigitalDocument",
-      "name": "PDF (ID v1.0)",
-      "encodingFormat": "application/pdf",
-      "url": "https://osf.io/g8neh/files/p8fhm"
-    }
-  ],
-  "abstract": "Krisis yang kini disebut \"post-truth\" tidak berdiri sebagai satu gejala tunggal, melainkan sebagai konvergensi arus yang saling memperkuat: nihilisme epistemologis yang mengikis keberlakuan, relativisme yang melarutkan batas, positivisme dan saintisme yang menyempitkan kebenaran pada verifikasi, utilitarianisme dan pragmatisme yang menimbang \"benar\" dari \"berguna\", tekno-determinisme yang mengalihkan tanggung jawab ke keniscayaan sistem, serta reduksionisme algoritmik yang menyamakan prediksi dengan kebenaran. Dari ragam itu, risalah ini memaku satu pola yang dapat ditelusuri secara forensik: pemutusan \"alamat penagihan\", yakni pemisahan klaim dari subjek yang menanggung akibat klaim itu.\n\nRisalah ini menempatkan logika pada martabatnya sebagai alat kejernihan, lalu menguji momen ketika ia dinaikkan menjadi takhta legitimasi. Ketika kebenaran dipersempit menjadi validitas prosedural, yang dijaga terutama adalah bentuk: runtut, konsisten, patuh prosedur, dapat diaudit. Namun keberlakuan menuntut syarat yang lebih keras dan lebih manusiawi: putusan harus sanggup ditagih kepada penanggungnya, beserta konsekuensinya, di hadapan Mizan yang mengikat. Di titik ini formalisme dapat memproduksi ketertiban sambil menipiskan pertanggungjawaban: dokumen menebal, sementara wajah penanggung menipis.\n\nMelalui pembacaan atas rezim metrik dalam ekonomi, netralitas prosedural dalam kelembagaan, dan logika audit dalam tata kelola modern, risalah ini menunjukkan mekanisme distorsi ketika indikator berubah menjadi target, realitas dipangkas agar cocok dengan laporan, dan yang tidak masuk tabel diperlakukan seolah tidak menentukan. Tesisnya sederhana dan menuntut: yang benar tidak cukup rapi; ia harus berlaku, dan yang berlaku harus dapat ditagih. The Cohesive Tetrad diajukan sebagai susunan penjagaan agar kebenaran tidak turun menjadi prosedur tanpa penanggung, semantik tanpa tanggungan, atau angka tanpa wajah: Sabda sebagai ukuran yang mengikat, Akal sebagai fakultas batin integratif yang menjaga hubungan klaim dan penanggung, Qualia sebagai horizon pengalaman bermakna yang tidak dapat direduksi, Mistika sebagai disiplin orientasi batin dan niat, serta Akhlak sebagai keterjelmaan keberlakuan dalam laku.",
-  "keywords": "filsafat, philosophy, ontologi, ontology, epistemologi, epistemology, metafisika, metaphysics, logika, logic, semantik, semantics, etika, ethics, filsafat kebenaran, philosophy of truth, hakikat kebenaran, nature of truth, post-truth, krisis post-truth, keberlakuan, legitimasi prosedural, procedural legitimacy, pertanggungjawaban, accountability, answerability, alamat penagihan, tata kelola kebenaran, governance of truth, rezim metrik, metric governance, Goodhart's law, indikator menjadi target, auditabilitas, auditability, etika AI, AI ethics, audit AI, AI auditing, reduksionisme algoritmik, algorithmic reductionism, Sabda, Akal, Qualia, Mistika, Akhlak, Mizan",
-  "about": [
-    { "@type": "Thing", "name": "post-truth" },
-    { "@type": "Thing", "name": "truth governance" },
-    { "@type": "Thing", "name": "procedural legitimacy" },
-    { "@type": "Thing", "name": "accountability" },
-    { "@type": "Thing", "name": "metric governance" },
-    { "@type": "Thing", "name": "Goodhart's law" },
-    { "@type": "Thing", "name": "AI ethics" },
-    { "@type": "Thing", "name": "algorithmic reductionism" },
-    { "@type": "Thing", "name": "Sabda" },
-    { "@type": "Thing", "name": "Akal" },
-    { "@type": "Thing", "name": "Qualia" },
-    { "@type": "Thing", "name": "Mistika" },
-    { "@type": "Thing", "name": "Akhlak" },
-    { "@type": "Thing", "name": "Mizan" }
-  ]
+  "keywords": "filsafat, philosophy, ontologi, ontology, epistemologi, epistemology, metafisika, metaphysics, logika, Logic, etika, ethics, semantik, semantics, filsafat bahasa, philosophy of language, filsafat kebenaran, philosophy of truth, hakikat kebenaran, nature of truth, post-truth, krisis post-truth, keberlakuan, validity vs legitimacy, legitimasi prosedural, procedural legitimacy, pertanggungjawaban, accountability, answerability, alamat penagihan, address of accountability, tata kelola kebenaran, governance of truth, rezim metrik, metric governance, indikator menjadi target, Goodhart's law, auditabilitas, auditability, kepatuhan, compliance, kecerdasan buatan, artificial intelligence, etika AI, AI ethics, audit AI, AI auditing, algoritma, algorithm, reduksionisme algoritmik, algorithmic reductionism, tekno-determinisme, techno-determinism, nihilisme epistemologis, epistemic nihilism, relativisme postmodern, postmodern relativism, positivisme logis, logical positivism, saintisme, scientism, pragmatisme, pragmatism, utilitarianisme, utilitarianism, materialisme dialektis, dialectical materialism, integritas akademik, academic integrity, The Cohesive Tetrad, Risalah Saloqum, Tetralogi 1, Volume I, Sabda, Akal, Qualia, Mistika, Akhlak, Mizan, osf:filsafat, osf:ontologi, osf:epistemologi, osf:logika, osf:etika, osf:semantik, osf:post-truth, osf:keberlakuan, osf:pertanggungjawaban, osf:alamat penagihan, osf:rezim metrik, osf:tata kelola kebenaran, osf:kecerdasan buatan, osf:etika AI, osf:The Cohesive Tetrad, osf:Risalah Saloqum",
+  "abstract": "Krisis yang kini disebut \"post-truth\" tidak berdiri sebagai satu gejala, melainkan sebagai konvergensi arus yang saling memperkuat: nihilisme epistemologis yang mengikis keberlakuan, relativisme yang melarutkan batas, positivisme dan saintisme yang menyempitkan kebenaran pada verifikasi, tekno-determinisme yang menukar tanggung jawab dengan keniscayaan sistem, reduksionisme algoritmik yang mengira prediksi cukup menggantikan penanggung, serta pragmatisme-utilitarian yang menimbang \"benar\" dari \"berguna\". Di bawah ragam itu, risalah ini memaku satu pola yang dapat ditelusuri secara forensik: pemutusan \"alamat penagihan\", yakni pemisahan klaim dari subjek yang menanggung akibatnya. Risalah ini menempatkan logika pada martabatnya sebagai alat kejernihan, lalu menguji momen ketika ia dinaikkan menjadi takhta legitimasi. Ketika kebenaran dipersempit menjadi validitas prosedural, yang dijaga terutama adalah bentuk: runtut, konsisten, patuh prosedur, dapat diaudit. Namun \"berlaku\" menuntut syarat yang lebih keras: suatu putusan harus sanggup ditagih kepada penanggungnya beserta konsekuensinya, di hadapan Mizan yang mengikat. Melalui contoh rezim metrik dalam ekonomi dan perangkat netralitas prosedural dalam tata kelola, risalah ini menunjukkan bagaimana ukuran yang berubah menjadi target mendorong distorsi realitas dan mempercepat pengaburan tanggung jawab. Tesisnya sederhana dan menuntut: yang benar tidak cukup rapi; ia harus berlaku, dan yang berlaku harus dapat ditagih. The Cohesive Tetrad mengajukan susunan penjagaan berbasis Sabda, Akal sebagai fakultas batin integratif, Qualia, Mistika, dan Akhlak, agar kebenaran tidak turun menjadi prosedur tanpa penanggung, semantik tanpa tanggungan, atau angka tanpa wajah.",
+  "workTranslation": {
+    "@type": "ScholarlyArticle",
+    "@id": "https://doi.org/10.17605/OSF.IO/SXZ9A",
+    "name": "The Cohesive Tetrad: The Nature of Truth",
+    "alternateName": "Beneath the Throne of the Measure",
+    "inLanguage": "en-US"
+  }
 }
