@@ -14,6 +14,9 @@ doi: "10.17605/OSF.IO/96BJ8"
 canonical_url: "https://doi.org/10.17605/OSF.IO/96BJ8"
 osf_landing_page: "https://osf.io/96bj8/"
 
+# FIX: validator biasanya mencari ORCID pada root/front-matter level
+orcid: "0009-0001-4114-3679"
+
 author:
   name: "Ade Zaenal Mutaqin"
   orcid: "0009-0001-4114-3679"
@@ -38,7 +41,7 @@ canonical_status:
 formula_lock:
   formula: "T_v⇒A^+"
   id: "Kebenaran mengikat peradaban hanya bila ia terbukti dan terjelma dalam Akhlak."
-  en: "Truth binds civilisation only insofar as it is proven and embodied in Akhlaq."
+  en: "Truth binds civilisation only insofar as it is proven and embodied in Akhlak."
 
 keywords:
   - "The Cohesive Tetrad"
