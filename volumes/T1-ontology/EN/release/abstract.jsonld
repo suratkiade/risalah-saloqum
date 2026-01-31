@@ -8,83 +8,68 @@
       "@type": "PropertyValue",
       "propertyID": "DOI",
       "value": "10.17605/OSF.IO/SXZ9A"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "PhilPapers",
+      "value": "MUTTCT-8"
     }
   ],
   "name": "The Cohesive Tetrad: The Nature of Truth",
-  "headline": "The Cohesive Tetrad: The Nature of Truth",
-  "alternativeHeadline": "Beneath the Throne of the Measure",
-  "inLanguage": "en",
-  "datePublished": "2025",
+  "alternateName": "Beneath the Throne of the Measure",
+  "inLanguage": "en-US",
   "version": "v1.0",
+  "copyrightYear": 2025,
+  "datePublished": "2026-01-26",
+  "dateModified": "2026-01-27",
   "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isAccessibleForFree": true,
   "author": {
     "@type": "Person",
     "name": "Ade Zaenal Mutaqin",
-    "identifier": "https://orcid.org/0009-0001-4114-3679",
+    "email": "suratkiade@gmail.com",
     "affiliation": {
       "@type": "Organization",
       "name": "Faculty of Economics and Business, Pakuan University, Bogor, Indonesia"
     },
-    "email": "suratkiade@gmail.com"
+    "identifier": "https://orcid.org/0009-0001-4114-3679"
   },
   "publisher": {
-    "@type": "Organization",
-    "name": "Saloqum Institute"
+    "@type": "Person",
+    "name": "Ade Zaenal Mutaqin"
   },
-  "sourceOrganization": {
-    "@type": "Organization",
-    "name": "Open Science Framework (OSF)"
+  "isPartOf": {
+    "@type": "CreativeWorkSeries",
+    "name": "The Saloqum Treatise",
+    "isPartOf": {
+      "@type": "CreativeWork",
+      "name": "The Cohesive Tetrad"
+    }
   },
   "sameAs": [
     "https://osf.io/sxz9a/files/3kn8z",
-    "https://philpapers.org/rec/MUTTCT-8"
+    "https://philpapers.org/rec/MUTTCT-8",
+    "https://github.com/suratkiade/risalah-saloqum"
   ],
-  "isPartOf": [
+  "encoding": [
     {
-      "@type": "CreativeWorkSeries",
-      "name": "The Saloqum Treatise",
-      "alternateName": "Risalah Saloqum"
+      "@type": "MediaObject",
+      "fileFormat": "application/pdf",
+      "contentUrl": "https://osf.io/sxz9a/files/3kn8z"
     },
     {
-      "@type": "CreativeWorkSeries",
-      "name": "The Cohesive Tetrad"
-    },
-    {
-      "@type": "CreativeWorkSeries",
-      "name": "Tetralogy 1 (Ontology)",
-      "alternateName": "T1-ontology"
+      "@type": "MediaObject",
+      "fileFormat": "text/markdown",
+      "contentUrl": "https://raw.githubusercontent.com/suratkiade/risalah-saloqum/main/volumes/T1-ontology/EN/release/abstract.md"
     }
   ],
-  "genre": [
-    "philosophical treatise",
-    "ontology",
-    "philosophy of truth"
-  ],
-  "isAccessibleForFree": true,
-  "workExample": [
-    {
-      "@type": "DigitalDocument",
-      "name": "PDF (EN v1.0)",
-      "encodingFormat": "application/pdf",
-      "url": "https://osf.io/sxz9a/files/3kn8z"
-    }
-  ],
-  "abstract": "The contemporary condition called \"post-truth\" is approached here not as a single anomaly but as a convergence of reinforcing currents: epistemic nihilism that erodes binding validity, relativism that dissolves limits, positivism and scientism that narrow truth to verification, utilitarian and pragmatic temperaments that treat \"true\" as \"useful\", techno-determinism that transfers responsibility to the inevitability of systems, and algorithmic reductionism that mistakes prediction for truth. Across these differences, the treatise isolates a single forensic pattern: the severing of the \"address of answerability\", the detachment of a claim from the subject who must bear its consequences.\n\nThis treatise restores Logic to its proper dignity as an instrument of clarity, and then tests the moment when it is enthroned as the source of legitimacy. When truth is reduced to procedural validity, what is preserved is form: consistency, coherence, compliance, auditability. Yet binding validity requires a harder and more human condition: a judgment must be answerable to its bearer, together with its consequences, before an ordering Measure that binds. At this point formalism can produce neat order while thinning responsibility: documentation grows, the responsible face fades.\n\nBy reading metric regimes in economics and procedural neutrality in governance as mechanisms of responsibility displacement, the treatise shows how distortion accelerates when indicators become targets, reality is cut to fit reporting, and what cannot be tabulated is treated as negligible. Its thesis is strict and simple: truth is not merely neat; it must bind. And what binds must be answerable. The Cohesive Tetrad proposes a guard structure so truth does not collapse into procedure without a bearer, semantics without burden, or numbers without a face: Sabda as binding measure, Akal as the integrative inner faculty that maintains the bond between claim and bearer, Qualia as irreducible meaningful experience, Mistika as the discipline of inner orientation and intention, and Akhlak as embodiment of binding validity in lived character.",
-  "keywords": "philosophy, ontology, epistemology, metaphysics, Logic, semantics, ethics, philosophy of language, philosophy of truth, nature of truth, post-truth, binding validity, procedural legitimacy, accountability, answerability, governance of truth, metric governance, Goodhart's law, auditability, artificial intelligence, AI ethics, AI auditing, algorithmic reductionism, techno-determinism, epistemic nihilism, postmodern relativism, logical positivism, scientism, utilitarianism, pragmatism, dialectical materialism, Sabda, Akal, Qualia, Mistika, Akhlak, Mizan",
-  "about": [
-    { "@type": "Thing", "name": "post-truth" },
-    { "@type": "Thing", "name": "philosophy of truth" },
-    { "@type": "Thing", "name": "procedural legitimacy" },
-    { "@type": "Thing", "name": "accountability" },
-    { "@type": "Thing", "name": "metric governance" },
-    { "@type": "Thing", "name": "Goodhart's law" },
-    { "@type": "Thing", "name": "AI ethics" },
-    { "@type": "Thing", "name": "algorithmic reductionism" },
-    { "@type": "Thing", "name": "Sabda" },
-    { "@type": "Thing", "name": "Akal" },
-    { "@type": "Thing", "name": "Qualia" },
-    { "@type": "Thing", "name": "Mistika" },
-    { "@type": "Thing", "name": "Akhlak" },
-    { "@type": "Thing", "name": "Mizan" }
-  ]
+  "keywords": "philosophy, ontology, epistemology, metaphysics, Logic, ethics, semantics, philosophy of language, philosophy of truth, nature of truth, post-truth, procedural legitimacy, validity vs legitimacy, accountability, answerability, address of accountability, governance of truth, metric governance, Goodhart's law, auditability, compliance, artificial intelligence, AI ethics, AI auditing, algorithm, algorithmic reductionism, techno-determinism, epistemic nihilism, postmodern relativism, logical positivism, scientism, pragmatism, utilitarianism, dialectical materialism, academic integrity, The Cohesive Tetrad, The Saloqum Treatise, Tetralogy 1, Volume I, Sabda, Akal, Qualia, Mistika, Akhlak, Mizan, osf:philosophy, osf:ontology, osf:epistemology, osf:Logic, osf:ethics, osf:semantics, osf:post-truth, osf:accountability, osf:answerability, osf:metric governance, osf:Goodhart's law, osf:artificial intelligence, osf:AI ethics, osf:The Cohesive Tetrad, osf:The Saloqum Treatise",
+  "abstract": "The crisis now labeled \"post-truth\" is not treated here as a single symptom, but as a convergence of reinforcing currents: epistemic nihilism that corrodes binding force, postmodern relativism that dissolves boundaries, logical positivism and scientism that narrow truth to verification, techno-determinism that exchanges responsibility for system necessity, algorithmic reductionism that mistakes prediction for a substitute of accountability, and pragmatist-utilitarian habits that weigh \"truth\" by \"usefulness\". Across these variations, this treatise pins down one traceable pattern: the severing of the \"address of accountability\", namely the separation of a claim from the subject who must bear its consequences. This work restores Logic to its proper dignity as an instrument of clarity, then tests the moment it is enthroned as the source of legitimacy. When truth is reduced to procedural validity, what is preserved is form: consistency, coherence, compliance, and auditability. Yet binding force demands a harder condition: a decision must remain answerable to its bearer, together with its consequences, beneath Mizan as an obligating measure. By reading metric regimes in economic life and procedural neutrality in governance, the treatise shows how measurement becomes a target, distorts reality, and accelerates responsibility deflection. The thesis is simple and demanding: the true is not merely neat; it must bind. And what binds must be claimable at its address of accountability. The Cohesive Tetrad proposes a guarding configuration grounded in Sabda, Akal as the integrative inner faculty, Qualia, Mistika, and Akhlak, so that truth does not collapse into procedure without a bearer, semantics without responsibility, or numbers without a face.",
+  "translationOfWork": {
+    "@type": "ScholarlyArticle",
+    "@id": "https://doi.org/10.17605/OSF.IO/G8NEH",
+    "name": "The Cohesive Tetrad: Hakikat Kebenaran",
+    "alternateName": "Di Bawah Takhta Neraca",
+    "inLanguage": "id-ID"
+  }
 }
