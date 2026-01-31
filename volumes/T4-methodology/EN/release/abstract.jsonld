@@ -1,0 +1,55 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://doi.org/10.17605/OSF.IO/2SUDK",
+  "url": "https://doi.org/10.17605/OSF.IO/2SUDK",
+  "name": "The Cohesive Tetrad: The Languages of Truth",
+  "alternateName": "The end of debate is the beginning of Amal",
+  "inLanguage": "en-US",
+  "version": "v1.0",
+  "copyrightYear": 2025,
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isAccessibleForFree": true,
+  "author": {
+    "@type": "Person",
+    "name": "Ade Zaenal Mutaqin",
+    "email": "suratkiade@gmail.com",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Faculty of Economics and Business, Pakuan University, Bogor, Indonesia"
+    },
+    "identifier": "https://orcid.org/0009-0001-4114-3679"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Saloqum Institute",
+    "location": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Bogor",
+        "addressCountry": "ID"
+      }
+    }
+  },
+  "isPartOf": {
+    "@type": "CreativeWorkSeries",
+    "name": "The Saloqum Treatise",
+    "isPartOf": {
+      "@type": "CreativeWork",
+      "name": "The Cohesive Tetrad"
+    }
+  },
+  "sameAs": [
+    "https://osf.io/2sudk/",
+    "https://doi.org/10.17605/OSF.IO/96BJ8"
+  ],
+  "translationOfWork": {
+    "@type": "ScholarlyArticle",
+    "@id": "https://doi.org/10.17605/OSF.IO/96BJ8",
+    "name": "The Cohesive Tetrad: Bahasa Kebenaran",
+    "inLanguage": "id-ID"
+  },
+  "keywords": "The Cohesive Tetrad, The Saloqum Treatise, Languages of Truth, truth governance, governance of truth, standing to bind, binding legitimacy, normative permissibility, is-ought gap, Logic, logic as instrument, validity vs legitimacy, formal coherence, procedural compliance, procedural legitimacy, public reason, public justification, public auditability, accountability, answerability, address of accountability, Akhlak, character trace, integrity as trace, metric sovereignty, metric governance, metric fixation, Goodhart's law, Campbell's law, algorithmic governance, algorithmic reductionism, artificial intelligence, AI ethics, AI auditing, compliance, fairness trade-off, human dignity, Sabda, Akal, Qualia, Mistika, Amal, Mizan",
+  "abstract": "This treatise draws a strict boundary in public reasoning. Logic is an instrument for testing inference: it assesses whether a conclusion follows from granted premises, not whether an action, policy, or collective order is normatively permissible. Logic can secure validity. It cannot transform facts, formal consistency, or measurability into obligation without an explicitly stated normative premise. The is-ought gap marks this constraint. It then diagnoses a civilisational drift. When Logic is absolutised as the sole judge of truth, public truth-criteria narrow into three seemingly objective substitutes: formal coherence, procedural compliance, and measurable indicators. A category mistake follows: validity is treated as permissibility, procedure as justice, and metrics as dignity. The result is metric sovereignty: measures become targets. Once measures become targets, institutions are driven toward instrumental optimisation and become structurally susceptible to manipulation, as captured by Goodhart's law and Campbell's law. In public decision-making, the distortion becomes more exposed because collective orders necessarily contain value-conflicts and fairness trade-offs that cannot be settled by formal validity alone. The central question is therefore not only propositional truth, but standing to bind. A claim binds when it legitimately demands compliance, warrants sanction, restricts choice, and shapes the rules of shared life. The canonical thesis is that a truth-claim has standing to bind a civilisation only insofar as it can be examined and publicly accounted for as Akhlak: an observable trace of character and conduct across time and contexts, resistant to performative incentives and irreducible to rhetoric or procedural compliance. T_v⇒A^+ Truth binds civilisation only insofar as it is proven and embodied in Akhlak."
+}
