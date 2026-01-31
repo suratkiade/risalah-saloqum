@@ -130,5 +130,5 @@ Risalah ini menempatkan logika pada martabatnya sebagai alat kejernihan, lalu me
 
 Melalui contoh rezim metrik dalam ekonomi dan perangkat netralitas prosedural dalam tata kelola, risalah ini menunjukkan bagaimana ukuran yang berubah menjadi target mendorong distorsi realitas dan mempercepat pengaburan tanggung jawab. Tesisnya sederhana dan menuntut: yang benar tidak cukup rapi; ia harus berlaku, dan yang berlaku harus dapat ditagih. The Cohesive Tetrad mengajukan susunan penjagaan berbasis Sabda, Akal sebagai fakultas batin integratif, Qualia, Mistika, dan Akhlak, agar kebenaran tidak turun menjadi prosedur tanpa penanggung, semantik tanpa tanggungan, atau angka tanpa wajah.
 
-## Kata kunci (ringkas, tampil manusiawi)
+## Kata kunci
 filsafat; ontologi; epistemologi; logika; filsafat kebenaran; post-truth; keberlakuan; legitimasi prosedural; pertanggungjawaban; alamat penagihan; rezim metrik; tata kelola kebenaran; Mizan; The Cohesive Tetrad
