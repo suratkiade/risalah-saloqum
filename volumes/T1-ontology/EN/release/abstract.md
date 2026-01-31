@@ -11,13 +11,19 @@ canonical_url: "https://doi.org/10.17605/OSF.IO/SXZ9A"
 sameAs:
   - "https://osf.io/sxz9a/files/3kn8z"
   - "https://philpapers.org/rec/MUTTCT-8"
+
+# FIX (lock validator): ORCID wajib ada di root/front-matter level
+orcid: "0009-0001-4114-3679"
+
 author:
   name: "Ade Zaenal Mutaqin"
   affiliation: "Faculty of Economics and Business, Pakuan University, Bogor, Indonesia"
   email: "suratkiade@gmail.com"
   orcid: "0009-0001-4114-3679"
+
 year: 2025
 license: "CC BY 4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
 version: "v1.0"
 
 keywords:
@@ -95,5 +101,5 @@ This work restores Logic to its proper dignity as an instrument of clarity, then
 
 By reading metric regimes in economic life and procedural neutrality in governance, the treatise shows how measurement becomes a target, distorts reality, and accelerates responsibility deflection. The thesis is simple and demanding: the true is not merely neat; it must bind. And what binds must be claimable at its address of accountability. The Cohesive Tetrad proposes a guarding configuration grounded in Sabda, Akal as the integrative inner faculty, Qualia, Mistika, and Akhlak, so that truth does not collapse into procedure without a bearer, semantics without responsibility, or numbers without a face.
 
-## Keywords 
+## Keywords
 philosophy; ontology; epistemology; Logic; philosophy of truth; post-truth; procedural legitimacy; accountability; answerability; address of accountability; metric governance; Mizan; The Cohesive Tetrad
