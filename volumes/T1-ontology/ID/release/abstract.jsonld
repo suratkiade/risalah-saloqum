@@ -1,0 +1,162 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://doi.org/10.17605/OSF.IO/G8NEH",
+  "name": "The Cohesive Tetrad: Hakikat Kebenaran",
+  "headline": "The Cohesive Tetrad: Hakikat Kebenaran",
+  "alternativeHeadline": "Di Bawah Takhta Neraca",
+  "inLanguage": "id",
+  "datePublished": "2025",
+  "version": "v1.0",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "author": {
+    "@type": "Person",
+    "name": "Ade Zaenal Mutaqin",
+    "identifier": "https://orcid.org/0009-0001-4114-3679"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Saloqum Institute"
+  },
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "DOI",
+      "value": "10.17605/OSF.IO/G8NEH"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "URL",
+      "value": "https://doi.org/10.17605/OSF.IO/G8NEH"
+    }
+  ],
+  "url": "https://doi.org/10.17605/OSF.IO/G8NEH",
+  "sameAs": [
+    "https://osf.io/g8neh/files/p8fhm",
+    "https://philpapers.org/rec/MUTTCT-7"
+  ],
+  "isPartOf": [
+    {
+      "@type": "CreativeWorkSeries",
+      "name": "Risalah Saloqum",
+      "alternateName": "The Saloqum Treatise"
+    },
+    {
+      "@type": "CreativeWorkSeries",
+      "name": "The Cohesive Tetrad",
+      "alternateName": "Framework"
+    },
+    {
+      "@type": "CreativeWorkSeries",
+      "name": "Tetralogi 1 (Ontologi)",
+      "alternateName": "T1-ontology"
+    }
+  ],
+  "abstract": "Krisis yang kini disebut \"post-truth\" dibaca dalam risalah ini bukan sebagai satu gejala tunggal, melainkan sebagai konvergensi arus yang saling memperkuat: nihilisme epistemologis yang mengikis keberlakuan, relativisme yang melarutkan batas, positivisme dan saintisme yang menyempitkan kebenaran pada verifikasi, utilitarianisme dan pragmatisme yang menimbang \"benar\" dari \"berguna\", tekno-determinisme yang mengalihkan tanggung jawab ke keniscayaan sistem, serta reduksionisme algoritmik yang menyamakan prediksi dengan kebenaran. Dari ragam itu, risalah ini memakukan satu pola yang dapat ditelusuri secara forensik: pemutusan \"alamat penagihan\", yakni pemisahan klaim dari subjek yang menanggung akibat klaim itu.\n\nTesisnya tegas: yang benar tidak cukup rapi; ia harus berlaku, dan yang berlaku harus dapat ditagih. Krisis post-truth, dalam pengertian ini, adalah krisis tata kelola kebenaran ketika prosedur, metrik, dan teknik pembenaran mengambil alih martabat ukuran. Logika ditempatkan pada martabatnya sebagai alat kejernihan, lalu diuji pada momen ketika ia dinaikkan menjadi takhta legitimasi. Ketika kebenaran direduksi menjadi validitas prosedural, yang dirawat terutama adalah bentuk: runtut, konsisten, patuh prosedur, dapat diaudit. Namun keberlakuan menuntut syarat yang lebih keras dan lebih manusiawi: putusan harus sanggup ditagih kepada penanggungnya, beserta konsekuensinya, di hadapan Mizan yang mengikat. Di titik ini formalisme dapat memproduksi ketertiban sambil menipiskan pertanggungjawaban: dokumen menebal, sementara wajah penanggung menipis.\n\nMelalui pembacaan atas rezim metrik dalam ekonomi, netralitas prosedural dalam kelembagaan, dan logika audit dalam tata kelola modern, risalah ini menunjukkan mekanisme distorsi ketika indikator berubah menjadi target, realitas dipangkas agar cocok dengan laporan, dan yang tidak masuk tabel diperlakukan seolah tidak menentukan. Kerangka The Cohesive Tetrad diajukan sebagai susunan penjagaan agar kebenaran tidak turun menjadi prosedur tanpa penanggung, semantik tanpa tanggungan, atau angka tanpa wajah: Sabda sebagai ukuran yang mengikat, Akal sebagai fakultas batin integratif yang menjaga hubungan klaim dan penanggung, Qualia sebagai horizon pengalaman bermakna yang tidak dapat direduksi, Mistika sebagai disiplin orientasi batin dan niat, serta Akhlak sebagai keterjelmaan keberlakuan dalam laku.",
+  "keywords": [
+    "filsafat",
+    "philosophy",
+    "ontologi",
+    "ontology",
+    "epistemologi",
+    "epistemology",
+    "metafisika",
+    "metaphysics",
+    "logika",
+    "logic",
+    "etika",
+    "ethics",
+    "semantik",
+    "semantics",
+    "filsafat bahasa",
+    "philosophy of language",
+    "filsafat kebenaran",
+    "philosophy of truth",
+    "hakikat kebenaran",
+    "nature of truth",
+    "krisis post-truth",
+    "post-truth",
+    "keberlakuan",
+    "validity vs legitimacy",
+    "legitimasi prosedural",
+    "procedural legitimacy",
+    "pertanggungjawaban",
+    "accountability",
+    "answerability",
+    "alamat penagihan",
+    "governance of truth",
+    "rezim metrik",
+    "metric governance",
+    "indikator menjadi target",
+    "Goodhart's law",
+    "tata kelola",
+    "governance",
+    "auditabilitas",
+    "auditability",
+    "kepatuhan",
+    "compliance",
+    "kecerdasan buatan",
+    "artificial intelligence",
+    "etika AI",
+    "AI ethics",
+    "audit AI",
+    "AI auditing",
+    "algoritma",
+    "algorithm",
+    "reduksionisme algoritmik",
+    "algorithmic reductionism",
+    "tekno-determinisme",
+    "techno-determinism",
+    "nihilisme epistemologis",
+    "epistemic nihilism",
+    "relativisme post-modern",
+    "postmodern relativism",
+    "positivisme logis",
+    "logical positivism",
+    "saintisme",
+    "scientism",
+    "utilitarianisme",
+    "utilitarianism",
+    "pragmatisme",
+    "pragmatism",
+    "materialisme dialektis",
+    "dialectical materialism",
+    "The Cohesive Tetrad",
+    "The Cohesive Tetrad: Hakikat Kebenaran",
+    "Di Bawah Takhta Neraca",
+    "Risalah Saloqum",
+    "Tetralogi 1",
+    "Volume I",
+    "Sabda",
+    "Akal",
+    "Qualia",
+    "Mistika",
+    "Akhlak",
+    "Mizan"
+  ],
+  "about": [
+    "post-truth",
+    "truth and accountability",
+    "procedural legitimacy",
+    "governance of truth",
+    "metric governance",
+    "Goodhart's law",
+    "AI ethics",
+    "AI auditing",
+    "algorithmic reductionism",
+    "Sabda",
+    "Akal",
+    "Qualia",
+    "Mistika",
+    "Akhlak",
+    "Mizan"
+  ],
+  "workExample": [
+    {
+      "@type": "DigitalDocument",
+      "name": "PDF (ID v1.0)",
+      "encodingFormat": "application/pdf",
+      "url": "https://osf.io/g8neh/files/p8fhm"
+    }
+  ]
+}
