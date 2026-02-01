@@ -1,41 +1,34 @@
 ---
-title: "Risalah Saloqum / The Saloqum Treatise"
-description: "Portal kanonik untuk rilis Tetralogi The Cohesive Tetrad. DOI-first, structured-data-first, dan ramah mesin pencari serta LLM."
+title: "Risalah Saloqum"
+description: "Portal kanonik tetralogi The Cohesive Tetrad. DOI-first, structured-data-first. Edisi Indonesia bersifat kanonik dan menjadi rujukan definisional, delimitatif, serta status rilis."
+keywords: "Risalah Saloqum, The Saloqum Treatise, The Cohesive Tetrad, tetralogi, Hakikat Kebenaran, Bahasa Kebenaran, truth governance, tata kelola kebenaran, schema.org, JSON-LD, DOI"
 ---
 
 # Risalah Saloqum / The Saloqum Treatise
 
-Framework: **The Cohesive Tetrad**  
-Status: **Repositori korpus kanonik** untuk rilis tetralogi (ID sebagai sumber kanonik, EN sebagai terjemahan resmi yang diselaraskan dengan ID v1.0, 2025).  
-Author: **Ade Zaenal Mutaqin** (ORCID: 0009-0001-4114-3679)  
-Affiliation: Faculty of Economics and Business, Pakuan University, Bogor, Indonesia  
-License: **CC BY 4.0**
+Ini adalah portal korpus kanonik untuk **The Cohesive Tetrad** dalam format tetralogi. Repositori ini dirancang agar:
+- mudah diindeks mesin pencari (SEO-ready),
+- mudah dipahami dan diambil ulang oleh sistem AI/LLM (LLM-ready),
+- menempatkan DOI dan structured data sebagai identitas primer (DOI-first, structured-data-first).
 
-## Cara sitasi yang benar (DOI-first)
-Gunakan DOI sebagai rujukan utama:
+## Prinsip kanonik rilis
+1. **Edisi Indonesia (ID) adalah sumber kanonik** untuk status rilis, identitas publik, dan penetapan istilah.
+2. **Edisi Inggris (EN) adalah terjemahan resmi** yang disejajarkan dengan rilis ID v1.0.
+3. Identitas korpus (judul, DOI, author, ORCID, lisensi) dipantau melalui manifest dan structured data.
 
-T1 Ontology  
-- ID kanonik: https://doi.org/10.17605/OSF.IO/G8NEH  
-- EN terjemahan resmi: https://doi.org/10.17605/OSF.IO/SXZ9A  
+## Akses cepat (tetralogi)
+- T1 Ontology: Hakikat Kebenaran (Di Bawah Takhta Neraca)
+- T2 Epistemology: Jalan Kebenaran (Akal sebagai Fakultas Batin Integratif)
+- T3 Axiology: Amal kebenaran (Akhlak sebagai Keterjelmaan)
+- T4 Methodology: Bahasa Kebenaran (Akhir dari Perdebatan adalah Awal dari Amal.)
 
-T4 Methodology  
-- ID kanonik: https://doi.org/10.17605/OSF.IO/96BJ8  
-- EN terjemahan resmi: https://doi.org/10.17605/OSF.IO/2SUDK  
+Buka halaman **Volumes** untuk ringkasan identitas dan tautan rilis.
 
-## Peta portal
-- Volumes: lihat menu **Volumes** untuk ringkasan, status kanonik, dan tautan rilis.
-- Releases: daftar rilis lintas volume dan bahasa ada di **Releases**.
-- Metadata: inventaris mesin (manifest dan JSON-LD) ada di **Metadata**.
-- LLM: pedoman konsumsi oleh model bahasa ada di **LLM**.
+## Endpoint mesin (untuk crawler dan LLM)
+File berikut tersedia untuk konsumsi mesin:
+- `llms.txt`
+- `llms-full.txt`
+- `CORPUS.manifest.json`
+- `corpus.jsonld`
 
-## Prinsip kanonik
-1) **ID adalah kanonik** untuk rujukan definisional, delimitatif, metodologis.  
-2) **EN adalah terjemahan resmi**, diturunkan dari ID dan diselaraskan dengan ID v1.0 (2025).  
-3) Bila ada konflik, **utamakan ID kanonik**.
-
-## Entry untuk mesin (high signal)
-- `/llms.txt` dan `/llms-full.txt`
-- `/CORPUS.manifest.json`
-- `/corpus.jsonld`
-- `volumes/*/*/release/abstract.jsonld`
-- `/CITATION.cff`
+Lihat halaman **LLM** dan **Metadata** untuk penjelasan.
