@@ -1,0 +1,57 @@
+site_name: "Risalah Saloqum / The Saloqum Treatise"
+site_description: "Canonical corpus portal for The Cohesive Tetrad tetralogy. Indonesian canonical releases with official English translations. DOI-first, structured-data-first."
+site_url: "https://suratkiade.github.io/risalah-saloqum/"
+repo_url: "https://github.com/suratkiade/risalah-saloqum"
+repo_name: "suratkiade/risalah-saloqum"
+edit_uri: "edit/main/docs/"
+
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+  palette:
+    - scheme: default
+      primary: black
+      accent: indigo
+
+plugins:
+  - search
+  - sitemap:
+      changefreq: weekly
+      priority: 0.6
+
+markdown_extensions:
+  - meta
+  - toc:
+      permalink: true
+  - admonition
+  - attr_list
+
+nav:
+  - Home: index.md
+  - Volumes:
+      - T1 Ontology: volumes/t1-ontology.md
+      - T3 Axiology: volumes/t3-axiology.md
+      - T4 Methodology: volumes/t4-methodology.md
+  - Releases: releases/index.md
+  - Metadata:
+      - Manifest: metadata/manifest.md
+      - Structured data: metadata/structured-data.md
+  - LLM: llm/index.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: "https://github.com/suratkiade/risalah-saloqum"
+
+# Ensure robots.txt is copied to site root
+# Place robots.txt under /docs/robots.txt
