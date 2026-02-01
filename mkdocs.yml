@@ -9,12 +9,14 @@ edit_uri: "edit/main/docs/"
 site_author: "Ade Zaenal Mutaqin"
 copyright: "Copyright (c) 2025 Ade Zaenal Mutaqin. Licensed under CC BY 4.0."
 
-docs_dir: docs
-site_dir: site
+docs_dir: "docs"
+site_dir: "site"
 
 theme:
   name: material
   language: en
+  icon:
+    repo: fontawesome/brands/github
   features:
     - navigation.tabs
     - navigation.sections
@@ -30,10 +32,11 @@ theme:
       accent: indigo
 
 plugins:
-  - search
-  # NOTE: Removed "sitemap" plugin because your GitHub Actions logs show
-  # "No matching distribution found" for mkdocs-sitemap / mkdocs-sitemap-plugin.
-  # A dependency-free sitemap is generated in the Pages workflow instead.
+  - search:
+      lang: en
+  # IMPORTANT: Do NOT enable sitemap plugin here.
+  # Your Pages build logs show pip cannot find mkdocs-sitemap / mkdocs-sitemap-plugin.
+  # Sitemap, if needed, should be handled in the workflow layer (pages.yml) after we review it.
 
 markdown_extensions:
   - meta
@@ -61,4 +64,4 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/suratkiade/risalah-saloqum
+      link: "https://github.com/suratkiade/risalah-saloqum"
