@@ -1,14 +1,21 @@
 ---
 title: "T3 Axiology"
-description: "Tetralogi 3 (Aksiologi) portal stub agar mesin pencari dan LLM punya node stabil."
+description: "Tetralogi 3 (Aksiologi) untuk The Cohesive Tetrad. Halaman identitas volume dan status rilis."
+keywords: "T3 Axiology, Aksiologi, Amal kebenaran, Akhlak sebagai Keterjelmaan, The Cohesive Tetrad, Risalah Saloqum"
 ---
 
 # T3 Axiology
 
-Status: placeholder terstruktur.
+## Identitas volume (ringkas)
+### ID
+- Judul: The Cohesive Tetrad: Amal kebenaran
+- Subjudul: Akhlak sebagai Keterjelmaan
 
-Folder repo:
-- `volumes/T3-axiology/README.md`
+### EN
+- Title: The Cohesive Tetrad: The Amal of Truth
+- Subtitle: Akhlak as Embodiment
 
-Catatan portal:
-- Halaman ini sengaja disediakan sebagai node indeks agar crawler dan LLM memiliki titik referensi stabil saat rilis T3 dipublikasikan.
+## Status rilis
+Berkas rilis T3 akan muncul pada folder:
+- ID: `volumes/T3-axiology/ID/release/`
+- EN: `volumes/T3-axiology/EN/release/`
