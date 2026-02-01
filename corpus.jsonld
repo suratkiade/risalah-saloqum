@@ -1,0 +1,108 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://github.com/suratkiade/risalah-saloqum",
+  "name": "Risalah Saloqum / The Saloqum Treatise",
+  "description": "Canonical corpus repository for The Cohesive Tetrad tetralogy releases. Indonesian editions are canonical; English editions are official translations aligned to ID v1.0 (2025). Includes per-release abstracts and Schema.org JSON-LD structured data for discoverability.",
+  "url": "https://github.com/suratkiade/risalah-saloqum",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isAccessibleForFree": true,
+  "keywords": [
+    "The Cohesive Tetrad",
+    "Risalah Saloqum",
+    "The Saloqum Treatise",
+    "tetralogy",
+    "ontology",
+    "methodology",
+    "truth governance",
+    "structured data",
+    "JSON-LD",
+    "LLM"
+  ],
+  "creator": {
+    "@type": "Person",
+    "name": "Ade Zaenal Mutaqin",
+    "identifier": "https://orcid.org/0009-0001-4114-3679",
+    "email": "suratkiade@gmail.com",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Faculty of Economics and Business, Pakuan University, Bogor, Indonesia"
+    }
+  },
+  "citation": [
+    "https://doi.org/10.17605/OSF.IO/G8NEH",
+    "https://doi.org/10.17605/OSF.IO/SXZ9A",
+    "https://doi.org/10.17605/OSF.IO/96BJ8",
+    "https://doi.org/10.17605/OSF.IO/2SUDK"
+  ],
+  "hasPart": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.17605/OSF.IO/G8NEH",
+      "name": "The Cohesive Tetrad: Hakikat Kebenaran",
+      "alternateName": "Di Bawah Takhta Neraca",
+      "inLanguage": "id-ID",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isAccessibleForFree": true,
+      "sameAs": [
+        "https://doi.org/10.17605/OSF.IO/SXZ9A"
+      ]
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.17605/OSF.IO/SXZ9A",
+      "name": "The Cohesive Tetrad: The Nature of Truth",
+      "alternateName": "Beneath the Throne of the Measure",
+      "inLanguage": "en-US",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isAccessibleForFree": true,
+      "sameAs": [
+        "https://doi.org/10.17605/OSF.IO/G8NEH"
+      ]
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.17605/OSF.IO/96BJ8",
+      "name": "The Cohesive Tetrad: Bahasa Kebenaran",
+      "alternateName": "Akhir dari Perdebatan adalah Awal dari Amal.",
+      "inLanguage": "id-ID",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isAccessibleForFree": true,
+      "sameAs": [
+        "https://doi.org/10.17605/OSF.IO/2SUDK"
+      ]
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.17605/OSF.IO/2SUDK",
+      "name": "The Cohesive Tetrad: The Languages of Truth",
+      "alternateName": "The end of debate is the beginning of Amal",
+      "inLanguage": "en-US",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isAccessibleForFree": true,
+      "sameAs": [
+        "https://doi.org/10.17605/OSF.IO/96BJ8"
+      ]
+    }
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "Corpus manifest",
+      "fileFormat": "application/json",
+      "contentUrl": "https://raw.githubusercontent.com/suratkiade/risalah-saloqum/main/CORPUS.manifest.json"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "Corpus JSON-LD",
+      "fileFormat": "application/ld+json",
+      "contentUrl": "https://raw.githubusercontent.com/suratkiade/risalah-saloqum/main/corpus.jsonld"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "LLM entrypoint",
+      "fileFormat": "text/plain",
+      "contentUrl": "https://raw.githubusercontent.com/suratkiade/risalah-saloqum/main/llms.txt"
+    }
+  ]
+}
