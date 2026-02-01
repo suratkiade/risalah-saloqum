@@ -1,15 +1,16 @@
 site_name: "Risalah Saloqum / The Saloqum Treatise"
-site_description: "Canonical corpus portal for The Cohesive Tetrad tetralogy. Indonesian canonical releases with official English translations. DOI-first, structured-data-first."
+site_description: "Canonical corpus portal for The Cohesive Tetrad tetralogy. DOI-first and structured-data-first. Indonesian canonical releases with official English translations."
 site_url: "https://suratkiade.github.io/risalah-saloqum/"
+
 repo_url: "https://github.com/suratkiade/risalah-saloqum"
 repo_name: "suratkiade/risalah-saloqum"
 edit_uri: "edit/main/docs/"
 
+site_author: "Ade Zaenal Mutaqin"
+copyright: "Copyright (c) 2025 Ade Zaenal Mutaqin. Licensed under CC BY 4.0."
+
 docs_dir: docs
 site_dir: site
-
-# SEO/UX: make URLs stable and clean (recommended for GitHub Pages + Material)
-use_directory_urls: true
 
 theme:
   name: material
@@ -21,6 +22,8 @@ theme:
     - toc.follow
     - search.suggest
     - search.highlight
+    - content.action.edit
+    - content.action.view
   palette:
     - scheme: default
       primary: black
@@ -38,8 +41,10 @@ markdown_extensions:
       permalink: true
   - admonition
   - attr_list
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
 
-# NAV: tambahkan T2 agar tetralogi lengkap dan indeks portal rapi
 nav:
   - Home: index.md
   - Volumes:
@@ -54,21 +59,6 @@ nav:
   - LLM: llm/index.md
 
 extra:
-  # Canonical social profile
   social:
     - icon: fontawesome/brands/github
       link: "https://github.com/suratkiade/risalah-saloqum"
-
-  # OpenGraph/Twitter basics (Material reads these if present in templates; helps external unfurls)
-  generator: false
-
-# STATIC FILES: pastikan robots.txt, llms.txt, jsonld/manifest dapat ikut ter-copy ke site root
-# Material/MkDocs will copy everything under docs_dir to site_dir, preserving paths.
-# So keep these files directly under /docs to land at site root:
-# - docs/robots.txt  -> /robots.txt
-# - docs/llms.txt    -> /llms.txt
-# - docs/llms-full.txt -> /llms-full.txt
-# - docs/corpus.jsonld -> /corpus.jsonld
-# - docs/CORPUS.manifest.json -> /CORPUS.manifest.json
-#
-# IMPORTANT: do NOT put a leading slash when creating files in GitHub UI.
