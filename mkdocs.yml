@@ -8,6 +8,9 @@ edit_uri: "edit/main/docs/"
 docs_dir: docs
 site_dir: site
 
+# SEO/UX: make URLs stable and clean (recommended for GitHub Pages + Material)
+use_directory_urls: true
+
 theme:
   name: material
   language: en
@@ -36,10 +39,12 @@ markdown_extensions:
   - admonition
   - attr_list
 
+# NAV: tambahkan T2 agar tetralogi lengkap dan indeks portal rapi
 nav:
   - Home: index.md
   - Volumes:
       - T1 Ontology: volumes/t1-ontology.md
+      - T2 Epistemology: volumes/t2-epistemology.md
       - T3 Axiology: volumes/t3-axiology.md
       - T4 Methodology: volumes/t4-methodology.md
   - Releases: releases/index.md
@@ -49,9 +54,21 @@ nav:
   - LLM: llm/index.md
 
 extra:
+  # Canonical social profile
   social:
     - icon: fontawesome/brands/github
       link: "https://github.com/suratkiade/risalah-saloqum"
 
-# Ensure robots.txt is copied to site root
-# Place robots.txt under /docs/robots.txt
+  # OpenGraph/Twitter basics (Material reads these if present in templates; helps external unfurls)
+  generator: false
+
+# STATIC FILES: pastikan robots.txt, llms.txt, jsonld/manifest dapat ikut ter-copy ke site root
+# Material/MkDocs will copy everything under docs_dir to site_dir, preserving paths.
+# So keep these files directly under /docs to land at site root:
+# - docs/robots.txt  -> /robots.txt
+# - docs/llms.txt    -> /llms.txt
+# - docs/llms-full.txt -> /llms-full.txt
+# - docs/corpus.jsonld -> /corpus.jsonld
+# - docs/CORPUS.manifest.json -> /CORPUS.manifest.json
+#
+# IMPORTANT: do NOT put a leading slash when creating files in GitHub UI.
