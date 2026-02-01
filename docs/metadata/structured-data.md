@@ -1,29 +1,75 @@
 ---
 title: "Structured data"
-description: "Panduan structured data (Schema.org JSON-LD) untuk SEO dan indexing LLM."
+description: "Dokumentasi structured data schema.org JSON-LD untuk korpus dan rilis. Diprioritaskan untuk mesin pencari dan LLM."
+keywords: "structured data, JSON-LD, schema.org, ScholarlyArticle, Dataset, DOI, Risalah Saloqum, The Cohesive Tetrad"
 ---
 
 # Structured data
 
-Repositori ini memakai Schema.org JSON-LD agar discovery oleh crawler, dataset indexer, dan LLM lebih presisi.
+Repositori ini menyiapkan structured data sebagai identitas utama untuk mesin pencari dan sistem AI.
 
-## Tingkat korpus (global)
-- `/corpus.jsonld`  
-Mewakili korpus sebagai Dataset dan menautkan semua DOI utama.
+## 1) Corpus JSON-LD
+File: `corpus.jsonld` (root repo, dipublikasikan ke root portal)
 
-## Tingkat rilis (per volume, per bahasa)
-Setiap folder rilis memuat:
-- `abstract.jsonld` yang merepresentasikan ScholarlyArticle untuk DOI terkait.
-- `abstract.md` sebagai sumber naratif dengan front matter.
+## 2) Release JSON-LD
+Setiap rilis di `volumes/**/release/` membawa `abstract.jsonld` yang mengikuti schema.org.
 
-Lokasi:
-- `volumes/T1-ontology/ID/release/abstract.jsonld`
-- `volumes/T1-ontology/EN/release/abstract.jsonld`
-- `volumes/T4-methodology/ID/release/abstract.jsonld`
-- `volumes/T4-methodology/EN/release/abstract.jsonld`
+Di bawah ini adalah contoh JSON-LD untuk rilis Tetralogi 4 (ID) yang Anda gunakan.
 
-## Prinsip desain
-1) DOI menjadi @id utama.
-2) ID dan EN saling menaut via translationOfWork dan workTranslation.
-3) Author dan ORCID selalu eksplisit.
-4) License dan isAccessibleForFree selalu eksplisit.
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://doi.org/10.17605/OSF.IO/96BJ8",
+  "url": "https://doi.org/10.17605/OSF.IO/96BJ8",
+  "mainEntityOfPage": "https://osf.io/96bj8/",
+  "name": "The Cohesive Tetrad: Bahasa Kebenaran",
+  "headline": "Akhir dari Perdebatan adalah Awal dari Amal.",
+  "inLanguage": "id",
+  "version": "v1.0",
+  "datePublished": "2025",
+  "copyrightYear": 2025,
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isAccessibleForFree": true,
+  "creativeWorkStatus": "Preprint",
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "DOI",
+      "value": "10.17605/OSF.IO/96BJ8"
+    }
+  ],
+  "author": {
+    "@type": "Person",
+    "name": "Ade Zaenal Mutaqin",
+    "email": "suratkiade@gmail.com",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Faculty of Economics and Business, Pakuan University, Bogor, Indonesia"
+    },
+    "identifier": "https://orcid.org/0009-0001-4114-3679"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Saloqum Institute",
+    "location": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Bogor",
+        "addressCountry": "ID"
+      }
+    }
+  },
+  "isPartOf": {
+    "@type": "CreativeWorkSeries",
+    "name": "Risalah Saloqum",
+    "isPartOf": {
+      "@type": "CreativeWork",
+      "name": "The Cohesive Tetrad"
+    }
+  },
+  "sameAs": [
+    "https://osf.io/96bj8/"
+  ]
+}
