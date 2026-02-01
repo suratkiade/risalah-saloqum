@@ -1,147 +1,78 @@
 # Risalah Saloqum / The Saloqum Treatise
 Framework: The Cohesive Tetrad
 
-Canonical corpus repository for the tetralogy of *The Cohesive Tetrad*, publishing canonical Indonesian (ID) editions and official English (EN) translations. This repo is designed for auditability, identity stability, and machine-readable dissemination (Markdown + JSON-LD).
+Canonical corpus repository. Public identity (titles, subtitles, DOIs, author, ORCID, year, license) is locked in `CORPUS.lock.yaml` and enforced by CI (`validate-corpus-lock`). Any drift is rejected.
 
-Public identity (titles, subtitles, DOIs, author, ORCID, year, license) is strictly locked in `CORPUS.lock.yaml` and enforced by CI. Any drift will fail validation.
-
-## What this repository publishes
-Per volume and language, the repo publishes:
-- `abstract.md` (human-readable abstract + locked front matter)
-- `abstract_jsonld` (Schema.org JSON-LD for indexing and AI/SEO ingestion)
-- release artifacts under `volumes/<T*>/<ID|EN>/release/`
-
-## Locked identity (non-negotiable)
-The following public identity fields must match `CORPUS.lock.yaml` and must remain consistent across:
-- `abstract.md` front matter
-- `abstract_jsonld`
-- `CITATION.cff`
-
-Locked identity:
+## Canonical identity (locked)
 - Author: Ade Zaenal Mutaqin
 - ORCID: 0009-0001-4114-3679
+- Affiliation: Faculty of Economics and Business, Pakuan University, Bogor, Indonesia
 - Year: 2025
 - License: CC BY 4.0 (SPDX: CC-BY-4.0)
 
-Institutional references:
-- Affiliation: Faculty of Economics and Business, Pakuan University, Bogor, Indonesia
-- Publisher: Saloqum Institute (Bogor, Indonesia)
-
-## Canonical rule
-- ID editions are canonical sources.
-- EN editions are official translations derived from, and aligned to, the corresponding ID canonical edition.
-- EN is not an independent canonical source for definitional, delimitative, or methodological references.
-
-## Volumes (Tetralogy) and DOIs
-| Volume | Domain | ID canonical DOI | EN official DOI |
-|---|---|---|---|
-| T1 | Ontology | 10.17605/OSF.IO/G8NEH | 10.17605/OSF.IO/SXZ9A |
-| T4 | Methodology | 10.17605/OSF.IO/96BJ8 | 10.17605/OSF.IO/2SUDK |
-
 ## Repository structure
-```
-.github/workflows/
-  validate-corpus-lock.yml
-tools/
-  validate_corpus_lock.py
-volumes/
-  T1-ontology/
-    ID/release/
-      abstract.md
-      abstract_jsonld
-    EN/release/
-      abstract.md
-      abstract_jsonld
-  T2-epistemology/
-    README.md
-  T3-axiology/
-    README.md
-  T4-methodology/
-    ID/release/
-      abstract.md
-      abstract_jsonld
-    EN/release/
-      abstract.md
-      abstract_jsonld
-CORPUS.lock.yaml
-CITATION.cff
-LICENSE
-README.md
-```
+This repository is organized per Tetralogy volume. Each volume contains:
+- `ID/release/` for the Indonesian canonical edition (source of record)
+- `EN/release/` for the official English translation aligned to the Indonesian canonical edition
+- `abstract.md` and `abstract.jsonld` as machine-readable identity and discovery metadata (SEO and AI indexing)
+- the corresponding `.pdf` and `.md` release artifacts
 
-## Validation (CI lock enforcement)
-CI rejects merges if any identity drift is detected.
+Quick navigation:
+- T1 Ontology: `volumes/T1-ontology/`
+- T2 Epistemology: `volumes/T2-epistemology/`
+- T3 Axiology: `volumes/T3-axiology/`
+- T4 Methodology: `volumes/T4-methodology/`
 
-- Workflow: `.github/workflows/validate-corpus-lock.yml`
-- Validator: `tools/validate_corpus_lock.py`
-- Lock source: `CORPUS.lock.yaml`
+## Canonical references (DOI)
+The following items are part of the locked public identity for discovery, citation, and cross-repository consistency.
 
-Run locally:
-```bash
-python tools/validate_corpus_lock.py
-```
+### Tetralogy 1 (Ontology)
+- ID canonical: "The Cohesive Tetrad: Hakikat Kebenaran" (Di Bawah Takhta Neraca)  
+  DOI: 10.17605/OSF.IO/G8NEH
+- EN official translation: "The Cohesive Tetrad: The Nature of Truth" (Beneath the Throne of the Measure)  
+  DOI: 10.17605/OSF.IO/SXZ9A
 
-### Common failure causes
-1. Missing `orcid` at root/front-matter level in `abstract.md`.
-   - Validator expects `orcid:` to exist at the top level of YAML front matter, not only inside `author:`.
-2. Subtitle drift (punctuation and whitespace included).
-   - Example: trailing period vs no period.
-   - Example: double space, different capitalization, or different quote character.
-3. Identity mismatch between `abstract.md` and `CORPUS.lock.yaml`.
-   - title, subtitle, doi, year, version, license
-4. JSON-LD drift from locked identity.
-   - `@id`, `url`, DOI value, author ORCID, language tag, or series fields differ.
+### Tetralogy 4 (Methodology)
+- ID canonical: "The Cohesive Tetrad: Bahasa Kebenaran" (Akhir dari Perdebatan adalah Awal dari Amal.)  
+  DOI: 10.17605/OSF.IO/96BJ8
+- EN official translation: "The Cohesive Tetrad: The Languages of Truth" (The end of debate is the beginning of Amal)  
+  DOI: 10.17605/OSF.IO/2SUDK
 
-## Authoring rules for `abstract.md`
-Each `abstract.md` must:
-- Start with YAML front matter (`---` ... `---`)
-- Include required locked keys used by validation (exact keys and string values)
-- Preserve exact subtitle spelling and punctuation as locked in `CORPUS.lock.yaml`
-- Include `orcid:` at root/front-matter level (mandatory for CI)
+## Release artifacts and metadata paths
+Each release folder contains four core files: the release text, the PDF, `abstract.md`, and `abstract.jsonld`.
 
-Minimum required fields (typical):
-- `schema`, `framework`, `corpus_id`, `tetralogy`, `title`, `subtitle`, `language`, `year`, `version`
-- `doi`, `canonical_url`, (optional but recommended) `osf_landing_page`, `sameAs`
-- `orcid` (root)
-- `author` block with name, affiliation, email, orcid
-- `license`, (recommended) `license_url`
-- `keywords`, (optional) `osf_tags_suggested`
+### T1 Ontology
+- ID: `volumes/T1-ontology/ID/release/`
+  - `Risalah-Saloqum_The-Cohesive-Tetrad-Hakikat-Kebenaran_ID_v1.0.md`
+  - `Risalah-Saloqum_The-Cohesive-Tetrad-Hakikat-Kebenaran_ID_v1.0.pdf`
+  - `abstract.md`
+  - `abstract.jsonld`
+- EN: `volumes/T1-ontology/EN/release/`
+  - `Saloqum-Treatise_The-Cohesive-Tetrad-The-Nature-of-Truth_EN_v1.0.md`
+  - `Saloqum-Treatise_The-Cohesive-Tetrad-The-Nature-of-Truth_EN_v1.0.pdf`
+  - `abstract.md`
+  - `abstract.jsonld`
 
-## JSON-LD rules (`abstract_jsonld`)
-`abstract_jsonld` is Schema.org JSON-LD intended for:
-- SEO and scholarly indexing
-- AI ingestion (structured retrieval, metadata normalization)
-
-To reduce validator brittleness and improve interoperability:
-- Use `@type: "ScholarlyArticle"`
-- Use DOI as both `@id` and `url` in `https://doi.org/<DOI>` form
-- Represent ORCID as a URL: `https://orcid.org/0009-0001-4114-3679`
-- Provide `identifier` array with DOI (PropertyValue)
-- Provide `inLanguage` with BCP 47 tags:
-  - ID: `id-ID`
-  - EN: `en-US`
-- Keep `publisher` consistent with locked identity (Organization recommended)
-- Keep translation relation consistent:
-  - EN should use `translationOfWork` pointing to the ID DOI
-  - ID may use `workTranslation` pointing to the EN DOI
-
-Recommended JSON-LD fields:
-- `name`, `alternateName` (subtitle), `abstract`, `keywords`
-- `datePublished`, `dateModified` (ISO 8601)
-- `isAccessibleForFree: true`
-- `license` (URL)
-
-## Governance and contribution
-- All changes must go through Pull Requests.
-- Do not modify locked identity outside `CORPUS.lock.yaml`.
-- If updating locked identity, update `CORPUS.lock.yaml` and all affected artifacts (both `abstract.md` and `abstract_jsonld`) in one PR, then confirm local validation passes.
+### T4 Methodology
+- ID: `volumes/T4-methodology/ID/release/`
+  - `Risalah-Saloqum_The-Cohesive-Tetrad-Bahasa-Kebenaran_ID_v1.0.md`
+  - `Risalah-Saloqum_The-Cohesive-Tetrad-Bahasa-Kebenaran_ID_v1.0.pdf`
+  - `abstract.md`
+  - `abstract.jsonld`
+- EN: `volumes/T4-methodology/EN/release/`
+  - `Saloqum-Treatise_The-Cohesive-Tetrad-The-Languages-of-Truth_EN_v1.0.md`
+  - `Saloqum-Treatise_The-Cohesive-Tetrad-The-Languages-of-Truth_EN_v1.0.pdf`
+  - `abstract.md`
+  - `abstract.jsonld`
 
 ## Citation
-See `CITATION.cff`.
+Use the repository-level `CITATION.cff` as the authoritative citation entry for GitHub and reference managers.
+
+## Governance and integrity rules
+- Do not modify locked identity outside `CORPUS.lock.yaml`.
+- If locked identity changes are required, update `CORPUS.lock.yaml` and all affected release metadata files in a single PR.
+- Keep `abstract.md` and `abstract.jsonld` consistent with each other and with `CORPUS.lock.yaml`.
+- Prefer minimal, auditable diffs: identity changes must be explicit, intentional, and reviewable.
 
 ## License
-This repository is licensed under CC BY 4.0. See `LICENSE`.
-
-## Contact
-Corresponding author: suratkiade@gmail.com  
-ORCID: https://orcid.org/0009-0001-4114-3679  
+CC BY 4.0. See `LICENSE` for details.
