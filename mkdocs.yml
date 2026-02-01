@@ -1,16 +1,16 @@
 site_name: "Risalah Saloqum / The Saloqum Treatise"
 site_description: "Canonical corpus portal for The Cohesive Tetrad tetralogy. DOI-first and structured-data-first. Indonesian canonical releases with official English translations."
 site_url: "https://suratkiade.github.io/risalah-saloqum/"
-site_author: "Ade Zaenal Mutaqin"
-copyright: "Copyright (c) 2025 Ade Zaenal Mutaqin. Licensed under CC BY 4.0."
 
 repo_url: "https://github.com/suratkiade/risalah-saloqum"
 repo_name: "suratkiade/risalah-saloqum"
 edit_uri: "edit/main/docs/"
 
+site_author: "Ade Zaenal Mutaqin"
+copyright: "Copyright (c) 2025 Ade Zaenal Mutaqin. Licensed under CC BY 4.0."
+
 docs_dir: docs
 site_dir: site
-use_directory_urls: true
 
 theme:
   name: material
@@ -28,14 +28,12 @@ theme:
     - scheme: default
       primary: black
       accent: indigo
-  icon:
-    repo: fontawesome/brands/github
 
 plugins:
   - search
-  - sitemap:
-      changefreq: weekly
-      priority: 0.6
+  # NOTE: Removed "sitemap" plugin because your GitHub Actions logs show
+  # "No matching distribution found" for mkdocs-sitemap / mkdocs-sitemap-plugin.
+  # A dependency-free sitemap is generated in the Pages workflow instead.
 
 markdown_extensions:
   - meta
@@ -63,5 +61,4 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: "https://github.com/suratkiade/risalah-saloqum"
-      name: "GitHub"
+      link: https://github.com/suratkiade/risalah-saloqum
