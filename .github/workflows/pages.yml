@@ -24,9 +24,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # Recommended by GitHub Pages to set up deployment environment
-      - name: Configure Pages
+      - name: Configure Pages (enable if missing)
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - name: Setup Python
         uses: actions/setup-python@v5
