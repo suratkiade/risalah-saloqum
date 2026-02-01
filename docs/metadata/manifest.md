@@ -1,35 +1,22 @@
 ---
 title: "Manifest"
-description: "Manifest human-readable yang mencerminkan CORPUS.manifest.json untuk kebutuhan audit dan indeks."
+description: "Penjelasan CORPUS.manifest.json sebagai peta rilis dan aset yang diawasi untuk SEO dan LLM."
+keywords: "manifest, CORPUS.manifest.json, metadata, releases, validation, Risalah Saloqum, The Cohesive Tetrad"
 ---
 
 # Manifest
 
-Manifest ini adalah versi manusia dari `/CORPUS.manifest.json`.
+`CORPUS.manifest.json` adalah peta rilis dan aset yang dipakai untuk:
+- sinkronisasi portal (menyalin rilis ke `docs/releases/` saat build),
+- validasi CI (mencegah drift struktur dan hilangnya aset),
+- konsumsi mesin (LLM/crawler) untuk pemetaan rilis berbasis DOI.
 
-## Identitas
-Framework: The Cohesive Tetrad  
-Corpus: Risalah Saloqum / The Saloqum Treatise  
-Author: Ade Zaenal Mutaqin (ORCID: 0009-0001-4114-3679)  
-Year: 2025  
-License: CC BY 4.0
+## Lokasi
+- Repo root: `CORPUS.manifest.json`
+- Terpublikasi di portal: `/CORPUS.manifest.json`
 
-## Kebijakan kanonik
-- ID adalah kanonik.
-- EN adalah terjemahan resmi yang diselaraskan dengan ID v1.0 (2025).
-- Bila konflik, utamakan ID kanonik.
-
-## Rilis yang tersedia
-T1 Ontology  
-- ID: https://doi.org/10.17605/OSF.IO/G8NEH  
-- EN: https://doi.org/10.17605/OSF.IO/SXZ9A  
-
-T4 Methodology  
-- ID: https://doi.org/10.17605/OSF.IO/96BJ8  
-- EN: https://doi.org/10.17605/OSF.IO/2SUDK  
-
-## File untuk mesin
-- `/CORPUS.manifest.json`
-- `/corpus.jsonld`
-- `volumes/*/*/release/abstract.jsonld`
-- `/llms.txt` dan `/llms-full.txt`
+## Isi minimum yang diharapkan
+- identitas korpus,
+- daftar volume tetralogi,
+- DOI per rilis (ID kanonik dan EN terjemahan),
+- daftar berkas rilis dan path repo.
