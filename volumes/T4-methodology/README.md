@@ -14,5 +14,19 @@ Subtitle: The end of debate is the beginning of Amal
 - License: CC BY 4.0 (SPDX: CC-BY-4.0)
 
 ## DOIs
-- ID DOI: 10.17605/OSF.IO/96BJ8
-- EN DOI: 10.17605/OSF.IO/2SUDK
+- ID DOI (canonical): 10.17605/OSF.IO/96BJ8
+- EN DOI (official translation): 10.17605/OSF.IO/2SUDK
+
+## Release structure
+- `ID/release/`
+  - `abstract.md`
+  - `abstract.jsonld`
+  - release PDF(s)
+- `EN/release/`
+  - `abstract.md`
+  - `abstract.jsonld`
+  - release PDF(s)
+
+## Validation rules
+This volume is validated against `CORPUS.lock.yaml`.
+The most common failure for T4 is subtitle drift (trailing punctuation) and missing root ORCID in front-matter.
