@@ -5,33 +5,38 @@ Subjudul: Di Bawah Takhta Neraca
 Subtitle: Beneath the Throne of the Measure
 
 ## Canonical identity (locked)
+- Framework: The Cohesive Tetrad
 - Corpus (ID): Risalah Saloqum
 - Corpus (EN): The Saloqum Treatise
-- Framework: The Cohesive Tetrad
+- Tetralogy: T1 Ontology
 - Author: Ade Zaenal Mutaqin
 - ORCID: 0009-0001-4114-3679
+- Affiliation: Faculty of Economics and Business, Pakuan University, Bogor, Indonesia
 - Year: 2025
 - License: CC BY 4.0 (SPDX: CC-BY-4.0)
 
-## DOIs
-- ID DOI (canonical): 10.17605/OSF.IO/G8NEH
-- EN DOI (official translation): 10.17605/OSF.IO/SXZ9A
+## Canonical references (DOI)
+- ID canonical (source of record): DOI 10.17605/OSF.IO/G8NEH
+- EN official translation (aligned to ID v1.0): DOI 10.17605/OSF.IO/SXZ9A
 
-## Release structure
-- `ID/release/`
-  - `abstract.md`
-  - `abstract.jsonld`
-  - release PDF(s)
-- `EN/release/`
-  - `abstract.md`
-  - `abstract.jsonld`
-  - release PDF(s)
+## Release folders
+### ID release (canonical)
+Path: `ID/release/`
+- Release text: `Risalah-Saloqum_The-Cohesive-Tetrad-Hakikat-Kebenaran_ID_v1.0.md`
+- Release PDF: `Risalah-Saloqum_The-Cohesive-Tetrad-Hakikat-Kebenaran_ID_v1.0.pdf`
+- Abstract (human + machine): `abstract.md`
+- Abstract JSON-LD (schema.org): `abstract.jsonld`
 
-## Validation rules
-This volume is validated against `CORPUS.lock.yaml`.
-Any drift in title, subtitle, DOI, ORCID, year, or license will fail CI.
+### EN release (official translation)
+Path: `EN/release/`
+- Release text: `Saloqum-Treatise_The-Cohesive-Tetrad-The-Nature-of-Truth_EN_v1.0.md`
+- Release PDF: `Saloqum-Treatise_The-Cohesive-Tetrad-The-Nature-of-Truth_EN_v1.0.pdf`
+- Abstract (human + machine): `abstract.md`
+- Abstract JSON-LD (schema.org): `abstract.jsonld`
 
-Practical checks before committing:
-- In `abstract.md` front-matter, ensure `orcid` exists at root and matches ORCID lock.
-- Ensure subtitle text matches the lock exactly, including punctuation.
-- In `abstract.jsonld`, include the DOI URL in `@id` and `url`, and include ORCID at a stable location.
+## Canonical status note
+- The Indonesian edition (ID) is canonical for definitional, delimitative, and methodological reference.
+- The English edition (EN) is an official translation derived from the ID canonical edition and must remain aligned to ID v1.0.
+
+## Integrity constraints
+Public identity is locked in `CORPUS.lock.yaml` (repository root). CI validation rejects any drift. If identity changes are required, update the lock file and all affected release metadata in one PR.
