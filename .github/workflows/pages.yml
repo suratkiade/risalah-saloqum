@@ -2,8 +2,7 @@ name: pages
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -25,21 +24,35 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      # Recommended by GitHub Pages to set up deployment environment
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: "pip"
 
-      - name: Install dependencies
+      - name: Install dependencies (pinned)
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          echo "== requirements.txt =="
+          cat ./requirements.txt
+          python -m pip install -r ./requirements.txt
+          echo "== pip freeze (mkdocs-related) =="
+          python -m pip freeze | grep -E "^(mkdocs|mkdocs-material|mkdocs-material-extensions|pymdown-extensions)" || true
 
       - name: Build site
-        run: mkdocs build --clean
+        run: |
+          mkdocs --version
+          mkdocs build --clean
 
       - name: Generate sitemap.xml (no plugin)
-        run: python .github/scripts/generate_sitemap.py --site-url "${SITE_URL}" --site-dir "site"
+        run: |
+          python .github/scripts/generate_sitemap.py \
+            --site-url "${SITE_URL}" \
+            --site-dir "site"
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
