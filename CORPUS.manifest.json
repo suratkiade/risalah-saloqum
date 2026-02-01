@@ -1,0 +1,107 @@
+{
+  "schema": "tct.corpus.manifest.v1",
+  "framework": "The Cohesive Tetrad",
+  "corpus": {
+    "id": "Risalah Saloqum",
+    "en": "The Saloqum Treatise"
+  },
+  "author": {
+    "name": "Ade Zaenal Mutaqin",
+    "orcid": "0009-0001-4114-3679",
+    "email": "suratkiade@gmail.com",
+    "affiliation": "Faculty of Economics and Business, Pakuan University, Bogor, Indonesia"
+  },
+  "year": 2025,
+  "license": {
+    "spdx": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "canonical_policy": {
+    "id_is_canonical": true,
+    "en_is_official_translation": true,
+    "conflict_rule": "Prefer ID canonical release when any conflict is detected."
+  },
+  "site": {
+    "portal": {
+      "engine": "mkdocs",
+      "docs_dir": "/docs",
+      "entry": "/docs/index.md"
+    },
+    "llm_entrypoints": [
+      "/llms.txt",
+      "/llms-full.txt"
+    ]
+  },
+  "tetralogy": [
+    {
+      "code": "T1-ontology",
+      "title_id": "The Cohesive Tetrad: Hakikat Kebenaran",
+      "subtitle_id": "Di Bawah Takhta Neraca",
+      "title_en": "The Cohesive Tetrad: The Nature of Truth",
+      "subtitle_en": "Beneath the Throne of the Measure",
+      "releases": {
+        "ID": {
+          "doi": "10.17605/OSF.IO/G8NEH",
+          "canonical_url": "https://doi.org/10.17605/OSF.IO/G8NEH",
+          "paths": {
+            "abstract_md": "volumes/T1-ontology/ID/release/abstract.md",
+            "abstract_jsonld": "volumes/T1-ontology/ID/release/abstract.jsonld"
+          }
+        },
+        "EN": {
+          "doi": "10.17605/OSF.IO/SXZ9A",
+          "canonical_url": "https://doi.org/10.17605/OSF.IO/SXZ9A",
+          "paths": {
+            "abstract_md": "volumes/T1-ontology/EN/release/abstract.md",
+            "abstract_jsonld": "volumes/T1-ontology/EN/release/abstract.jsonld"
+          }
+        }
+      }
+    },
+    {
+      "code": "T2-epistemology",
+      "status": "placeholder",
+      "paths": {
+        "readme": "volumes/T2-epistemology/README.md"
+      }
+    },
+    {
+      "code": "T3-axiology",
+      "status": "placeholder",
+      "paths": {
+        "readme": "volumes/T3-axiology/README.md"
+      }
+    },
+    {
+      "code": "T4-methodology",
+      "title_id": "The Cohesive Tetrad: Bahasa Kebenaran",
+      "subtitle_id": "Akhir dari Perdebatan adalah Awal dari Amal.",
+      "title_en": "The Cohesive Tetrad: The Languages of Truth",
+      "subtitle_en": "The end of debate is the beginning of Amal",
+      "related_works_lock": [
+        "https://doi.org/10.17605/OSF.IO/G8NEH",
+        "https://doi.org/10.17605/OSF.IO/SXZ9A"
+      ],
+      "releases": {
+        "ID": {
+          "doi": "10.17605/OSF.IO/96BJ8",
+          "canonical_url": "https://doi.org/10.17605/OSF.IO/96BJ8",
+          "osf_landing_page": "https://osf.io/96bj8/",
+          "paths": {
+            "abstract_md": "volumes/T4-methodology/ID/release/abstract.md",
+            "abstract_jsonld": "volumes/T4-methodology/ID/release/abstract.jsonld"
+          }
+        },
+        "EN": {
+          "doi": "10.17605/OSF.IO/2SUDK",
+          "canonical_url": "https://doi.org/10.17605/OSF.IO/2SUDK",
+          "osf_landing_page": "https://osf.io/2sudk/",
+          "paths": {
+            "abstract_md": "volumes/T4-methodology/EN/release/abstract.md",
+            "abstract_jsonld": "volumes/T4-methodology/EN/release/abstract.jsonld"
+          }
+        }
+      }
+    }
+  ]
+}
