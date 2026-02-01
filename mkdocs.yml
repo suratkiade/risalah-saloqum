@@ -11,6 +11,7 @@ copyright: "Copyright (c) 2025 Ade Zaenal Mutaqin. Licensed under CC BY 4.0."
 
 docs_dir: "docs"
 site_dir: "site"
+use_directory_urls: true
 
 theme:
   name: material
@@ -34,16 +35,15 @@ theme:
 plugins:
   - search:
       lang: en
-  # IMPORTANT: Do NOT enable sitemap plugin here.
-  # Your Pages build logs show pip cannot find mkdocs-sitemap / mkdocs-sitemap-plugin.
-  # Sitemap, if needed, should be handled in the workflow layer (pages.yml) after we review it.
+  # DO NOT enable sitemap plugin here.
+  # Sitemap is generated in the workflow layer (pages.yml) via .github/scripts/generate_sitemap.py
 
 markdown_extensions:
   - meta
-  - toc:
-      permalink: true
   - admonition
   - attr_list
+  - toc:
+      permalink: true
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.highlight
