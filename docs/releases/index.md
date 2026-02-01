@@ -1,32 +1,19 @@
 ---
 title: "Releases"
-description: "Daftar rilis resmi Tetralogi The Cohesive Tetrad dalam korpus Risalah Saloqum / The Saloqum Treatise."
+description: "Daftar rilis yang dipublikasikan ke portal GitHub Pages. Berkas PDF, MD, abstract, dan JSON-LD."
+keywords: "releases, DOI, PDF, markdown, JSON-LD, schema.org, Risalah Saloqum, The Cohesive Tetrad"
 ---
 
 # Releases
 
-Dokumen ini adalah indeks rilis untuk manusia dan mesin. Rujuk DOI sebagai sumber utama.
+Halaman ini memuat rilis yang disalin (mirror) dari folder `volumes/**/release/` agar dapat diakses langsung dari portal.
 
 ## T1 Ontology
-ID kanonik: https://doi.org/10.17605/OSF.IO/G8NEH  
-EN terjemahan resmi: https://doi.org/10.17605/OSF.IO/SXZ9A  
-
-Repo paths:
-- `volumes/T1-ontology/ID/release/`
-- `volumes/T1-ontology/EN/release/`
+- ID (kanonik): `t1-ontology/id/`
+- EN (terjemahan resmi): `t1-ontology/en/`
 
 ## T4 Methodology
-ID kanonik: https://doi.org/10.17605/OSF.IO/96BJ8  
-EN terjemahan resmi: https://doi.org/10.17605/OSF.IO/2SUDK  
+- ID (kanonik): `t4-methodology/id/`
+- EN (terjemahan resmi): `t4-methodology/en/`
 
-Repo paths:
-- `volumes/T4-methodology/ID/release/`
-- `volumes/T4-methodology/EN/release/`
-
-## T2 Epistemology
-Status: placeholder
-- `volumes/T2-epistemology/README.md`
-
-## T3 Axiology
-Status: placeholder
-- `volumes/T3-axiology/README.md`
+Catatan: T2 dan T3 akan muncul di sini setelah folder `release/` tersedia.
