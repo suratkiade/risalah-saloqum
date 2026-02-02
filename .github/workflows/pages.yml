@@ -24,10 +24,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Configure Pages (enable if missing)
+      - name: Configure Pages
         uses: actions/configure-pages@v5
-        with:
-          enablement: true
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -51,9 +49,11 @@ jobs:
 
       - name: Generate sitemap.xml (no plugin)
         run: |
+          test -f .github/scripts/generate_sitemap.py
           python .github/scripts/generate_sitemap.py \
             --site-url "${SITE_URL}" \
-            --site-dir "site"
+            --site-dir "site" \
+            --output "site/sitemap.xml"
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
