@@ -4,6 +4,14 @@ on:
   push:
     branches: ["main"]
   pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: "validate-portal-${{ github.ref }}"
+  cancel-in-progress: true
 
 jobs:
   validate:
@@ -11,16 +19,45 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: "pip"
+          cache-dependency-path: |
+            requirements.txt
+
+      - name: Install validation deps
+        run: |
+          set -euo pipefail
+          python -m pip install --upgrade pip
+          # Minimal deps for tools that parse mkdocs.yml and manifests
+          python -m pip install pyyaml==6.0.2
+
+      - name: Preflight (compile tools)
+        run: |
+          set -euo pipefail
+          python -m compileall tools
 
       - name: Sync portal assets (deterministic)
         run: |
+          set -euo pipefail
           python tools/sync_portal_assets.py
+
+      - name: Ensure sync produced no uncommitted changes
+        run: |
+          set -euo pipefail
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "::error::sync_portal_assets.py produced uncommitted changes. Run it locally and commit the generated files."
+            git status --porcelain
+            git diff
+            exit 1
+          fi
 
       - name: Validate portal assets
         run: |
+          set -euo pipefail
           python tools/validate_portal_assets.py
