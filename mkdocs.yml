@@ -35,6 +35,9 @@ theme:
 plugins:
   - search:
       lang: en
+  - sitemap:
+      changefreq: weekly
+      priority: 0.5
 
 markdown_extensions:
   - meta
@@ -57,6 +60,7 @@ nav:
   - Metadata:
       - Manifest: metadata/manifest.md
       - Structured data: metadata/structured-data.md
+      - Discovery & indexing: metadata/discovery.md
   - LLM: llm/index.md
 
 extra:
