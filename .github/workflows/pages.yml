@@ -16,6 +16,7 @@ concurrency:
 
 env:
   SITE_URL: "https://suratkiade.github.io/risalah-saloqum/"
+  SITE_DIR: "site"
 
 jobs:
   build:
@@ -24,8 +25,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Configure Pages
+      # Ensures Pages is enabled + sets required metadata for deploy-pages
+      - name: Configure Pages (enable if missing)
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -35,6 +39,7 @@ jobs:
 
       - name: Install dependencies (pinned)
         run: |
+          set -euo pipefail
           python -m pip install --upgrade pip
           echo "== requirements.txt =="
           cat ./requirements.txt
@@ -44,21 +49,24 @@ jobs:
 
       - name: Build site
         run: |
+          set -euo pipefail
           mkdocs --version
-          mkdocs build --clean
+          mkdocs build --clean --site-dir "${SITE_DIR}"
 
       - name: Generate sitemap.xml (no plugin)
         run: |
-          test -f .github/scripts/generate_sitemap.py
+          set -euo pipefail
+          test -f ".github/scripts/generate_sitemap.py" || (echo "Missing .github/scripts/generate_sitemap.py" && exit 1)
           python .github/scripts/generate_sitemap.py \
             --site-url "${SITE_URL}" \
-            --site-dir "site" \
-            --output "site/sitemap.xml"
+            --site-dir "${SITE_DIR}" \
+            --output "${SITE_DIR}/sitemap.xml"
+          test -f "${SITE_DIR}/sitemap.xml" || (echo "sitemap.xml not created" && exit 1)
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: site
+          path: ${{ env.SITE_DIR }}
 
   deploy:
     needs: build
