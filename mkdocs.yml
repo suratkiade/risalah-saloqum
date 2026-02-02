@@ -34,8 +34,7 @@ theme:
 
 plugins:
   - search:
-      lang:
-        - en
+      lang: en
 
 markdown_extensions:
   - meta
