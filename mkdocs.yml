@@ -34,9 +34,8 @@ theme:
 
 plugins:
   - search:
-      lang: en
-  # DO NOT enable sitemap plugin here.
-  # Sitemap is generated in the workflow layer (pages.yml) via .github/scripts/generate_sitemap.py
+      lang:
+        - en
 
 markdown_extensions:
   - meta
