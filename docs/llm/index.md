@@ -44,6 +44,8 @@ Entry point ini dibuat stabil untuk crawler dan LLM. Gunakan URL portal (GitHub 
 - https://suratkiade.github.io/risalah-saloqum/CORPUS.manifest.json
 - https://suratkiade.github.io/risalah-saloqum/corpus.jsonld
 - https://suratkiade.github.io/risalah-saloqum/CITATION.cff
+- https://suratkiade.github.io/risalah-saloqum/sitemap.xml
+- https://suratkiade.github.io/risalah-saloqum/robots.txt
 
 Catatan:
 - Bila Anda menyajikan file di site root, pastikan pipeline build menyalin file tersebut ke output `site/` secara konsisten.
