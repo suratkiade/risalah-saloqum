@@ -1,20 +1,28 @@
----
-title: "Structured data"
-description: "Dokumentasi structured data schema.org JSON-LD untuk korpus dan rilis. Diprioritaskan untuk mesin pencari dan LLM."
-keywords: "structured data, JSON-LD, schema.org, ScholarlyArticle, Dataset, DOI, Risalah Saloqum, The Cohesive Tetrad"
----
+title: Structured data
+description: Dokumentasi structured data schema.org JSON-LD untuk korpus dan rilis. Diprioritaskan untuk mesin pencari dan LLM.
+keywords: structured data, JSON-LD, schema.org, ScholarlyArticle, Dataset, DOI, Risalah Saloqum, The Cohesive Tetrad
 
 # Structured data
 
-Repositori ini menyiapkan structured data sebagai identitas utama untuk mesin pencari dan sistem AI.
+Repositori ini menempatkan structured data sebagai identitas primer untuk mesin pencari dan sistem AI/LLM. Tujuannya: setiap entitas (korpus, volume, rilis) dapat dikenali secara stabil, dapat dirujuk melalui DOI, dan mudah dipetakan oleh crawler.
 
 ## 1) Corpus JSON-LD
-File: `corpus.jsonld` (root repo, dipublikasikan ke root portal)
+
+**Lokasi file:** `corpus.jsonld` (root repo)  
+**Target publikasi:** root portal (site root) agar crawler menemukannya dengan cepat.
+
+Rekomendasi praktis:
+- Pastikan `corpus.jsonld` ikut ter-deploy ke root situs (mis. `https://suratkiade.github.io/risalah-saloqum/corpus.jsonld`).
+- Cantumkan tautan ke `corpus.jsonld` dari `docs/index.md` dan/atau `docs/metadata/manifest.md` agar crawler mendapat jalur internal yang jelas.
 
 ## 2) Release JSON-LD
-Setiap rilis di `volumes/**/release/` membawa `abstract.jsonld` yang mengikuti schema.org.
 
-Di bawah ini adalah contoh JSON-LD untuk rilis Tetralogi 4 (ID) yang Anda gunakan.
+Setiap rilis pada `volumes/**/release/` membawa `abstract.jsonld` yang mengikuti `schema.org`. Prinsipnya:
+- **DOI-first**: `@id` dan `url` menunjuk DOI canonical.
+- **Landing page**: `mainEntityOfPage` menunjuk OSF landing page (atau halaman portal yang canonical).
+- **Author identity**: ORCID wajib konsisten (root + author).
+
+Di bawah ini contoh JSON-LD untuk rilis Tetralogi 4 (ID).
 
 ```json
 {
@@ -25,10 +33,10 @@ Di bawah ini adalah contoh JSON-LD untuk rilis Tetralogi 4 (ID) yang Anda gunaka
   "mainEntityOfPage": "https://osf.io/96bj8/",
   "name": "The Cohesive Tetrad: Bahasa Kebenaran",
   "headline": "Akhir dari Perdebatan adalah Awal dari Amal.",
-  "inLanguage": "id",
+  "inLanguage": "id-ID",
   "version": "v1.0",
-  "datePublished": "2025",
   "copyrightYear": 2025,
+  "datePublished": "2025-01-01",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "isAccessibleForFree": true,
   "creativeWorkStatus": "Preprint",
