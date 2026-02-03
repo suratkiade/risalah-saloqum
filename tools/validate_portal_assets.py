@@ -11,6 +11,8 @@ from __future__ import annotations
 import json
 import re
 import sys
+from urllib.error import HTTPError, URLError
+from urllib.request import Request, urlopen
 from pathlib import Path
 
 import yaml
@@ -130,14 +132,12 @@ def check_local_links() -> None:
     if missing:
         die("Broken local markdown links:\n- " + "\n- ".join(missing))
 
-
 def main() -> None:
     check_exists()
     check_manifest()
     check_jsonld()
     check_llms()
     check_local_links()
-
     print("OK: portal assets validated.")
 
 if __name__ == "__main__":

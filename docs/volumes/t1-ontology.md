@@ -21,7 +21,6 @@ keywords: "T1 Ontology, Ontologi, Hakikat Kebenaran, Di Bawah Takhta Neraca, The
 Ontologi adalah fondasi sistem, dan **harus** dibaca sebagai satu rangkaian fungsi bersama tetralogi lain:
 
 
-
 ## Berkas rilis di repo (sumber)
 - ID: `volumes/T1-ontology/ID/release/`
 - EN: `volumes/T1-ontology/EN/release/`

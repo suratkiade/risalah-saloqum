@@ -20,7 +20,6 @@ keywords: "T2 Epistemology, Epistemologi, Jalan Kebenaran, Akal sebagai Fakultas
 ## Cross-reference tetralogi (The Cohesive Tetrad)
 Epistemologi memetakan struktur pengetahuan dan **harus** dibaca sebagai sistem terpadu:
 
-
 ## Status rilis
 Berkas rilis T2 akan muncul pada folder:
 - ID: `volumes/T2-epistemology/ID/release/`
