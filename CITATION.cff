@@ -1,9 +1,11 @@
 cff-version: 1.2.0
 message: "If you use this corpus, please cite it as below."
-title: "Risalah Saloqum (The Saloqum Treatise): The Cohesive Tetrad"
+title: "Risalah Saloqum / The Saloqum Treatise (The Cohesive Tetrad)"
 authors:
   - family-names: "Mutaqin"
     given-names: "Ade Zaenal"
     orcid: "https://orcid.org/0009-0001-4114-3679"
-year: 2025
+repository-code: "https://github.com/suratkiade/risalah-saloqum"
+url: "https://github.com/suratkiade/risalah-saloqum"
+date-released: "2025-01-01"
 license: "CC-BY-4.0"
