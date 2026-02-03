@@ -41,9 +41,17 @@ jobs:
         run: |
           set -euo pipefail
           python -m pip install --upgrade pip
+          if grep -qE '^mkdocs-sitemap==' ./requirements.txt; then
+            echo "Error: requirements.txt must use the local mkdocs-sitemap package (./tools/mkdocs_sitemap)."
+            exit 1
+          fi
           echo "== requirements.txt =="
           cat ./requirements.txt
           python -m pip install -r ./requirements.txt
+          python - <<'PY'
+          import mkdocs_sitemap  # noqa: F401
+          print("mkdocs-sitemap loaded from local package")
+          PY
           echo "== pip freeze (mkdocs-related) =="
           python -m pip freeze | grep -E "^(mkdocs|mkdocs-material|mkdocs-material-extensions|pymdown-extensions)" || true
 
