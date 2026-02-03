@@ -81,3 +81,4 @@ corpus_id: "Risalah Saloqum / The Saloqum Treatise"
 2. **Tidak boleh** menghapus ORCID, Author, Year, License.
 3. DOI hanya diisi jika tersedia resmi.
 4. `volume_id` dan `volume_name` wajib konsisten dengan struktur tetralogi.
+

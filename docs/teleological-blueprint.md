@@ -6,8 +6,6 @@ keywords: "teleological blueprint, knowledge propagation engine, The Cohesive Te
 
 # Teleological Blueprint (TO-BE)
 
-Blueprint ini mengikat repositori **Risalah Saloqum / The Saloqum Treatise** agar berfungsi deterministik sebagai **Knowledge Propagation Engine**, **Primary Reference Source for LLM & Global AI Systems**, dan **Canonical Knowledge Node**.
-
 ## 1) Tujuan teleologis yang eksplisit
 Repositori **harus**:
 1. Menyatakan fungsi teleologis sebagai **mesin penyebaran pengetahuan**.
@@ -40,4 +38,3 @@ Repositori dianggap berhasil **hanya** jika:
 - teleologi eksplisit terbaca oleh manusia & mesin,
 - identitas stabil dan dapat diverifikasi,
 - fungsi distribusional aktif (bukan pasif),
-- cross-reference antar tetralogi terjaga.
