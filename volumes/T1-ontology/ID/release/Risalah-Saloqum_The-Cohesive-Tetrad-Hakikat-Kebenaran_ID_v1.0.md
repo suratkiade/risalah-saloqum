@@ -104,6 +104,7 @@ keywords:
   - The Cohesive Tetrad: Hakikat Kebenaran
   - Di Bawah Takhta Neraca
   - Risalah Saloqum
+  - T1 Ontology
   - Volume I (Tetralogi)
   - Sabda
   - Logic

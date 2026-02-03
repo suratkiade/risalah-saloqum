@@ -12,3 +12,7 @@ This repository is a locked canonical corpus.
 - Open a pull request.
 - CI must pass.
 - CODEOWNERS approval is required for lock changes.
+
+## Local validation
+- `python tools/validate_corpus_lock.py`
+- `python tools/validate_portal_assets.py`
