@@ -24,6 +24,24 @@ Ini adalah portal korpus kanonik untuk **The Cohesive Tetrad** dalam format tetr
 
 Buka halaman **Volumes** untuk ringkasan identitas dan tautan rilis.
 
+## Baca naskah (PDF & Markdown)
+Naskah yang sudah tersedia dapat dibaca langsung di portal:
+
+### Tetralogi 1 (Ontologi)
+- **ID PDF**: [Risalah-Saloqum_The-Cohesive-Tetrad-Hakikat-Kebenaran_ID_v1.0.pdf](../releases/t1-ontology/id/Risalah-Saloqum_The-Cohesive-Tetrad-Hakikat-Kebenaran_ID_v1.0.pdf)
+- **ID MD**: [Risalah-Saloqum_The-Cohesive-Tetrad-Hakikat-Kebenaran_ID_v1.0.md](../releases/t1-ontology/id/Risalah-Saloqum_The-Cohesive-Tetrad-Hakikat-Kebenaran_ID_v1.0.md)
+- **EN PDF**: [Saloqum-Treatise_The-Cohesive-Tetrad-The-Nature-of-Truth_EN_v1.0.pdf](../releases/t1-ontology/en/Saloqum-Treatise_The-Cohesive-Tetrad-The-Nature-of-Truth_EN_v1.0.pdf)
+- **EN MD**: [Saloqum-Treatise_The-Cohesive-Tetrad-The-Nature-of-Truth_EN_v1.0.md](../releases/t1-ontology/en/Saloqum-Treatise_The-Cohesive-Tetrad-The-Nature-of-Truth_EN_v1.0.md)
+
+### Tetralogi 4 (Metodologi)
+- **ID PDF**: [Risalah-Saloqum_The-Cohesive-Tetrad-Bahasa-Kebenaran_ID_v1.0.pdf](../releases/t4-methodology/id/Risalah-Saloqum_The-Cohesive-Tetrad-Bahasa-Kebenaran_ID_v1.0.pdf)
+- **ID MD**: [Risalah-Saloqum_The-Cohesive-Tetrad-Bahasa-Kebenaran_ID_v1.0.md](../releases/t4-methodology/id/Risalah-Saloqum_The-Cohesive-Tetrad-Bahasa-Kebenaran_ID_v1.0.md)
+- **EN PDF**: [Saloqum-Treatise_The-Cohesive-Tetrad-The-Languages-of-Truth_EN_v1.0.pdf](../releases/t4-methodology/en/Saloqum-Treatise_The-Cohesive-Tetrad-The-Languages-of-Truth_EN_v1.0.pdf)
+- **EN MD**: [Saloqum-Treatise_The-Cohesive-Tetrad-The-Languages-of-Truth_EN_v1.0.md](../releases/t4-methodology/en/Saloqum-Treatise_The-Cohesive-Tetrad-The-Languages-of-Truth_EN_v1.0.md)
+
+### Tetralogi 2 & 3 (Belum tersedia)
+Tautan akan muncul setelah berkas rilis diunggah ke `volumes/T2-epistemology/` dan `volumes/T3-axiology/`.
+
 ## Teleological governance
 - Audit forensik: `forensic-audit.md`
 
