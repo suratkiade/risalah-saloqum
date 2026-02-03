@@ -12,8 +12,6 @@ Canonical corpus repository. Public identity (titles, subtitles, DOIs, author, O
 
 ## Teleological manifesto and governance
 - Read the teleological mandate in `README_MANIFESTO.md`.
-- See the audit and blueprint in `docs/forensic-audit.md` and `docs/teleological-blueprint.md`.
-- Follow the universal metadata template in `docs/metadata/universal-template.md`.
 
 ## Repository structure
 This repository is organized per Tetralogy volume. Each volume contains:

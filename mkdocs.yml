@@ -64,6 +64,7 @@ nav:
       - Universal template: metadata/universal-template.md
   - Teleology:
       - Forensic audit: forensic-audit.md
+
       - Blueprint: teleological-blueprint.md
       - Distribution strategy: distribution-strategy.md
       - Change log: change-log.md
