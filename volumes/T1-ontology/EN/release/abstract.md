@@ -66,7 +66,7 @@ keywords:
   - "The Cohesive Tetrad: The Nature of Truth"
   - "Beneath the Throne of the Measure"
   - "The Saloqum Treatise"
-  - "Tetralogy 1"
+  - "T1 Ontology"
   - "Volume I"
   - "Sabda"
   - "Akal"
