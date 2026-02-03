@@ -13,7 +13,6 @@ keywords: "teleological controls, governance, SOP, The Cohesive Tetrad"
 4. Apakah metadata tetap konsisten dan dapat diverifikasi?
 5. Apakah jalur distribusi mesin dan manusia diperkuat?
 
-
 ## 4) Integrasi dokumen
 - **Manifesto:** `README_MANIFESTO.md`
 - **Audit:** `docs/forensic-audit.md`

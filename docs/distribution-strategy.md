@@ -20,6 +20,7 @@ Strategi ini memastikan repositori berfungsi sebagai **authoritative node** dan 
 
 ## 3) Protokol duplikasi terkendali
 
+
 ## 4) Knowledge graph & SEO alignment
 - JSON-LD diselaraskan dengan schema.org untuk memastikan *entity resolution*.
 - Semua halaman dokumentasi memuat metadata deskriptif yang konsisten dengan identitas korpus.

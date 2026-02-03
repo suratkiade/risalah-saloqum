@@ -15,5 +15,6 @@ Dokumen ini mencatat perubahan yang dibuat untuk memenuhi mandat teleologis repo
 ## Perubahan dokumentasi portal (MkDocs)
 - `docs/index.md`: menambahkan navigasi menuju audit, blueprint, dan strategi distribusi.
 - `docs/forensic-audit.md`: audit forensik total (AS-IS).
+
 ## Perubahan konfigurasi navigasi
 - `mkdocs.yml`: menambahkan tautan ke dokumen teleologis dan template metadata.

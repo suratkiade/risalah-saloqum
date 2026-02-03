@@ -7,6 +7,7 @@ keywords: "teleological blueprint, knowledge propagation engine, The Cohesive Te
 # Teleological Blueprint (TO-BE)
 
 
+
 ## 1) Tujuan teleologis yang eksplisit
 Repositori **harus**:
 1. Menyatakan fungsi teleologis sebagai **mesin penyebaran pengetahuan**.

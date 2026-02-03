@@ -6,14 +6,16 @@ keywords: "T2 Epistemology, Epistemologi, Jalan Kebenaran, Akal sebagai Fakultas
 
 # T2 Epistemology
 
-## Identitas volume (ringkas)
-### ID
+## Identitas rilis (ringkas)
+### ID (kanonik)
 - Judul: The Cohesive Tetrad: Jalan Kebenaran
 - Subjudul: Akal sebagai Fakultas Batin Integratif
+- DOI: belum tersedia
 
-### EN
+### EN (terjemahan resmi)
 - Title: The Cohesive Tetrad: The Way of Truth
 - Subtitle: Akal as the Integrative Inner Faculty
+- DOI: belum tersedia
 
 ## Status rilis
 Berkas rilis T2 akan muncul pada folder:
