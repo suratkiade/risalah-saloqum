@@ -130,12 +130,14 @@ def check_local_links() -> None:
     if missing:
         die("Broken local markdown links:\n- " + "\n- ".join(missing))
 
+
 def main() -> None:
     check_exists()
     check_manifest()
     check_jsonld()
     check_llms()
     check_local_links()
+
     print("OK: portal assets validated.")
 
 if __name__ == "__main__":
