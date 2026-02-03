@@ -20,9 +20,7 @@ keywords: "T1 Ontology, Ontologi, Hakikat Kebenaran, Di Bawah Takhta Neraca, The
 ## Cross-reference tetralogi (The Cohesive Tetrad)
 Ontologi adalah fondasi sistem, dan **harus** dibaca sebagai satu rangkaian fungsi bersama tetralogi lain:
 
-- **[T2 Epistemology](t2-epistemology.md)** → kerangka pengetahuan yang beroperasi di atas dasar ontologis.
-- **[T3 Axiology](t3-axiology.md)** → nilai dan orientasi tindakan yang ditopang struktur ontologi.
-- **[T4 Methodology](t4-methodology.md)** → metode operasional yang mengeksekusi prinsip ontologi secara prosedural.
+
 
 ## Berkas rilis di repo (sumber)
 - ID: `volumes/T1-ontology/ID/release/`

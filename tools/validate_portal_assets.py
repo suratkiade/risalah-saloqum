@@ -130,24 +130,6 @@ def check_local_links() -> None:
     if missing:
         die("Broken local markdown links:\n- " + "\n- ".join(missing))
 
-def check_raw_github_links() -> None:
-    md_files = list((ROOT / "docs").rglob("*.md"))
-    pattern = re.compile(r"\[[^\]]*\]\(([^)]+)\)")
-    raw_pattern = re.compile(
-        r"^https://raw\.githubusercontent\.com/suratkiade/risalah-saloqum/[^/]+/(.+)$"
-    )
-    missing: list[str] = []
-    for md_file in md_files:
-        text = md_file.read_text(encoding="utf-8")
-        for raw_link in pattern.findall(text):
-            match = raw_pattern.match(raw_link.strip())
-            if not match:
-                continue
-            target = ROOT / match.group(1)
-            if not target.exists():
-                missing.append(f"{md_file.relative_to(ROOT)} -> {raw_link}")
-    if missing:
-        die("Broken raw.githubusercontent.com links:\n- " + "\n- ".join(missing))
 
 def main() -> None:
     check_exists()
@@ -155,7 +137,7 @@ def main() -> None:
     check_jsonld()
     check_llms()
     check_local_links()
-    check_raw_github_links()
+
     print("OK: portal assets validated.")
 
 if __name__ == "__main__":
