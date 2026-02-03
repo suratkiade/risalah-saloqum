@@ -9,6 +9,7 @@ Fail fast with clear messages.
 from __future__ import annotations
 
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -105,11 +106,36 @@ def check_llms() -> None:
         if doi not in llms_full:
             die(f"llms-full.txt must include DOI URL: {doi}")
 
+def check_local_links() -> None:
+    md_files = list((ROOT / "docs").rglob("*.md"))
+    pattern = re.compile(r"\[[^\]]*\]\(([^)]+)\)")
+    missing: list[str] = []
+    for md_file in md_files:
+        text = md_file.read_text(encoding="utf-8")
+        for raw_link in pattern.findall(text):
+            link = raw_link.strip()
+            if link.startswith(("http://", "https://", "mailto:", "#")):
+                continue
+            link = link.strip("`")
+            link = link.split("#", 1)[0]
+            if not link:
+                continue
+            target = (md_file.parent / link).resolve()
+            try:
+                target.relative_to(ROOT)
+            except ValueError:
+                continue
+            if not target.exists():
+                missing.append(f"{md_file.relative_to(ROOT)} -> {raw_link}")
+    if missing:
+        die("Broken local markdown links:\n- " + "\n- ".join(missing))
+
 def main() -> None:
     check_exists()
     check_manifest()
     check_jsonld()
     check_llms()
+    check_local_links()
     print("OK: portal assets validated.")
 
 if __name__ == "__main__":
