@@ -4,7 +4,7 @@ keywords: releases, DOI, PDF, markdown, JSON-LD, schema.org, Risalah Saloqum, Th
 
 # Releases
 
-Halaman ini memuat rilis yang disalin (mirror) dari folder `volumes/**/release/` agar dapat diakses langsung dari portal GitHub Pages.
+Halaman ini memuat tautan ke berkas rilis yang disalin dari `volumes/**/release/` ke `/releases/` saat build portal.
 
 ## Prinsip rujukan
 - **ID** adalah **kanonik**.
@@ -50,3 +50,6 @@ Halaman ini memuat rilis yang disalin (mirror) dari folder `volumes/**/release/`
 T2 dan T3 akan muncul di halaman ini setelah folder `release/` tersedia dan disalin ke portal.
 
 Untuk mencegah tautan mati, halaman ini sengaja belum menampilkan link T2/T3 sebelum asetnya benar-benar ada.
+
+## Catatan build
+Pastikan menjalankan `tools/sync_release_assets.py` sebelum deploy MkDocs agar folder `/releases/` berisi salinan rilis.
