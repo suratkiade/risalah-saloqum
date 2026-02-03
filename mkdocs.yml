@@ -64,13 +64,7 @@ nav:
       - Universal template: metadata/universal-template.md
   - Teleology:
       - Forensic audit: forensic-audit.md
-      - Controls (SOP): teleological-controls.md
-      - Blueprint: teleological-blueprint.md
-      - Distribution strategy: distribution-strategy.md
-      - Change log: change-log.md
-  - LLM:
-      - Overview: llm/index.md
-      - LLM & search readiness: llm/readiness.md
+
 
 extra:
   social:
