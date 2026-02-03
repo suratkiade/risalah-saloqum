@@ -26,7 +26,7 @@ Buka halaman **Volumes** untuk ringkasan identitas dan tautan rilis.
 
 ## Teleological governance
 - Audit forensik: `forensic-audit.md`
-- Kontrol teleologis (SOP): `teleological-controls.md`
+
 - Blueprint teleologis: `teleological-blueprint.md`
 - Strategi distribusi: `distribution-strategy.md`
 - Template metadata universal: `metadata/universal-template.md`
