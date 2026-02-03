@@ -40,10 +40,18 @@ jobs:
       - name: Install dependencies (pinned)
         run: |
           set -euo pipefail
+          if grep -qE '^mkdocs-sitemap==[0-9]+' requirements.txt; then
+            echo "ERROR: requirements.txt must use the local mkdocs-sitemap package path, not a PyPI pin."
+            exit 1
+          fi
           python -m pip install --upgrade pip
           echo "== requirements.txt =="
           cat ./requirements.txt
           python -m pip install -r ./requirements.txt
+          python - <<'PY'
+          import mkdocs_sitemap  # noqa: F401
+          print("mkdocs-sitemap loaded from local package")
+          PY
           echo "== pip freeze (mkdocs-related) =="
           python -m pip freeze | grep -E "^(mkdocs|mkdocs-material|mkdocs-material-extensions|pymdown-extensions)" || true
 

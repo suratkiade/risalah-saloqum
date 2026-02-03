@@ -16,12 +16,23 @@ T4 Methodology
 - ID canonical: https://doi.org/10.17605/OSF.IO/96BJ8
 - EN official translation: https://doi.org/10.17605/OSF.IO/2SUDK
 
+## Announced volumes (metadata-first)
+T2 Epistemology (release pending)
+- Canonical ID title: The Cohesive Tetrad: Jalan Kebenaran
+- EN title: The Cohesive Tetrad: The Way of Truth
+
+T3 Axiology (release pending)
+- Canonical ID title: The Cohesive Tetrad: Amal kebenaran
+- EN title: The Cohesive Tetrad: The Amal of Truth
+
 ## Machine-readable entrypoints in this repository
 - Corpus manifest (JSON): /CORPUS.manifest.json
 - Corpus structured data (JSON-LD): /corpus.jsonld
 - Per-release structured data (JSON-LD): see volumes/*/*/release/abstract.jsonld
 - Citation metadata: /CITATION.cff
 - License: /LICENSE
+- Sitemap: /sitemap.xml
+- Robots: /robots.txt
 
 ## Human-friendly entrypoints
 - Documentation portal (MkDocs): /docs/index.md
