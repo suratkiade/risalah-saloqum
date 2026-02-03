@@ -34,3 +34,4 @@ Strategi ini memastikan repositori berfungsi sebagai **authoritative node** dan 
 - DOI dan identitas korpus muncul konsisten di hasil pencarian.
 - LLM dapat mengutip identitas dengan format yang sama.
 - Repo dapat disalin tanpa kehilangan kontrak identitas.
+
