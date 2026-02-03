@@ -20,10 +20,6 @@ keywords: "T2 Epistemology, Epistemologi, Jalan Kebenaran, Akal sebagai Fakultas
 ## Cross-reference tetralogi (The Cohesive Tetrad)
 Epistemologi memetakan struktur pengetahuan dan **harus** dibaca sebagai sistem terpadu:
 
-- **T1 Ontology** → dasar realitas yang memberi pijakan bagi struktur pengetahuan.
-- **T3 Axiology** → orientasi nilai yang menuntun penggunaan pengetahuan.
-- **T4 Methodology** → metode operasional yang menerjemahkan pengetahuan menjadi tindakan.
-
 ## Status rilis
 Berkas rilis T2 akan muncul pada folder:
 - ID: `volumes/T2-epistemology/ID/release/`

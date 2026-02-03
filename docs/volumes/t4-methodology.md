@@ -20,10 +20,6 @@ keywords: "T4 Methodology, Metodologi, Bahasa Kebenaran, Languages of Truth, tru
 ## Cross-reference tetralogi (The Cohesive Tetrad)
 Metodologi menerjemahkan struktur pengetahuan ke tindakan dan **harus** dibaca sebagai sistem terpadu:
 
-- **T1 Ontology** → dasar realitas yang memberi orientasi metode.
-- **T2 Epistemology** → struktur pengetahuan yang menjadi bahan eksekusi metode.
-- **T3 Axiology** → orientasi nilai yang menentukan tujuan metode.
-
 ## Berkas rilis di repo (sumber)
 - ID: `volumes/T4-methodology/ID/release/`
 - EN: `volumes/T4-methodology/EN/release/`
