@@ -26,6 +26,7 @@ Checklist ini mengikat kesiapan repositori sebagai **authoritative node** untuk 
 - Portal publik menautkan dokumen teleologi dan metadata.
 - Volume saling merujuk sebagai satu sistem **The Cohesive Tetrad**.
 - URL kanonik stabil di GitHub Pages.
+- Tidak ada tautan lokal yang patah pada dokumentasi portal.
 
 ## 4) Validasi SEO/LLM
 - `robots.txt` tidak memblokir jalur metadata dan entrypoint.

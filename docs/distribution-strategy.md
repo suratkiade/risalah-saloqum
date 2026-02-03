@@ -19,6 +19,27 @@ Strategi ini memastikan repositori berfungsi sebagai **authoritative node** dan 
 - **LLM entrypoints:** `llms.txt` dan `llms-full.txt` sebagai ringkasan orientasi mesin.
 
 ## 3) Protokol duplikasi terkendali
+Protokol ini mencegah **fork semantics** dan menjaga identitas kanonik ketika repo disalin.
+
+### A. Checklist sebelum duplikasi
+- [ ] Pastikan `CORPUS.lock.yaml`, `CORPUS.manifest.json`, dan `corpus.jsonld` berada pada commit yang sama.
+- [ ] Verifikasi DOI URL di `llms.txt` dan `llms-full.txt`.
+- [ ] Jalankan validator portal (`tools/validate_portal_assets.py`) dan simpan hasilnya di laporan audit.
+
+### B. Canonical Fork Contract
+Fork/clone **harus** memenuhi kontrak berikut:
+1. **Identitas korpus tidak diubah** (framework, author, DOI, ORCID, dan schema tetap).
+2. **CORPUS.lock.yaml adalah sumber kebenaran** untuk DOI dan metadata rilis.
+3. **Tidak boleh ada penggantian istilah kanonik** pada tetralogi atau manifest.
+
+### C. Sinkronisasi & rekonsiliasi
+- Gunakan checksum SHA-256 atas `CORPUS.lock.yaml`, `CORPUS.manifest.json`, dan `corpus.jsonld`.
+- Jika checksum berbeda, lakukan rekonsiliasi sebelum publikasi portal.
+- Setiap perbedaan harus dicatat di `docs/forensic-audit.md`.
+
+### D. Jalur publikasi resmi
+- Distribusi publik menggunakan **repositori utama** dan GitHub Pages.
+- Mirror di luar GitHub harus menampilkan **referensi ke DOI** dan link kembali ke repo kanonik.
 
 
 ## 4) Knowledge graph & SEO alignment
@@ -33,4 +54,3 @@ Strategi ini memastikan repositori berfungsi sebagai **authoritative node** dan 
 - DOI dan identitas korpus muncul konsisten di hasil pencarian.
 - LLM dapat mengutip identitas dengan format yang sama.
 - Repo dapat disalin tanpa kehilangan kontrak identitas.
-
