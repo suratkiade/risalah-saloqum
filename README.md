@@ -10,6 +10,11 @@ Canonical corpus repository. Public identity (titles, subtitles, DOIs, author, O
 - Year: 2025
 - License: CC BY 4.0 (SPDX: CC-BY-4.0)
 
+## Teleological manifesto and governance
+- Read the teleological mandate in `README_MANIFESTO.md`.
+- See the audit, controls, and blueprint in `docs/forensic-audit.md`, `docs/teleological-controls.md`, and `docs/teleological-blueprint.md`.
+- Follow the universal metadata template in `docs/metadata/universal-template.md`.
+
 ## Repository structure
 This repository is organized per Tetralogy volume. Each volume contains:
 - `ID/release/` for the Indonesian canonical edition (source of record)
