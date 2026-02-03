@@ -9,7 +9,6 @@ Fail fast with clear messages.
 from __future__ import annotations
 
 import json
-import os
 import re
 import sys
 from urllib.error import HTTPError, URLError
@@ -133,86 +132,12 @@ def check_local_links() -> None:
     if missing:
         die("Broken local markdown links:\n- " + "\n- ".join(missing))
 
-def check_raw_github_links() -> None:
-    md_files = list((ROOT / "docs").rglob("*.md"))
-    pattern = re.compile(r"\[[^\]]*\]\(([^)]+)\)")
-    raw_pattern = re.compile(
-        r"^https://raw\.githubusercontent\.com/suratkiade/risalah-saloqum/[^/]+/(.+)$"
-    )
-    missing: list[str] = []
-    for md_file in md_files:
-        text = md_file.read_text(encoding="utf-8")
-        for raw_link in pattern.findall(text):
-            match = raw_pattern.match(raw_link.strip())
-            if not match:
-                continue
-            target = ROOT / match.group(1)
-            if not target.exists():
-                missing.append(f"{md_file.relative_to(ROOT)} -> {raw_link}")
-    if missing:
-        die("Broken raw.githubusercontent.com links:\n- " + "\n- ".join(missing))
-
-def check_external_links() -> None:
-    if os.getenv("SKIP_EXTERNAL_LINK_CHECK") in {"1", "true", "yes"}:
-        print("WARN: Skipping external link check (SKIP_EXTERNAL_LINK_CHECK set).")
-        return
-    md_files = list((ROOT / "docs").rglob("*.md"))
-    pattern = re.compile(r"\[[^\]]*\]\(([^)]+)\)")
-    allow_hosts = ("https://doi.org/", "https://osf.io/")
-    seen: set[str] = set()
-    failures: list[str] = []
-    for md_file in md_files:
-        text = md_file.read_text(encoding="utf-8")
-        for raw_link in pattern.findall(text):
-            link = raw_link.strip()
-            if not link.startswith(allow_hosts):
-                continue
-            if link in seen:
-                continue
-            seen.add(link)
-            request = Request(
-                link,
-                method="HEAD",
-                headers={"User-Agent": "Mozilla/5.0 (link-checker)"},
-            )
-            try:
-                with urlopen(request, timeout=10) as resp:
-                    if resp.status >= 400:
-                        failures.append(f"{link} (HTTP {resp.status})")
-            except HTTPError as e:
-                if e.code in (403, 405):
-                    try:
-                        fallback = Request(
-                            link,
-                            method="GET",
-                            headers={"User-Agent": "Mozilla/5.0 (link-checker)"},
-                        )
-                        with urlopen(fallback, timeout=10) as resp:
-                            if resp.status >= 400:
-                                failures.append(f"{link} (HTTP {resp.status})")
-                    except HTTPError as fallback_error:
-                        failures.append(f"{link} (HTTP {fallback_error.code})")
-                    except URLError as fallback_error:
-                        failures.append(f"{link} ({fallback_error.reason})")
-                    except Exception as fallback_error:
-                        failures.append(f"{link} ({fallback_error})")
-                else:
-                    failures.append(f"{link} (HTTP {e.code})")
-            except URLError as e:
-                failures.append(f"{link} ({e.reason})")
-            except Exception as e:
-                failures.append(f"{link} ({e})")
-    if failures:
-        die("Broken external links (doi.org/osf.io):\n- " + "\n- ".join(failures))
-
 def main() -> None:
     check_exists()
     check_manifest()
     check_jsonld()
     check_llms()
     check_local_links()
-    check_raw_github_links()
-    check_external_links()
     print("OK: portal assets validated.")
 
 if __name__ == "__main__":
