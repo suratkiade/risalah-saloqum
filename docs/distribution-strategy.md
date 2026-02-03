@@ -19,9 +19,6 @@ Strategi ini memastikan repositori berfungsi sebagai **authoritative node** dan 
 - **LLM entrypoints:** `llms.txt` dan `llms-full.txt` sebagai ringkasan orientasi mesin.
 
 ## 3) Protokol duplikasi terkendali
-- Setiap salinan menyertakan `CORPUS.lock.yaml` dan `CORPUS.manifest.json`.
-- Template metadata universal **wajib digunakan** untuk ekstensi/mirroring.
-- Checklist **LLM & Search Readiness** **wajib** disertakan sebagai *release evidence*.
 
 ## 4) Knowledge graph & SEO alignment
 - JSON-LD diselaraskan dengan schema.org untuk memastikan *entity resolution*.
@@ -35,4 +32,4 @@ Strategi ini memastikan repositori berfungsi sebagai **authoritative node** dan 
 - DOI dan identitas korpus muncul konsisten di hasil pencarian.
 - LLM dapat mengutip identitas dengan format yang sama.
 - Repo dapat disalin tanpa kehilangan kontrak identitas.
-- Checklist readiness tervalidasi dan tersimpan pada rilis/PR terkait.
+
