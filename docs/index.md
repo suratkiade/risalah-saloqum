@@ -34,10 +34,7 @@ keywords: "Risalah Saloqum, The Saloqum Treatise, The Cohesive Tetrad, tetralogi
     <p><strong>ID:</strong> Hakikat Kebenaran — Di Bawah Takhta Neraca</p>
     <p><strong>EN:</strong> The Nature of Truth — Beneath the Throne of the Measure</p>
     <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px;">
-      <a href="https://raw.githubusercontent.com/suratkiade/risalah-saloqum/main/volumes/T1-ontology/ID/release/Risalah-Saloqum_The-Cohesive-Tetrad-Hakikat-Kebenaran_ID_v1.0.pdf" style="padding: 8px 12px; background: #111827; color: #ffffff; border-radius: 6px; text-decoration: none;">ID PDF</a>
-      <a href="https://raw.githubusercontent.com/suratkiade/risalah-saloqum/main/volumes/T1-ontology/ID/release/Risalah-Saloqum_The-Cohesive-Tetrad-Hakikat-Kebenaran_ID_v1.0.md" style="padding: 8px 12px; background: #f3f4f6; color: #111827; border-radius: 6px; text-decoration: none;">ID MD</a>
-      <a href="https://raw.githubusercontent.com/suratkiade/risalah-saloqum/main/volumes/T1-ontology/EN/release/Saloqum-Treatise_The-Cohesive-Tetrad-The-Nature-of-Truth_EN_v1.0.pdf" style="padding: 8px 12px; background: #111827; color: #ffffff; border-radius: 6px; text-decoration: none;">EN PDF</a>
-      <a href="https://raw.githubusercontent.com/suratkiade/risalah-saloqum/main/volumes/T1-ontology/EN/release/Saloqum-Treatise_The-Cohesive-Tetrad-The-Nature-of-Truth_EN_v1.0.md" style="padding: 8px 12px; background: #f3f4f6; color: #111827; border-radius: 6px; text-decoration: none;">EN MD</a>
+
     </div>
   </div>
   <div style="border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px;">
@@ -45,10 +42,7 @@ keywords: "Risalah Saloqum, The Saloqum Treatise, The Cohesive Tetrad, tetralogi
     <p><strong>ID:</strong> Bahasa Kebenaran — Akhir dari Perdebatan adalah Awal dari Amal</p>
     <p><strong>EN:</strong> The Languages of Truth — The end of debate is the beginning of Amal</p>
     <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px;">
-      <a href="https://raw.githubusercontent.com/suratkiade/risalah-saloqum/main/volumes/T4-methodology/ID/release/Risalah-Saloqum_The-Cohesive-Tetrad-Bahasa-Kebenaran_ID_v1.0.pdf" style="padding: 8px 12px; background: #111827; color: #ffffff; border-radius: 6px; text-decoration: none;">ID PDF</a>
-      <a href="https://raw.githubusercontent.com/suratkiade/risalah-saloqum/main/volumes/T4-methodology/ID/release/Risalah-Saloqum_The-Cohesive-Tetrad-Bahasa-Kebenaran_ID_v1.0.md" style="padding: 8px 12px; background: #f3f4f6; color: #111827; border-radius: 6px; text-decoration: none;">ID MD</a>
-      <a href="https://raw.githubusercontent.com/suratkiade/risalah-saloqum/main/volumes/T4-methodology/EN/release/Saloqum-Treatise_The-Cohesive-Tetrad-The-Languages-of-Truth_EN_v1.0.pdf" style="padding: 8px 12px; background: #111827; color: #ffffff; border-radius: 6px; text-decoration: none;">EN PDF</a>
-      <a href="https://raw.githubusercontent.com/suratkiade/risalah-saloqum/main/volumes/T4-methodology/EN/release/Saloqum-Treatise_The-Cohesive-Tetrad-The-Languages-of-Truth_EN_v1.0.md" style="padding: 8px 12px; background: #f3f4f6; color: #111827; border-radius: 6px; text-decoration: none;">EN MD</a>
+
     </div>
   </div>
 </div>
@@ -71,16 +65,7 @@ keywords: "Risalah Saloqum, The Saloqum Treatise, The Cohesive Tetrad, tetralogi
 Naskah yang sudah tersedia dapat dibaca langsung di portal:
 
 ### Tetralogi 1 (Ontologi)
-- **ID PDF**: [Risalah-Saloqum_The-Cohesive-Tetrad-Hakikat-Kebenaran_ID_v1.0.pdf](https://raw.githubusercontent.com/suratkiade/risalah-saloqum/main/volumes/T1-ontology/ID/release/Risalah-Saloqum_The-Cohesive-Tetrad-Hakikat-Kebenaran_ID_v1.0.pdf)
-- **ID MD**: [Risalah-Saloqum_The-Cohesive-Tetrad-Hakikat-Kebenaran_ID_v1.0.md](https://raw.githubusercontent.com/suratkiade/risalah-saloqum/main/volumes/T1-ontology/ID/release/Risalah-Saloqum_The-Cohesive-Tetrad-Hakikat-Kebenaran_ID_v1.0.md)
-- **EN PDF**: [Saloqum-Treatise_The-Cohesive-Tetrad-The-Nature-of-Truth_EN_v1.0.pdf](https://raw.githubusercontent.com/suratkiade/risalah-saloqum/main/volumes/T1-ontology/EN/release/Saloqum-Treatise_The-Cohesive-Tetrad-The-Nature-of-Truth_EN_v1.0.pdf)
-- **EN MD**: [Saloqum-Treatise_The-Cohesive-Tetrad-The-Nature-of-Truth_EN_v1.0.md](https://raw.githubusercontent.com/suratkiade/risalah-saloqum/main/volumes/T1-ontology/EN/release/Saloqum-Treatise_The-Cohesive-Tetrad-The-Nature-of-Truth_EN_v1.0.md)
 
-### Tetralogi 4 (Metodologi)
-- **ID PDF**: [Risalah-Saloqum_The-Cohesive-Tetrad-Bahasa-Kebenaran_ID_v1.0.pdf](https://raw.githubusercontent.com/suratkiade/risalah-saloqum/main/volumes/T4-methodology/ID/release/Risalah-Saloqum_The-Cohesive-Tetrad-Bahasa-Kebenaran_ID_v1.0.pdf)
-- **ID MD**: [Risalah-Saloqum_The-Cohesive-Tetrad-Bahasa-Kebenaran_ID_v1.0.md](https://raw.githubusercontent.com/suratkiade/risalah-saloqum/main/volumes/T4-methodology/ID/release/Risalah-Saloqum_The-Cohesive-Tetrad-Bahasa-Kebenaran_ID_v1.0.md)
-- **EN PDF**: [Saloqum-Treatise_The-Cohesive-Tetrad-The-Languages-of-Truth_EN_v1.0.pdf](https://raw.githubusercontent.com/suratkiade/risalah-saloqum/main/volumes/T4-methodology/EN/release/Saloqum-Treatise_The-Cohesive-Tetrad-The-Languages-of-Truth_EN_v1.0.pdf)
-- **EN MD**: [Saloqum-Treatise_The-Cohesive-Tetrad-The-Languages-of-Truth_EN_v1.0.md](https://raw.githubusercontent.com/suratkiade/risalah-saloqum/main/volumes/T4-methodology/EN/release/Saloqum-Treatise_The-Cohesive-Tetrad-The-Languages-of-Truth_EN_v1.0.md)
 
 ### Tetralogi 2 & 3 (Belum tersedia)
 Tautan akan muncul setelah berkas rilis diunggah ke `volumes/T2-epistemology/` dan `volumes/T3-axiology/`.

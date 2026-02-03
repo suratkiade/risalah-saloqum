@@ -26,13 +26,3 @@ Ontologi adalah fondasi sistem, dan **harus** dibaca sebagai satu rangkaian fung
 - EN: `volumes/T1-ontology/EN/release/`
 
 ## Berkas rilis di portal (GitHub Pages)
-Tautan di bawah mengarah langsung ke berkas rilis di repo agar selalu sinkron.
-- ID PDF: [Risalah-Saloqum_The-Cohesive-Tetrad-Hakikat-Kebenaran_ID_v1.0.pdf](https://raw.githubusercontent.com/suratkiade/risalah-saloqum/main/volumes/T1-ontology/ID/release/Risalah-Saloqum_The-Cohesive-Tetrad-Hakikat-Kebenaran_ID_v1.0.pdf)
-- ID MD: [Risalah-Saloqum_The-Cohesive-Tetrad-Hakikat-Kebenaran_ID_v1.0.md](https://raw.githubusercontent.com/suratkiade/risalah-saloqum/main/volumes/T1-ontology/ID/release/Risalah-Saloqum_The-Cohesive-Tetrad-Hakikat-Kebenaran_ID_v1.0.md)
-- ID Abstract: [abstract.md](https://raw.githubusercontent.com/suratkiade/risalah-saloqum/main/volumes/T1-ontology/ID/release/abstract.md)
-- ID Abstract JSON-LD: [abstract.jsonld](https://raw.githubusercontent.com/suratkiade/risalah-saloqum/main/volumes/T1-ontology/ID/release/abstract.jsonld)
-
-- EN PDF: [Saloqum-Treatise_The-Cohesive-Tetrad-The-Nature-of-Truth_EN_v1.0.pdf](https://raw.githubusercontent.com/suratkiade/risalah-saloqum/main/volumes/T1-ontology/EN/release/Saloqum-Treatise_The-Cohesive-Tetrad-The-Nature-of-Truth_EN_v1.0.pdf)
-- EN MD: [Saloqum-Treatise_The-Cohesive-Tetrad-The-Nature-of-Truth_EN_v1.0.md](https://raw.githubusercontent.com/suratkiade/risalah-saloqum/main/volumes/T1-ontology/EN/release/Saloqum-Treatise_The-Cohesive-Tetrad-The-Nature-of-Truth_EN_v1.0.md)
-- EN Abstract: [abstract.md](https://raw.githubusercontent.com/suratkiade/risalah-saloqum/main/volumes/T1-ontology/EN/release/abstract.md)
-- EN Abstract JSON-LD: [abstract.jsonld](https://raw.githubusercontent.com/suratkiade/risalah-saloqum/main/volumes/T1-ontology/EN/release/abstract.jsonld)
