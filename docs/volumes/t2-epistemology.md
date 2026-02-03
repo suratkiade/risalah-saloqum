@@ -17,6 +17,13 @@ keywords: "T2 Epistemology, Epistemologi, Jalan Kebenaran, Akal sebagai Fakultas
 - Subtitle: Akal as the Integrative Inner Faculty
 - DOI: belum tersedia
 
+## Cross-reference tetralogi (The Cohesive Tetrad)
+Epistemologi memetakan struktur pengetahuan dan **harus** dibaca sebagai sistem terpadu:
+
+- **[T1 Ontology](t1-ontology.md)** → dasar realitas yang memberi pijakan bagi struktur pengetahuan.
+- **[T3 Axiology](t3-axiology.md)** → orientasi nilai yang menuntun penggunaan pengetahuan.
+- **[T4 Methodology](t4-methodology.md)** → metode operasional yang menerjemahkan pengetahuan menjadi tindakan.
+
 ## Status rilis
 Berkas rilis T2 akan muncul pada folder:
 - ID: `volumes/T2-epistemology/ID/release/`
