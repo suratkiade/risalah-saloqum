@@ -209,10 +209,14 @@ No warranties. Use in scholarly context with explicit citation to DOI.
 def build_manifest(registry: dict) -> dict:
     # Minimal manifest is written by content already prepared in repo root.
     # For advanced generation, extend this function to scan volumes/*/*/release.
-    from json import loads
     if MANIFEST.exists():
         try:
-            return loads(MANIFEST.read_text(encoding="utf-8"))
+            existing = json.loads(MANIFEST.read_text(encoding="utf-8"))
+            if (
+                existing.get("schema") == "tct.corpus.manifest.v1"
+                and existing.get("framework") == registry["framework"]
+            ):
+                return existing
         except Exception:
             pass
     # Fallback: create a minimal manifest if missing.
@@ -233,7 +237,9 @@ def build_manifest(registry: dict) -> dict:
 def build_corpus_jsonld(registry: dict) -> dict:
     if CORPUS_JSONLD.exists():
         try:
-            return json.loads(CORPUS_JSONLD.read_text(encoding="utf-8"))
+            existing = json.loads(CORPUS_JSONLD.read_text(encoding="utf-8"))
+            if existing.get("@context") == "https://schema.org" and existing.get("@type"):
+                return existing
         except Exception:
             pass
     a = registry["author"]

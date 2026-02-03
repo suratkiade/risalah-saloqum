@@ -11,8 +11,6 @@ from __future__ import annotations
 import json
 import re
 import sys
-from urllib.error import HTTPError, URLError
-from urllib.request import Request, urlopen
 from pathlib import Path
 
 import yaml
@@ -57,7 +55,6 @@ def load_json(rel: str) -> dict:
         return json.loads(p.read_text(encoding="utf-8"))
     except Exception as e:
         die(f"Invalid JSON in {rel}: {e}")
-    return {}
 
 def load_lock() -> dict:
     try:
@@ -75,14 +72,16 @@ def required_doi_urls(lock: dict) -> list[str]:
     return urls
 
 def check_manifest() -> None:
+    lock = load_lock()
     obj = load_json("CORPUS.manifest.json")
     if obj.get("schema") != "tct.corpus.manifest.v1":
         die("CORPUS.manifest.json schema must be tct.corpus.manifest.v1")
     if obj.get("framework") != "The Cohesive Tetrad":
         die("CORPUS.manifest.json framework must be The Cohesive Tetrad")
     author = obj.get("author", {})
-    if author.get("orcid") != "0009-0001-4114-3679":
-        die("CORPUS.manifest.json author.orcid must be 0009-0001-4114-3679")
+    expected_orcid = lock.get("corpus", {}).get("author", {}).get("orcid")
+    if expected_orcid and author.get("orcid") != expected_orcid:
+        die(f"CORPUS.manifest.json author.orcid must be {expected_orcid}")
 
 def check_jsonld() -> None:
     lock = load_lock()
@@ -92,10 +91,16 @@ def check_jsonld() -> None:
         die("corpus.jsonld @context must be https://schema.org")
     if obj.get("@type") not in ["Dataset", "CreativeWork", "DataCatalog"]:
         die("corpus.jsonld @type must be Dataset (recommended)")
-    s = json.dumps(obj, ensure_ascii=False)
-    for doi in doi_urls:
-        if doi not in s:
-            die(f"corpus.jsonld must include DOI URL: {doi}")
+    citations = obj.get("citation")
+    if isinstance(citations, list):
+        missing = [doi for doi in doi_urls if doi not in citations]
+        if missing:
+            die("corpus.jsonld citation missing DOI URLs:\n- " + "\n- ".join(missing))
+    else:
+        s = json.dumps(obj, ensure_ascii=False)
+        for doi in doi_urls:
+            if doi not in s:
+                die(f"corpus.jsonld must include DOI URL: {doi}")
 
 def check_llms() -> None:
     lock = load_lock()
