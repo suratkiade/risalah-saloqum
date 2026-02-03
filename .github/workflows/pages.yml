@@ -44,6 +44,10 @@ jobs:
           echo "== requirements.txt =="
           cat ./requirements.txt
           python -m pip install -r ./requirements.txt
+          python - <<'PY'
+          import mkdocs_sitemap  # noqa: F401
+          print("mkdocs-sitemap loaded from local package")
+          PY
           echo "== pip freeze (mkdocs-related) =="
           python -m pip freeze | grep -E "^(mkdocs|mkdocs-material|mkdocs-material-extensions|pymdown-extensions)" || true
 
