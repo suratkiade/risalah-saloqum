@@ -10,12 +10,12 @@ keywords: "T4 Methodology, Metodologi, Bahasa Kebenaran, Languages of Truth, tru
 ### ID (kanonik)
 - Judul: The Cohesive Tetrad: Bahasa Kebenaran
 - Subjudul: Akhir dari Perdebatan adalah Awal dari Amal.
-- DOI: https://doi.org/10.17605/OSF.IO/96BJ8
+- DOI: [https://doi.org/10.17605/OSF.IO/96BJ8](https://doi.org/10.17605/OSF.IO/96BJ8)
 
 ### EN (terjemahan resmi)
 - Title: The Cohesive Tetrad: The Languages of Truth
 - Subtitle: The end of debate is the beginning of Amal
-- DOI: https://doi.org/10.17605/OSF.IO/2SUDK
+- DOI: [https://doi.org/10.17605/OSF.IO/2SUDK](https://doi.org/10.17605/OSF.IO/2SUDK)
 
 ## Berkas rilis di repo (sumber)
 - ID: `volumes/T4-methodology/ID/release/`
@@ -23,15 +23,15 @@ keywords: "T4 Methodology, Metodologi, Bahasa Kebenaran, Languages of Truth, tru
 
 ## Berkas rilis di portal (GitHub Pages)
 Tautan di bawah mengarah ke salinan portal (di-mirror saat build).
-- ID PDF: `../releases/t4-methodology/id/Risalah-Saloqum_The-Cohesive-Tetrad-Bahasa-Kebenaran_ID_v1.0.pdf`
-- ID MD: `../releases/t4-methodology/id/Risalah-Saloqum_The-Cohesive-Tetrad-Bahasa-Kebenaran_ID_v1.0.md`
-- ID Abstract: `../releases/t4-methodology/id/abstract.md`
-- ID Abstract JSON-LD: `../releases/t4-methodology/id/abstract.jsonld`
+- ID PDF: [Risalah-Saloqum_The-Cohesive-Tetrad-Bahasa-Kebenaran_ID_v1.0.pdf](../releases/t4-methodology/id/Risalah-Saloqum_The-Cohesive-Tetrad-Bahasa-Kebenaran_ID_v1.0.pdf)
+- ID MD: [Risalah-Saloqum_The-Cohesive-Tetrad-Bahasa-Kebenaran_ID_v1.0.md](../releases/t4-methodology/id/Risalah-Saloqum_The-Cohesive-Tetrad-Bahasa-Kebenaran_ID_v1.0.md)
+- ID Abstract: [abstract.md](../releases/t4-methodology/id/abstract.md)
+- ID Abstract JSON-LD: [abstract.jsonld](../releases/t4-methodology/id/abstract.jsonld)
 
-- EN PDF: `../releases/t4-methodology/en/Saloqum-Treatise_The-Cohesive-Tetrad-The-Languages-of-Truth_EN_v1.0.pdf`
-- EN MD: `../releases/t4-methodology/en/Saloqum-Treatise_The-Cohesive-Tetrad-The-Languages-of-Truth_EN_v1.0.md`
-- EN Abstract: `../releases/t4-methodology/en/abstract.md`
-- EN Abstract JSON-LD: `../releases/t4-methodology/en/abstract.jsonld`
+- EN PDF: [Saloqum-Treatise_The-Cohesive-Tetrad-The-Languages-of-Truth_EN_v1.0.pdf](../releases/t4-methodology/en/Saloqum-Treatise_The-Cohesive-Tetrad-The-Languages-of-Truth_EN_v1.0.pdf)
+- EN MD: [Saloqum-Treatise_The-Cohesive-Tetrad-The-Languages-of-Truth_EN_v1.0.md](../releases/t4-methodology/en/Saloqum-Treatise_The-Cohesive-Tetrad-The-Languages-of-Truth_EN_v1.0.md)
+- EN Abstract: [abstract.md](../releases/t4-methodology/en/abstract.md)
+- EN Abstract JSON-LD: [abstract.jsonld](../releases/t4-methodology/en/abstract.jsonld)
 
 ## Related works (tetralogi)
 - DOI 10.17605/OSF.IO/G8NEH = The Cohesive Tetrad: Hakikat Kebenaran (Di Bawah Takhta Neraca) (ID v1.0)

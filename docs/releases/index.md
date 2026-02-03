@@ -21,6 +21,12 @@ Halaman ini memuat rilis yang disalin (mirror) dari folder `volumes/**/release/`
 - **EN (terjemahan resmi)**: ./t1-ontology/en/  
   DOI: https://doi.org/10.17605/OSF.IO/SXZ9A
 
+### Baca naskah (portal)
+- **ID PDF**: [Risalah-Saloqum_The-Cohesive-Tetrad-Hakikat-Kebenaran_ID_v1.0.pdf](./t1-ontology/id/Risalah-Saloqum_The-Cohesive-Tetrad-Hakikat-Kebenaran_ID_v1.0.pdf)
+- **ID MD**: [Risalah-Saloqum_The-Cohesive-Tetrad-Hakikat-Kebenaran_ID_v1.0.md](./t1-ontology/id/Risalah-Saloqum_The-Cohesive-Tetrad-Hakikat-Kebenaran_ID_v1.0.md)
+- **EN PDF**: [Saloqum-Treatise_The-Cohesive-Tetrad-The-Nature-of-Truth_EN_v1.0.pdf](./t1-ontology/en/Saloqum-Treatise_The-Cohesive-Tetrad-The-Nature-of-Truth_EN_v1.0.pdf)
+- **EN MD**: [Saloqum-Treatise_The-Cohesive-Tetrad-The-Nature-of-Truth_EN_v1.0.md](./t1-ontology/en/Saloqum-Treatise_The-Cohesive-Tetrad-The-Nature-of-Truth_EN_v1.0.md)
+
 ---
 
 ## T4 Methodology
@@ -30,6 +36,12 @@ Halaman ini memuat rilis yang disalin (mirror) dari folder `volumes/**/release/`
 
 - **EN (terjemahan resmi)**: ./t4-methodology/en/  
   DOI: https://doi.org/10.17605/OSF.IO/2SUDK
+
+### Baca naskah (portal)
+- **ID PDF**: [Risalah-Saloqum_The-Cohesive-Tetrad-Bahasa-Kebenaran_ID_v1.0.pdf](./t4-methodology/id/Risalah-Saloqum_The-Cohesive-Tetrad-Bahasa-Kebenaran_ID_v1.0.pdf)
+- **ID MD**: [Risalah-Saloqum_The-Cohesive-Tetrad-Bahasa-Kebenaran_ID_v1.0.md](./t4-methodology/id/Risalah-Saloqum_The-Cohesive-Tetrad-Bahasa-Kebenaran_ID_v1.0.md)
+- **EN PDF**: [Saloqum-Treatise_The-Cohesive-Tetrad-The-Languages-of-Truth_EN_v1.0.pdf](./t4-methodology/en/Saloqum-Treatise_The-Cohesive-Tetrad-The-Languages-of-Truth_EN_v1.0.pdf)
+- **EN MD**: [Saloqum-Treatise_The-Cohesive-Tetrad-The-Languages-of-Truth_EN_v1.0.md](./t4-methodology/en/Saloqum-Treatise_The-Cohesive-Tetrad-The-Languages-of-Truth_EN_v1.0.md)
 
 ---
 
