@@ -24,6 +24,13 @@ Ini adalah portal korpus kanonik untuk **The Cohesive Tetrad** dalam format tetr
 
 Buka halaman **Volumes** untuk ringkasan identitas dan tautan rilis.
 
+## Teleological governance
+- Audit forensik: `forensic-audit.md`
+- Kontrol teleologis (SOP): `teleological-controls.md`
+- Blueprint teleologis: `teleological-blueprint.md`
+- Strategi distribusi: `distribution-strategy.md`
+- Template metadata universal: `metadata/universal-template.md`
+
 ## Endpoint mesin (untuk crawler dan LLM)
 File berikut tersedia untuk konsumsi mesin:
 - `llms.txt`
