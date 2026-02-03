@@ -17,6 +17,13 @@ keywords: "T3 Axiology, Aksiologi, Amal kebenaran, Akhlak sebagai Keterjelmaan, 
 - Subtitle: Akhlak as Embodiment
 - DOI: belum tersedia
 
+## Cross-reference tetralogi (The Cohesive Tetrad)
+Aksiologi menetapkan orientasi nilai dan **harus** dibaca sebagai sistem terpadu:
+
+- **T1 Ontology** → dasar realitas yang memberi pijakan bagi nilai.
+- **T2 Epistemology** → struktur pengetahuan yang mengarahkan pembentukan nilai.
+- **T4 Methodology** → metode operasional untuk mewujudkan nilai dalam tindakan.
+
 ## Status rilis
 Berkas rilis T3 akan muncul pada folder:
 - ID: `volumes/T3-axiology/ID/release/`
