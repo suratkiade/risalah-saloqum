@@ -90,6 +90,7 @@ keywords:
   - The Cohesive Tetrad: The Nature of Truth
   - Beneath the Throne of the Measure
   - The Saloqum Treatise
+  - T1 Ontology
   - Volume I (Tetralogy)
   - Sabda
   - Logic

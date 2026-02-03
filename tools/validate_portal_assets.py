@@ -12,6 +12,8 @@ import json
 import sys
 from pathlib import Path
 
+import yaml
+
 ROOT = Path(__file__).resolve().parents[1]
 
 REQUIRED_FILES = [
@@ -32,12 +34,7 @@ REQUIRED_FILES = [
     "tools/validate_portal_assets.py",
 ]
 
-REQUIRED_DOI_URLS = [
-    "https://doi.org/10.17605/OSF.IO/G8NEH",
-    "https://doi.org/10.17605/OSF.IO/SXZ9A",
-    "https://doi.org/10.17605/OSF.IO/96BJ8",
-    "https://doi.org/10.17605/OSF.IO/2SUDK",
-]
+LOCK_PATH = ROOT / "CORPUS.lock.yaml"
 
 def die(msg: str) -> None:
     print(f"ERROR: {msg}")
@@ -59,6 +56,21 @@ def load_json(rel: str) -> dict:
         die(f"Invalid JSON in {rel}: {e}")
     return {}
 
+def load_lock() -> dict:
+    try:
+        return yaml.safe_load(LOCK_PATH.read_text(encoding="utf-8"))
+    except Exception as e:
+        die(f"Invalid YAML in CORPUS.lock.yaml: {e}")
+
+def required_doi_urls(lock: dict) -> list[str]:
+    urls: list[str] = []
+    for entry in lock.get("tetralogy", []):
+        for lang in ("id", "en"):
+            doi = (entry.get(lang) or {}).get("doi")
+            if doi:
+                urls.append(f"https://doi.org/{doi}")
+    return urls
+
 def check_manifest() -> None:
     obj = load_json("CORPUS.manifest.json")
     if obj.get("schema") != "tct.corpus.manifest.v1":
@@ -70,20 +82,24 @@ def check_manifest() -> None:
         die("CORPUS.manifest.json author.orcid must be 0009-0001-4114-3679")
 
 def check_jsonld() -> None:
+    lock = load_lock()
+    doi_urls = required_doi_urls(lock)
     obj = load_json("corpus.jsonld")
     if obj.get("@context") != "https://schema.org":
         die("corpus.jsonld @context must be https://schema.org")
     if obj.get("@type") not in ["Dataset", "CreativeWork", "DataCatalog"]:
         die("corpus.jsonld @type must be Dataset (recommended)")
     s = json.dumps(obj, ensure_ascii=False)
-    for doi in REQUIRED_DOI_URLS:
+    for doi in doi_urls:
         if doi not in s:
             die(f"corpus.jsonld must include DOI URL: {doi}")
 
 def check_llms() -> None:
+    lock = load_lock()
+    doi_urls = required_doi_urls(lock)
     llms = (ROOT / "llms.txt").read_text(encoding="utf-8")
     llms_full = (ROOT / "llms-full.txt").read_text(encoding="utf-8")
-    for doi in REQUIRED_DOI_URLS:
+    for doi in doi_urls:
         if doi not in llms:
             die(f"llms.txt must include DOI URL: {doi}")
         if doi not in llms_full:

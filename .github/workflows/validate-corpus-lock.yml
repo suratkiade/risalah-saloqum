@@ -1,9 +1,17 @@
 name: validate-corpus-lock
 
 on:
-  pull_request:
   push:
     branches: ["main"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: "validate-corpus-lock-${{ github.ref }}"
+  cancel-in-progress: true
 
 jobs:
   validate:
@@ -11,17 +19,34 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Git settings (avoid line-ending noise)
+        run: |
+          git config --global core.autocrlf false
+          git config --global core.eol lf
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: "pip"
+          cache-dependency-path: |
+            requirements.txt
 
       - name: Install dependencies
         run: |
+          set -euo pipefail
           python -m pip install --upgrade pip
-          pip install pyyaml
+          python -m pip install pyyaml==6.0.2
+
+      - name: Preflight (compile tools)
+        run: |
+          set -euo pipefail
+          python -m compileall tools
 
       - name: Validate against CORPUS.lock.yaml
         run: |
+          set -euo pipefail
           python tools/validate_corpus_lock.py

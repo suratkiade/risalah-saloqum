@@ -102,7 +102,7 @@ keywords:
   - "The Cohesive Tetrad: Hakikat Kebenaran"
   - "Di Bawah Takhta Neraca"
   - "Risalah Saloqum"
-  - "Tetralogi 1"
+  - "T1 Ontology"
   - "Volume I"
   - "Sabda"
   - "Akal"
