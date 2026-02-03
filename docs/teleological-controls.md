@@ -21,6 +21,7 @@ Dokumen ini adalah kontrol operasional yang **mengikat** agar repositori berfung
 - **SOP-04 Metadata:** setiap rilis wajib mengikuti **Template Metadata Universal**.
 - **SOP-05 Distribusi:** perubahan yang mempengaruhi indeksasi/LLM harus memperbarui dokumen distribusi.
 
+
 ## 3) Checkpoint kualitas (teleological gate)
 Sebuah perubahan **hanya valid** jika menjawab semua poin berikut:
 1. Apakah perubahan memperkuat determinisme identitas?
@@ -28,6 +29,7 @@ Sebuah perubahan **hanya valid** jika menjawab semua poin berikut:
 3. Apakah cross-reference tetralogi semakin eksplisit?
 4. Apakah metadata tetap konsisten dan dapat diverifikasi?
 5. Apakah jalur distribusi mesin dan manusia diperkuat?
+
 
 ## 4) Integrasi dokumen
 - **Manifesto:** `README_MANIFESTO.md`

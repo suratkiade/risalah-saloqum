@@ -39,3 +39,6 @@ File berikut tersedia untuk konsumsi mesin:
 - `corpus.jsonld`
 
 Lihat halaman **LLM** dan **Metadata** untuk penjelasan.
+
+## LLM & search readiness
+- Checklist LLM & search: `llm/readiness.md`
