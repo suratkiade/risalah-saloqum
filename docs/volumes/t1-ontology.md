@@ -17,6 +17,13 @@ keywords: "T1 Ontology, Ontologi, Hakikat Kebenaran, Di Bawah Takhta Neraca, The
 - Subtitle: Beneath the Throne of the Measure
 - DOI: [https://doi.org/10.17605/OSF.IO/SXZ9A](https://doi.org/10.17605/OSF.IO/SXZ9A)
 
+## Cross-reference tetralogi (The Cohesive Tetrad)
+Ontologi adalah fondasi sistem, dan **harus** dibaca sebagai satu rangkaian fungsi bersama tetralogi lain:
+
+- **T2 Epistemology** → kerangka pengetahuan yang beroperasi di atas dasar ontologis.
+- **T3 Axiology** → nilai dan orientasi tindakan yang ditopang struktur ontologi.
+- **T4 Methodology** → metode operasional yang mengeksekusi prinsip ontologi secara prosedural.
+
 ## Berkas rilis di repo (sumber)
 - ID: `volumes/T1-ontology/ID/release/`
 - EN: `volumes/T1-ontology/EN/release/`
