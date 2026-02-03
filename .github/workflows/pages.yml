@@ -55,6 +55,11 @@ jobs:
           echo "== pip freeze (mkdocs-related) =="
           python -m pip freeze | grep -E "^(mkdocs|mkdocs-material|mkdocs-material-extensions|pymdown-extensions)" || true
 
+      - name: Sync release assets into docs
+        run: |
+          set -euo pipefail
+          python tools/sync_release_assets.py --target docs/releases
+
       - name: Build site
         run: |
           set -euo pipefail
