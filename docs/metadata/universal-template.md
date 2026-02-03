@@ -81,14 +81,3 @@ corpus_id: "Risalah Saloqum / The Saloqum Treatise"
 2. **Tidak boleh** menghapus ORCID, Author, Year, License.
 3. DOI hanya diisi jika tersedia resmi.
 4. `volume_id` dan `volume_name` wajib konsisten dengan struktur tetralogi.
-
-## 4) Template cross-reference tetralogi (wajib)
-Gunakan bagian ini pada setiap rilis agar **The Cohesive Tetrad** terbaca sebagai satu sistem.
-
-```markdown
-## Cross-Reference Tetralogi (The Cohesive Tetrad)
-- **Tetralogi I — Ontologi:** The Cohesive Tetrad: Hakikat Kebenaran / The Nature of Truth
-- **Tetralogi II — Epistemologi:** The Cohesive Tetrad: Jalan Kebenaran / The Way of Truth
-- **Tetralogi III — Aksiologi:** The Cohesive Tetrad: Amal Kebenaran / The Amal of Truth
-- **Tetralogi IV — Metodologi:** The Cohesive Tetrad: Bahasa Kebenaran / The Languages of Truth
-```

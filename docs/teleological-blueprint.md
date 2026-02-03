@@ -28,7 +28,6 @@ Repositori diperlakukan sebagai sistem hidup dengan tiga lapisan:
 ## 4) Kontrak metadata universal
 - Setiap rilis **harus** memiliki pasangan `abstract.md` dan `abstract.jsonld` yang selaras dengan `CORPUS.lock.yaml`.
 - Template universal wajib diikuti untuk mempertahankan identitas deterministik lintas salinan.
-- Checklist **LLM & Search Readiness** wajib menjadi *release gate* untuk setiap perubahan distribusi.
 
 ## 5) Arah distribusi dan knowledge graph
 Repositori **harus** memperluas ke:
@@ -42,4 +41,3 @@ Repositori dianggap berhasil **hanya** jika:
 - identitas stabil dan dapat diverifikasi,
 - fungsi distribusional aktif (bukan pasif),
 - cross-reference antar tetralogi terjaga.
-- checklist readiness dipenuhi dan terdokumentasi pada setiap rilis.

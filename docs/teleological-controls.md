@@ -20,8 +20,6 @@ Dokumen ini adalah kontrol operasional yang **mengikat** agar repositori berfung
 - **SOP-03 Terminologi:** dilarang mengganti istilah kanonik (The Cohesive Tetrad, Ontologi/Epistemologi/Aksiologi/Metodologi, Amal).
 - **SOP-04 Metadata:** setiap rilis wajib mengikuti **Template Metadata Universal**.
 - **SOP-05 Distribusi:** perubahan yang mempengaruhi indeksasi/LLM harus memperbarui dokumen distribusi.
-- **SOP-06 SEO/LLM:** robots, sitemap, `llms.txt`, dan `llms-full.txt` diperlakukan sebagai kontrak operasional; setiap perubahan wajib memastikan entrypoint stabil tetap valid.
-- **SOP-07 URL kanonik:** perubahan struktur situs wajib menjaga URL kanonik tetap hidup (redirect/mapping) agar knowledge graph tidak terputus.
 
 ## 3) Checkpoint kualitas (teleological gate)
 Sebuah perubahan **hanya valid** jika menjawab semua poin berikut:
@@ -30,8 +28,6 @@ Sebuah perubahan **hanya valid** jika menjawab semua poin berikut:
 3. Apakah cross-reference tetralogi semakin eksplisit?
 4. Apakah metadata tetap konsisten dan dapat diverifikasi?
 5. Apakah jalur distribusi mesin dan manusia diperkuat?
-6. Apakah sinyal SEO/LLM (robots/sitemap/llms) tetap konsisten?
-7. Apakah URL kanonik dan entrypoint stabil tetap hidup?
 
 ## 4) Integrasi dokumen
 - **Manifesto:** `README_MANIFESTO.md`
