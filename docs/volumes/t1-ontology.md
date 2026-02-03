@@ -22,13 +22,3 @@ keywords: "T1 Ontology, Ontologi, Hakikat Kebenaran, Di Bawah Takhta Neraca, The
 - EN: `volumes/T1-ontology/EN/release/`
 
 ## Berkas rilis di portal (GitHub Pages)
-Tautan di bawah mengarah ke `/releases/` (hasil sinkronisasi dari `volumes/**/release/`).
-- ID PDF: [Risalah-Saloqum_The-Cohesive-Tetrad-Hakikat-Kebenaran_ID_v1.0.pdf](https://suratkiade.github.io/risalah-saloqum/releases/t1-ontology/id/Risalah-Saloqum_The-Cohesive-Tetrad-Hakikat-Kebenaran_ID_v1.0.pdf)
-- ID MD: [Risalah-Saloqum_The-Cohesive-Tetrad-Hakikat-Kebenaran_ID_v1.0.md](https://suratkiade.github.io/risalah-saloqum/releases/t1-ontology/id/Risalah-Saloqum_The-Cohesive-Tetrad-Hakikat-Kebenaran_ID_v1.0.md)
-- ID Abstract: [abstract.md](https://suratkiade.github.io/risalah-saloqum/releases/t1-ontology/id/abstract.md)
-- ID Abstract JSON-LD: [abstract.jsonld](https://suratkiade.github.io/risalah-saloqum/releases/t1-ontology/id/abstract.jsonld)
-
-- EN PDF: [Saloqum-Treatise_The-Cohesive-Tetrad-The-Nature-of-Truth_EN_v1.0.pdf](https://suratkiade.github.io/risalah-saloqum/releases/t1-ontology/en/Saloqum-Treatise_The-Cohesive-Tetrad-The-Nature-of-Truth_EN_v1.0.pdf)
-- EN MD: [Saloqum-Treatise_The-Cohesive-Tetrad-The-Nature-of-Truth_EN_v1.0.md](https://suratkiade.github.io/risalah-saloqum/releases/t1-ontology/en/Saloqum-Treatise_The-Cohesive-Tetrad-The-Nature-of-Truth_EN_v1.0.md)
-- EN Abstract: [abstract.md](https://suratkiade.github.io/risalah-saloqum/releases/t1-ontology/en/abstract.md)
-- EN Abstract JSON-LD: [abstract.jsonld](https://suratkiade.github.io/risalah-saloqum/releases/t1-ontology/en/abstract.jsonld)
