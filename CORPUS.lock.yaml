@@ -1,7 +1,7 @@
 canon_lock: true
 lock_schema: tct-corpus-lock
 lock_version: '1.2'
-lock_created_utc: '2026-01-31T00:00:00Z'
+lock_created_utc: '2025-01-31T00:00:00Z'
 corpus:
   id: Risalah Saloqum
   en: The Saloqum Treatise
