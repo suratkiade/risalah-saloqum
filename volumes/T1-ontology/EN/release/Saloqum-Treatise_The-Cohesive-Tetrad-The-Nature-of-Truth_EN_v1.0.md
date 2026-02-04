@@ -1,46 +1,48 @@
 ---
-schema_version: saloqum.osf.companion-metadata.v1.1
-type: Book
-title: 'The Cohesive Tetrad: The Nature of Truth'
-subtitle: Beneath the Throne of the Measure
+schema_version: "saloqum.osf.companion-metadata.v1.1"
+type: "Book"
+
+title: "The Cohesive Tetrad: The Nature of Truth"
+subtitle: "Beneath the Throne of the Measure"
+
 series:
-  name: The Saloqum Treatise
-  volume: Volume I (Tetralogy)
+  name: "The Saloqum Treatise"
+  volume: "Volume I (Tetralogy)"
+
 language:
-  name: English
-  code: en
+  name: "English"
+  code: "en"
+
 edition:
-  role: authorized_translation
+  role: "authorized_translation"
   aligned_to_source_reference:
-    title: 'The Cohesive Tetrad: Hakikat Kebenaran'
-    subtitle: Di Bawah Takhta Neraca
-    language_code: id
-    version: v1.0
+    title: "The Cohesive Tetrad: Hakikat Kebenaran"
+    subtitle: "Di Bawah Takhta Neraca"
+    language_code: "id"
+    version: "v1.0"
     year: 2025
-    doi: 10.17605/OSF.IO/G8NEH
-    doi_url: https://doi.org/10.17605/OSF.IO/G8NEH
-version: v1.0
+    doi: "10.17605/OSF.IO/G8NEH"
+    doi_url: "https://doi.org/10.17605/OSF.IO/G8NEH"
+
+version: "v1.0"
 year: 2025
+
 identifiers:
-  doi: 10.17605/OSF.IO/SXZ9A
-  doi_url: https://doi.org/10.17605/OSF.IO/SXZ9A
-  orcid: 0009-0001-4114-3679
+  doi: "10.17605/OSF.IO/SXZ9A"
+  doi_url: "https://doi.org/10.17605/OSF.IO/SXZ9A"
+  orcid: "0009-0001-4114-3679"
+
 author:
-  name: Ade Zaenal Mutaqin
-  affiliation: Faculty of Economics and Business, Pakuan University, Bogor, Indonesia
-  corresponding_email: suratkiade@gmail.com
-  orcid: 0009-0001-4114-3679
+  name: "Ade Zaenal Mutaqin"
+  affiliation: "Faculty of Economics and Business, Pakuan University, Bogor, Indonesia"
+  corresponding_email: "suratkiade@gmail.com"
+  orcid: "0009-0001-4114-3679"
+
 rights:
-  license: CC-BY-4.0
-  license_url: https://creativecommons.org/licenses/by/4.0/
-orcid: 0009-0001-4114-3679
-license: CC-BY-4.0
-corpus_id: Risalah Saloqum
-corpus_en: The Saloqum Treatise
-framework: The Cohesive Tetrad
-language_code: en
-doi: 10.17605/OSF.IO/SXZ9A
+  license: "CC-BY-4.0"
+  license_url: "https://creativecommons.org/licenses/by/4.0/"
 ---
+
 
 canonical_terms_lock:
   - Sabda
@@ -90,7 +92,6 @@ keywords:
   - The Cohesive Tetrad: The Nature of Truth
   - Beneath the Throne of the Measure
   - The Saloqum Treatise
-  - T1 Ontology
   - Volume I (Tetralogy)
   - Sabda
   - Logic
