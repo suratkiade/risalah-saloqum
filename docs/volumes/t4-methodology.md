@@ -17,6 +17,17 @@ keywords: "T4 Methodology, Metodologi, Bahasa Kebenaran, Languages of Truth, tru
 - Subtitle: The end of debate is the beginning of Amal
 - DOI: [https://doi.org/10.17605/OSF.IO/2SUDK](https://doi.org/10.17605/OSF.IO/2SUDK)
 
+## Abstract (ID) — Tetralogi 4 (Metodologi)
+**TL;DR:** T4 menegaskan bahwa Logic hanya menguji validitas inferensi, sehingga kewajiban tidak pernah lahir dari fakta, koherensi, atau metrik tanpa premis normatif eksplisit (jurang is-ought). Dengan itu, risalah menolak kedaulatan metrik dan menetapkan tesis T_v⇒A^+ bahwa kebenaran mengikat hanya bila dapat diaudit sebagai Akhlak yang konsisten lintas waktu dan konteks.
+
+<details><summary>Read abstract</summary>
+
+The Cohesive Tetrad: Bahasa Kebenaran memformulasikan batas tegas bagi rasionalitas publik: Logic bekerja sebagai alat uji inferensi yang menilai apakah relasi premis-kesimpulan sah, namun tidak memproduksi daya mengikat normatif secara internal. Karena itu, fakta, konsistensi formal, dan keterukuran tidak dapat berubah menjadi kewajiban tanpa premis normatif tambahan yang dinyatakan terang; jurang is-ought berfungsi sebagai batas struktural yang menutup lompatan dari deskripsi menuju kewajiban. Bertolak dari batas ini, risalah mengkritik reduksi kebenaran publik menjadi koherensi formal, kepatuhan prosedural, dan indikator terukur, sebuah konfigurasi yang menggeser kriteria “benar dan layak” menjadi “rapi dan lolos”. Reduksi tersebut menciptakan kekeliruan kategori yang sistematik: validitas diperlakukan sebagai kelayakan, prosedur diperlakukan sebagai keadilan, dan metrik diperlakukan sebagai martabat, sehingga ukuran berhenti sebagai instrumen uji dan naik pangkat menjadi target. Dalam kondisi demikian, peringatan Goodhart dan Campbell menjelaskan mengapa optimasi terhadap angka mendorong rekayasa kepatuhan, pengerdilan realitas agar cocok dengan indikator, dan peminggiran dimensi yang sukar dihitung padahal menentukan fairness dan kelayakan. Untuk menutup jalur substitusi tersebut, risalah menetapkan tesis normatif yang mengikat: klaim kebenaran hanya berhak mengikat peradaban sejauh dapat diperiksa dan dipertanggungjawabkan secara publik sebagai Akhlak, yaitu jejak karakter dan perilaku yang teramati lintas waktu dan lintas konteks, relatif tahan terhadap insentif performatif, dan tidak dapat digantikan oleh retorika maupun kepatuhan prosedural sesaat. Pada tingkat arsitektur, The Cohesive Tetrad diposisikan sebagai tata kelola bahasa kebenaran yang mengikat beberapa simpul penilaian agar setiap klaim tetap tinggal pada ukuran dan yurisdiksi yang tepat, dengan Akal sebagai fakultas batin integratif yang mengoordinasikan orientasi normatif, pembenaran rasional, pengalaman sadar, dan kondisi batin tanpa reduksi, lalu menuntut keterjelmaan Akhlak sebagai syarat legitimasi yang dapat diaudit. Formula penguncinya dirumuskan sebagai T_v⇒A^+: kebenaran mengikat peradaban hanya bila ia terbukti dan terjelma dalam Akhlak.
+
+**Kata kunci:** T4 Methodology, Metodologi, Bahasa Kebenaran, The Languages of Truth, truth governance, tata kelola kebenaran, logika, Logic, is-ought gap, jurang is-ought, kedaulatan metrik, metric fixation, Goodhart's law, Campbell's law, auditabilitas publik, public accountability, martabat manusia, human dignity, pembenaran publik, public justification, Akhlak, Akal, Sabda, Qualia, Mistika, epistemologi, epistemology, filsafat ilmu, philosophy of science, kepatuhan prosedural, procedural compliance, koherensi formal, formal coherence.
+
+</details>
+
 ## Cross-reference tetralogi (The Cohesive Tetrad)
 Metodologi menerjemahkan struktur pengetahuan ke tindakan dan **harus** dibaca sebagai sistem terpadu:
 
@@ -39,3 +50,4 @@ Tautan di bawah mengarah langsung ke berkas rilis di repo agar selalu sinkron.
 ## Related works (tetralogi)
 - DOI 10.17605/OSF.IO/G8NEH = The Cohesive Tetrad: Hakikat Kebenaran (Di Bawah Takhta Neraca) (ID v1.0)
 - DOI 10.17605/OSF.IO/SXZ9A = The Cohesive Tetrad: The Nature of Truth (Beneath the Throne of the Measure) (EN v1.0)
+```
