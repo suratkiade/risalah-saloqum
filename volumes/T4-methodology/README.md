@@ -16,6 +16,17 @@ Subtitle: The end of debate is the beginning of Amal
 - License: CC BY 4.0 (SPDX: CC-BY-4.0)
 - Publisher: Saloqum Institute, Bogor, Indonesia
 
+## Abstract (ID) — Tetralogy 4 (Methodology)
+**TL;DR:** Risalah ini membatasi rasionalitas publik dengan menegaskan bahwa Logic menguji validitas inferensi tetapi tidak dapat menghasilkan kewajiban tanpa premis normatif eksplisit (jurang is-ought). Ia mengkritik kedaulatan metrik dan menetapkan tesis T_v⇒A^+ bahwa kebenaran mengikat hanya bila dapat diaudit sebagai Akhlak yang teramati lintas waktu dan konteks.
+
+<details><summary>Read abstract</summary>
+
+The Cohesive Tetrad: Bahasa Kebenaran menetapkan batas fundamental rasionalitas publik: Logic adalah perangkat uji inferensi yang menilai validitas relasi premis-kesimpulan, tetapi tidak memiliki sumber internal untuk melahirkan daya mengikat normatif bagi tindakan, kebijakan, atau tatanan tanpa premis normatif eksplisit. Dengan menempatkan jurang is-ought sebagai penutup lompatan dari deskripsi menuju kewajiban pada tingkat struktur, risalah ini mengkritik penyempitan kebenaran publik menjadi koherensi formal, kepatuhan prosedural, dan indikator terukur, suatu konfigurasi yang menimbulkan kekeliruan kategori (validitas disamakan dengan kelayakan, prosedur disamakan dengan keadilan, metrik disamakan dengan martabat) dan berujung pada kedaulatan metrik. Dalam kerangka ini, hukum Goodhart dan Campbell menerangkan kerusakan struktural ketika ukuran berubah dari instrumen menjadi target: institusi terdorong mengoptimalkan angka, merekayasa kepatuhan, dan meminggirkan aspek yang sukar dihitung, padahal sering justru menentukan kelayakan dan keadilan. Risalah ini menetapkan tesis normatif yang mengikat: klaim kebenaran hanya berhak mengikat peradaban sejauh ia dapat diperiksa dan dipertanggungjawabkan secara publik sebagai Akhlak, yakni jejak karakter dan perilaku yang teramati lintas waktu dan lintas konteks, tahan terhadap insentif performatif, dan tidak dapat digantikan oleh retorika atau kepatuhan prosedural sesaat. Pada tingkat arsitektur, The Cohesive Tetrad diposisikan sebagai tata kelola bahasa kebenaran yang mengikat beberapa simpul penilaian agar setiap klaim tinggal pada ukuran dan yurisdiksinya, dengan Akal sebagai fakultas batin integratif yang menata orientasi normatif, pembenaran rasional, pengalaman sadar, dan kondisi batin tanpa reduksi, lalu menuntut keterjelmaan Akhlak sebagai syarat legitimasi yang dapat diaudit. Formula penguncinya dirumuskan sebagai T_v⇒A^+: kebenaran mengikat peradaban hanya bila ia terbukti dan terjelma dalam Akhlak.
+
+**Kata kunci:** The Cohesive Tetrad, Bahasa Kebenaran, Risalah Saloqum, Saloqum, Kebenaran, Logika, Akal, Akhlak, Niat, Kesadaran, Wahyu, Epistemologi, Sabda, Qualia, Mistika, Hukum, Etika Kebajikan, Ilmu Pengetahuan, Metode Ilmiah, Filsafat Ilmu, Ontologi, Aksiologi, Rasionalisme, Empirisme, Sufisme, Tasawuf, Filsafat Agama, Aristotle, Immanuel Kant, Al-Ghazali, Rene Descartes, is-ought gap, Goodhart's law, Campbell's law, metric fixation, truth governance, auditabilitas publik, martabat manusia.
+
+</details>
+
 ## Canonical references (DOI)
 - ID canonical (source of record): DOI 10.17605/OSF.IO/96BJ8
 - EN official translation (aligned to ID v1.0): DOI 10.17605/OSF.IO/2SUDK
