@@ -41,6 +41,27 @@ The following items are part of the locked public identity for discovery, citati
 - EN official translation: "The Cohesive Tetrad: The Languages of Truth" (The end of debate is the beginning of Amal)  
   DOI: 10.17605/OSF.IO/2SUDK
 
+## Abstracts (canonical, SEO and AI indexing)
+The following abstracts are repository-level discovery summaries. They are aligned to each Tetralogy volume and intended to be mirrored in each volume’s `abstract.md` and `abstract.jsonld` without identity drift.
+
+### Tetralogy 1 (Ontology) — Abstract (ID)
+**TL;DR:** Risalah ini menafsir krisis post-truth sebagai pemutusan "alamat penagihan", yakni klaim dan keputusan yang beredar tanpa penanggung yang dapat ditagih di hadapan Mizan. Ia memulihkan hierarki ukuran dengan menolak kudeta Logic, metrik, dan algoritma sebagai otoritas normatif, serta menegaskan bahwa kebenaran mengikat hanya sejauh terbukti dan terjelma dalam Akhlak.
+
+<details><summary>Read abstract</summary>
+
+The Cohesive Tetrad: Hakikat Kebenaran, Di Bawah Takhta Neraca merumuskan krisis post-truth sebagai gejala struktural: bukan semata kerusakan informasi, melainkan pemutusan "alamat penagihan", yakni pemisahan klaim, putusan, dan akibat dari subjek yang wajib menanggungnya. Risalah ini menunjukkan bahwa berbagai arus modern yang tampak berbeda, nihilisme epistemologis, relativisme post-modern, positivisme logis, saintisme, tekno-determinisme, reduksionisme algoritmik, utilitarianisme, pragmatisme, materialisme dialektis, hingga dataism, bertemu pada satu pola bersama: kebenaran direduksi menjadi sesuatu yang "lolos" secara prosedural, terukur secara metrik, atau unggul secara prediktif, sementara keberlakuan ditanggalkan dari syarat ontologisnya, yakni dapat ditagih kepada penanggungnya di hadapan Mizan yang mengikat. Di pusat kritik, risalah ini membedakan Logic sebagai instrumen kejernihan dari Logic yang beralih menjadi takhta legitimasi tunggal. Ketika validitas formal, auditabilitas, dan kepatuhan prosedural diperlakukan sebagai padanan "benar", nalar berubah menjadi bunker: ia mengamankan putusan alih-alih menyingkap kebenaran. Pada ranah ekonomi, rezim metrik memindahkan nilai ke dashboard, sehingga yang tidak tercatat diperlakukan seolah tidak cukup nyata untuk mengubah keputusan. Pada ranah politik dan teknologi, keputusan yang digerakkan SOP, rantai komando, dan sistem prediktif mengaburkan penanggung, menormalkan kalimat "sistem yang memutuskan", padahal sistem tidak dapat dipanggil ke neraca, tidak dapat menanggung malu, dan tidak dapat bertobat. Pada ranah ilmu dan pendidikan, institusionalisasi metode, akreditasi, rubrik, dan audit membentuk manusia yang mahir mengejar skor namun semakin asing terhadap tanggung jawab, sehingga integritas merosot menjadi sekadar biaya, dan martabat direduksi menjadi performa. Sebagai program pemulihan, risalah ini mengusulkan pengembalian hierarki ukuran: metrik, model, dan algoritma sah sebagai alat, namun runtuh sebagai otoritas normatif. Pemulihan kebenaran menuntut reintegrasi Sabda, Akal sebagai fakultas batin integratif, Qualia, Mistika, dan Akhlak sebagai tatanan yang memulihkan keberlakuan, sehingga klaim tidak berhenti sebagai wacana yang rapi, melainkan kembali menjadi tanggungan yang dapat ditagih. Dengan demikian, risalah ini memosisikan kebenaran sebagai kategori ontologis yang bersifat mengikat: ia mengikat peradaban hanya sejauh ia terbukti dan terjelma dalam Akhlak, serta hanya sejauh ia memiliki alamat pertanggungjawaban yang tidak dapat digantikan oleh prosedur, lembaga, atau mesin.
+
+</details>
+
+### Tetralogy 4 (Methodology) — Abstract (ID)
+**TL;DR:** Risalah ini membatasi rasionalitas publik dengan menegaskan bahwa Logic menguji validitas inferensi tetapi tidak dapat menghasilkan kewajiban tanpa premis normatif eksplisit (jurang is-ought). Ia mengkritik kedaulatan metrik dan menetapkan tesis T_v ⇒ A^+ bahwa kebenaran mengikat hanya bila dapat diaudit sebagai Akhlak yang teramati lintas waktu dan konteks.
+
+<details><summary>Read abstract</summary>
+
+The Cohesive Tetrad: Bahasa Kebenaran menetapkan batas fundamental rasionalitas publik: Logic adalah perangkat uji inferensi yang menilai validitas relasi premis-kesimpulan, tetapi tidak memiliki sumber internal untuk melahirkan daya mengikat normatif bagi tindakan, kebijakan, atau tatanan tanpa premis normatif eksplisit. Dengan menempatkan jurang is-ought sebagai penutup lompatan dari deskripsi menuju kewajiban pada tingkat struktur, risalah ini mengkritik penyempitan kebenaran publik menjadi koherensi formal, kepatuhan prosedural, dan indikator terukur, suatu konfigurasi yang menimbulkan kekeliruan kategori (validitas disamakan dengan kelayakan, prosedur disamakan dengan keadilan, metrik disamakan dengan martabat) dan berujung pada kedaulatan metrik. Dalam kerangka ini, hukum Goodhart dan Campbell menerangkan kerusakan struktural ketika ukuran berubah dari instrumen menjadi target: institusi terdorong mengoptimalkan angka, merekayasa kepatuhan, dan meminggirkan aspek yang sukar dihitung, padahal sering justru menentukan kelayakan dan keadilan. Risalah ini menetapkan tesis normatif yang mengikat: klaim kebenaran hanya berhak mengikat peradaban sejauh ia dapat diperiksa dan dipertanggungjawabkan secara publik sebagai Akhlak, yakni jejak karakter dan perilaku yang teramati lintas waktu dan lintas konteks, tahan terhadap insentif performatif, dan tidak dapat digantikan oleh retorika atau kepatuhan prosedural sesaat. Pada tingkat arsitektur, The Cohesive Tetrad diposisikan sebagai tata kelola bahasa kebenaran yang mengikat beberapa simpul penilaian agar setiap klaim tinggal pada ukuran dan yurisdiksinya, dengan Akal sebagai fakultas batin integratif yang menata orientasi normatif, pembenaran rasional, pengalaman sadar, dan kondisi batin tanpa reduksi, lalu menuntut keterjelmaan Akhlak sebagai syarat legitimasi yang dapat diaudit. Formula penguncinya dirumuskan sebagai T_v ⇒ A^+: kebenaran mengikat peradaban hanya bila ia terbukti dan terjelma dalam Akhlak.
+
+</details>
+
 ## Release artifacts and metadata paths
 Each release folder contains four core files: the release text, the PDF, `abstract.md`, and `abstract.jsonld`.
 
@@ -79,3 +100,4 @@ Use the repository-level `CITATION.cff` as the authoritative citation entry for 
 
 ## License
 CC BY 4.0. See `LICENSE` for details.
+```
