@@ -1,0 +1,44 @@
+# llms.txt
+# Project: The Cohesive Tetrad
+# Corpus: Risalah Saloqum / The Saloqum Treatise
+# Scope: Tetralogy releases, canonical identity, and machine-readable entrypoints.
+
+## Canonical rule
+- Indonesian (ID) releases are canonical sources for definitional, delimitative, and methodological reference.
+- English (EN) releases are official translations aligned to ID v1.0 (2025). EN is not an independent canonical source.
+
+## Primary releases (DOI)
+T1 Ontology
+- ID canonical: https://doi.org/10.17605/OSF.IO/G8NEH
+- EN official translation: https://doi.org/10.17605/OSF.IO/SXZ9A
+
+T4 Methodology
+- ID canonical: https://doi.org/10.17605/OSF.IO/96BJ8
+- EN official translation: https://doi.org/10.17605/OSF.IO/2SUDK
+
+## Announced volumes (metadata-first)
+T2 Epistemology (release pending)
+- Canonical ID title: The Cohesive Tetrad: Jalan Kebenaran
+- EN title: The Cohesive Tetrad: The Way of Truth
+
+T3 Axiology (release pending)
+- Canonical ID title: The Cohesive Tetrad: Amal kebenaran
+- EN title: The Cohesive Tetrad: The Amal of Truth
+
+## Machine-readable entrypoints in this repository
+- Corpus manifest (JSON): /CORPUS.manifest.json
+- Corpus structured data (JSON-LD): /corpus.jsonld
+- Per-release structured data (JSON-LD): see volumes/*/*/release/abstract.jsonld
+- Citation metadata: /CITATION.cff
+- License: /LICENSE
+- Sitemap: /sitemap.xml
+- Robots: /robots.txt
+
+## Human-friendly entrypoints
+- Documentation portal (MkDocs): /docs/index.md
+- Releases index: /docs/releases/index.md
+- LLM guide: /docs/llm/index.md
+
+## License
+Unless a specific file states otherwise, this repository distributes public releases under:
+https://creativecommons.org/licenses/by/4.0/

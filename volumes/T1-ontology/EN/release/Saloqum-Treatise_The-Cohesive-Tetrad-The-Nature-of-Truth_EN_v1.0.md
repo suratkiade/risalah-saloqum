@@ -26,6 +26,9 @@ edition:
 
 version: "v1.0"
 year: 2025
+doi: "10.17605/OSF.IO/SXZ9A"
+orcid: "0009-0001-4114-3679"
+license_spdx_id: "CC-BY-4.0"
 
 identifiers:
   doi: "10.17605/OSF.IO/SXZ9A"

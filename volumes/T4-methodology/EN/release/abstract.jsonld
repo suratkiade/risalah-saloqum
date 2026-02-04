@@ -23,6 +23,8 @@
   "inLanguage": "en",
   "version": "v1.0",
   "copyrightYear": 2025,
+  "datePublished": "2025-01-01",
+  "dateModified": "2025-01-01",
 
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "isAccessibleForFree": true,
@@ -56,14 +58,21 @@
     "location": "Bogor, Indonesia"
   },
 
-  "isPartOf": {
-    "@type": "CreativeWorkSeries",
-    "name": "The Saloqum Treatise",
-    "isPartOf": {
-      "@type": "CreativeWork",
-      "name": "The Cohesive Tetrad"
+  "isPartOf": [
+    {
+      "@type": "CreativeWorkSeries",
+      "name": "The Saloqum Treatise",
+      "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "The Cohesive Tetrad"
+      }
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://github.com/suratkiade/risalah-saloqum",
+      "name": "Risalah Saloqum / The Saloqum Treatise"
     }
-  },
+  ],
 
   "sameAs": [
     "https://osf.io/2sudk/",

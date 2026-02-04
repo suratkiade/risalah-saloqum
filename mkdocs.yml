@@ -51,6 +51,7 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Start here: start-here.md
   - Volumes:
       - T1 Ontology: volumes/t1-ontology.md
       - T2 Epistemology: volumes/t2-epistemology.md

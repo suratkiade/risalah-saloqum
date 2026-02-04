@@ -36,7 +36,7 @@ The following items are part of the locked public identity for discovery, citati
   DOI: 10.17605/OSF.IO/SXZ9A
 
 ### Tetralogy 4 (Methodology)
-- ID canonical: "The Cohesive Tetrad: Bahasa Kebenaran" (Akhir dari Perdebatan adalah Awal dari Amal.)  
+- ID canonical: "The Cohesive Tetrad: Bahasa Kebenaran" (Akhir dari Perdebatan adalah Awal dari Amal)  
   DOI: 10.17605/OSF.IO/96BJ8
 - EN official translation: "The Cohesive Tetrad: The Languages of Truth" (The end of debate is the beginning of Amal)  
   DOI: 10.17605/OSF.IO/2SUDK
