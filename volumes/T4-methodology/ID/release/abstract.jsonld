@@ -59,14 +59,21 @@
     "location": "Bogor, Indonesia"
   },
 
-  "isPartOf": {
-    "@type": "CreativeWorkSeries",
-    "name": "Risalah Saloqum",
-    "isPartOf": {
-      "@type": "CreativeWork",
-      "name": "The Cohesive Tetrad"
+  "isPartOf": [
+    {
+      "@type": "CreativeWorkSeries",
+      "name": "Risalah Saloqum",
+      "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "The Cohesive Tetrad"
+      }
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://github.com/suratkiade/risalah-saloqum",
+      "name": "Risalah Saloqum / The Saloqum Treatise"
     }
-  },
+  ],
 
   "sameAs": [
     "https://osf.io/96bj8/",

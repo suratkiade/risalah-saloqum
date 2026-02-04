@@ -21,6 +21,7 @@ edition:
     doi_url: https://doi.org/10.17605/OSF.IO/SXZ9A
 version: v1.0
 year: 2025
+doi: 10.17605/OSF.IO/G8NEH
 identifiers:
   doi: 10.17605/OSF.IO/G8NEH
   doi_url: https://doi.org/10.17605/OSF.IO/G8NEH

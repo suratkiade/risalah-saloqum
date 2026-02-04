@@ -14,7 +14,11 @@ lang: id
 resource_type: Preprint digital (risalah)
 edition: Edisi pertama
 version: v1.0
-release_status: Final — Edisi kanonik (ID)
+year: 2025
+doi: 10.17605/OSF.IO/96BJ8
+orcid: 0009-0001-4114-3679
+license_spdx_id: CC-BY-4.0
+release_status: Final - Edisi kanonik (ID)
 rights: © Ade Zaenal Mutaqin, 2025
 license: CC-BY-4.0
 license_id: CC-BY-4.0

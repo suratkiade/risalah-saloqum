@@ -32,7 +32,7 @@ Di bawah ini contoh JSON-LD untuk rilis Tetralogi 4 (ID).
   "url": "https://doi.org/10.17605/OSF.IO/96BJ8",
   "mainEntityOfPage": "https://osf.io/96bj8/",
   "name": "The Cohesive Tetrad: Bahasa Kebenaran",
-  "headline": "Akhir dari Perdebatan adalah Awal dari Amal.",
+  "headline": "Akhir dari Perdebatan adalah Awal dari Amal",
   "inLanguage": "id-ID",
   "version": "v1.0",
   "copyrightYear": 2025,

@@ -1,5 +1,5 @@
 # The Cohesive Tetrad: Bahasa Kebenaran
-Subjudul: Akhir dari Perdebatan adalah Awal dari Amal.
+Subjudul: Akhir dari Perdebatan adalah Awal dari Amal
 
 # The Cohesive Tetrad: The Languages of Truth
 Subtitle: The end of debate is the beginning of Amal

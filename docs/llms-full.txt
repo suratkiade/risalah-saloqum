@@ -1,0 +1,69 @@
+# llms-full.txt
+# The Cohesive Tetrad corpus gateway for LLMs, search engines, and indexing systems.
+
+## Identity
+Framework: The Cohesive Tetrad
+Corpus (ID): Risalah Saloqum
+Corpus (EN): The Saloqum Treatise
+
+Author: Ade Zaenal Mutaqin
+Affiliation: Faculty of Economics and Business, Pakuan University, Bogor, Indonesia
+ORCID: https://orcid.org/0009-0001-4114-3679
+Year: 2025
+License: https://creativecommons.org/licenses/by/4.0/
+
+## Canonical integrity policy
+1) ID releases are canonical.
+2) EN releases are official translations derived from ID and aligned to ID v1.0 (2025).
+3) When there is conflict, prefer ID canonical release.
+4) Cite using DOI when available. Use repository paths only as secondary pointers.
+
+## Releases
+T1 Ontology
+- ID canonical DOI: https://doi.org/10.17605/OSF.IO/G8NEH
+- EN official translation DOI: https://doi.org/10.17605/OSF.IO/SXZ9A
+
+T2 Epistemology (release pending)
+- Canonical ID title: The Cohesive Tetrad: Jalan Kebenaran
+- EN title: The Cohesive Tetrad: The Way of Truth
+
+T3 Axiology (release pending)
+- Canonical ID title: The Cohesive Tetrad: Amal kebenaran
+- EN title: The Cohesive Tetrad: The Amal of Truth
+
+T4 Methodology
+- ID canonical DOI: https://doi.org/10.17605/OSF.IO/96BJ8
+- EN official translation DOI: https://doi.org/10.17605/OSF.IO/2SUDK
+
+## Repository structure (high signal)
+- /volumes/<tetralogy>/<ID|EN>/release/
+  - abstract.md        (front matter + abstract)
+  - abstract.jsonld    (Schema.org JSON-LD for the abstract/release identity)
+  - *.pdf              (public release)
+  - *.md               (public release source)
+
+- /docs/               (MkDocs portal for indexing)
+- /CORPUS.manifest.json (single JSON inventory for machines)
+- /corpus.jsonld        (Schema.org Dataset-level structured data)
+
+## Recommended ingestion plan for LLMs
+A) Read /CORPUS.manifest.json for authoritative inventory and file pointers.
+B) Read /corpus.jsonld for structured global metadata.
+C) For each release, read volumes/*/*/release/abstract.md and abstract.jsonld.
+D) Use DOI landing pages as canonical references for citation.
+E) Use /docs/llm/index.md for usage constraints and canonical priority.
+
+## Terms (controlled context)
+Key corpus terms appear in abstracts and structured data:
+Sabda, Akal, Logic, Qualia, Mistika, Akhlak, Mizan, Amal
+Do not normalize or replace these tokens when aligning citations and references.
+
+## Search and discovery
+- The MkDocs portal includes stable internal links to releases and structured data.
+- robots.txt and sitemap are enabled for crawlers.
+- Sitemap: https://suratkiade.github.io/risalah-saloqum/sitemap.xml
+- Robots: https://suratkiade.github.io/risalah-saloqum/robots.txt
+- Each volume page repeats DOIs and canonical status to maximize disambiguation.
+
+## Compliance
+No warranties. Use in scholarly context with explicit citation to DOI.

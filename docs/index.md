@@ -25,14 +25,14 @@ keywords: "Risalah Saloqum, The Saloqum Treatise, The Cohesive Tetrad, tetralogi
 - T1 Ontology: Hakikat Kebenaran (Di Bawah Takhta Neraca)
 - T2 Epistemology: Jalan Kebenaran (Akal sebagai Fakultas Batin Integratif)
 - T3 Axiology: Amal kebenaran (Akhlak sebagai Keterjelmaan)
-- T4 Methodology: Bahasa Kebenaran (Akhir dari Perdebatan adalah Awal dari Amal.)
+- T4 Methodology: Bahasa Kebenaran (Akhir dari Perdebatan adalah Awal dari Amal)
 
 ## Naskah tersedia (PDF & Markdown)
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px;">
   <div style="border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px;">
     <h3 style="margin-top: 0;">Tetralogi 1 (Ontologi)</h3>
-    <p><strong>ID:</strong> Hakikat Kebenaran — Di Bawah Takhta Neraca</p>
-    <p><strong>EN:</strong> The Nature of Truth — Beneath the Throne of the Measure</p>
+    <p><strong>ID:</strong> Hakikat Kebenaran - Di Bawah Takhta Neraca</p>
+    <p><strong>EN:</strong> The Nature of Truth - Beneath the Throne of the Measure</p>
     <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px;">
       <a href="https://raw.githubusercontent.com/suratkiade/risalah-saloqum/main/volumes/T1-ontology/ID/release/Risalah-Saloqum_The-Cohesive-Tetrad-Hakikat-Kebenaran_ID_v1.0.pdf" style="padding: 8px 12px; background: #111827; color: #ffffff; border-radius: 6px; text-decoration: none;">ID PDF</a>
       <a href="https://raw.githubusercontent.com/suratkiade/risalah-saloqum/main/volumes/T1-ontology/ID/release/Risalah-Saloqum_The-Cohesive-Tetrad-Hakikat-Kebenaran_ID_v1.0.md" style="padding: 8px 12px; background: #f3f4f6; color: #111827; border-radius: 6px; text-decoration: none;">ID MD</a>
@@ -42,8 +42,8 @@ keywords: "Risalah Saloqum, The Saloqum Treatise, The Cohesive Tetrad, tetralogi
   </div>
   <div style="border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px;">
     <h3 style="margin-top: 0;">Tetralogi 4 (Metodologi)</h3>
-    <p><strong>ID:</strong> Bahasa Kebenaran — Akhir dari Perdebatan adalah Awal dari Amal</p>
-    <p><strong>EN:</strong> The Languages of Truth — The end of debate is the beginning of Amal</p>
+    <p><strong>ID:</strong> Bahasa Kebenaran - Akhir dari Perdebatan adalah Awal dari Amal</p>
+    <p><strong>EN:</strong> The Languages of Truth - The end of debate is the beginning of Amal</p>
     <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px;">
       <a href="https://raw.githubusercontent.com/suratkiade/risalah-saloqum/main/volumes/T4-methodology/ID/release/Risalah-Saloqum_The-Cohesive-Tetrad-Bahasa-Kebenaran_ID_v1.0.pdf" style="padding: 8px 12px; background: #111827; color: #ffffff; border-radius: 6px; text-decoration: none;">ID PDF</a>
       <a href="https://raw.githubusercontent.com/suratkiade/risalah-saloqum/main/volumes/T4-methodology/ID/release/Risalah-Saloqum_The-Cohesive-Tetrad-Bahasa-Kebenaran_ID_v1.0.md" style="padding: 8px 12px; background: #f3f4f6; color: #111827; border-radius: 6px; text-decoration: none;">ID MD</a>
@@ -57,12 +57,12 @@ keywords: "Risalah Saloqum, The Saloqum Treatise, The Cohesive Tetrad, tetralogi
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px;">
   <div style="border: 1px dashed #9ca3af; border-radius: 12px; padding: 16px;">
     <h3 style="margin-top: 0;">Tetralogi 2 (Epistemologi)</h3>
-    <p>Jalan Kebenaran — Akal sebagai Fakultas Batin Integratif</p>
+    <p>Jalan Kebenaran - Akal sebagai Fakultas Batin Integratif</p>
     <span style="display: inline-block; padding: 6px 10px; background: #fef3c7; color: #92400e; border-radius: 6px;">Coming soon</span>
   </div>
   <div style="border: 1px dashed #9ca3af; border-radius: 12px; padding: 16px;">
     <h3 style="margin-top: 0;">Tetralogi 3 (Aksiologi)</h3>
-    <p>Amal kebenaran — Akhlak sebagai Keterjelmaan</p>
+    <p>Amal kebenaran - Akhlak sebagai Keterjelmaan</p>
     <span style="display: inline-block; padding: 6px 10px; background: #fef3c7; color: #92400e; border-radius: 6px;">Coming soon</span>
   </div>
 </div>

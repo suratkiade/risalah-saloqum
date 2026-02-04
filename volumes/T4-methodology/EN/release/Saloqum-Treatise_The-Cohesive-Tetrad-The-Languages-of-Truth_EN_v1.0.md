@@ -14,6 +14,10 @@ lang: en
 resource_type: Digital preprint (treatise)
 edition: First English edition
 version: v1.0
+year: 2025
+doi: 10.17605/OSF.IO/2SUDK
+orcid: 0009-0001-4114-3679
+license_spdx_id: CC-BY-4.0
 treatise_version_note: Official English translation (EN), aligned with canonical ID
   v1.0 (2025).
 identifiers:

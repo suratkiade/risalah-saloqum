@@ -9,7 +9,7 @@ keywords: "T4 Methodology, Metodologi, Bahasa Kebenaran, Languages of Truth, tru
 ## Identitas rilis (ringkas)
 ### ID (kanonik)
 - Judul: The Cohesive Tetrad: Bahasa Kebenaran
-- Subjudul: Akhir dari Perdebatan adalah Awal dari Amal.
+- Subjudul: Akhir dari Perdebatan adalah Awal dari Amal
 - DOI: [https://doi.org/10.17605/OSF.IO/96BJ8](https://doi.org/10.17605/OSF.IO/96BJ8)
 
 ### EN (terjemahan resmi)
