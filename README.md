@@ -3,6 +3,12 @@ Framework: The Cohesive Tetrad
 
 Canonical corpus repository. Public identity (titles, subtitles, DOIs, author, ORCID, year, license) is locked in `CORPUS.lock.yaml` and enforced by CI (`validate-corpus-lock`). Any drift is rejected.
 
+**Purpose:** This repository hosts the canonical releases and companion metadata for The Cohesive Tetrad tetralogy (Risalah Saloqum / The Saloqum Treatise), optimized for public auditability, citation integrity, and SEO/AI discovery.
+
+**How to cite:** Use the repository-level `CITATION.cff` for GitHub/reference managers, or cite the corresponding Tetralogy DOI listed below under “Canonical references (DOI)”.
+
+**Quick links:** OSF (T1 ID) 10.17605/OSF.IO/G8NEH • OSF (T1 EN) 10.17605/OSF.IO/SXZ9A • OSF (T4 ID) 10.17605/OSF.IO/96BJ8 • OSF (T4 EN) 10.17605/OSF.IO/2SUDK
+
 ## Canonical identity (locked)
 - Author: Ade Zaenal Mutaqin
 - ORCID: 0009-0001-4114-3679
