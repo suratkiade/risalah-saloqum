@@ -17,6 +17,33 @@ keywords: "T1 Ontology, Ontologi, Hakikat Kebenaran, Di Bawah Takhta Neraca, The
 - Subtitle: Beneath the Throne of the Measure
 - DOI: [https://doi.org/10.17605/OSF.IO/SXZ9A](https://doi.org/10.17605/OSF.IO/SXZ9A)
 
+## Semantic field of The Cohesive Tetrad
+*The Cohesive Tetrad* (TCT) adalah kerangka epistemik dan etis untuk **tata kelola kebenaran**. Ia berangkat dari fakta bahwa institusi, teknologi, dan komunitas menghasilkan klaim-klaim kebenaran melalui idiom yang berbeda, sementara manusia tetap terikat oleh ukuran yang lebih tinggi daripada kuasa, selera, atau efisiensi. Karena itu TCT menolak pemutlakan satu register tunggal, baik prosedur birokratis, performa algoritmik, konsensus retoris, maupun spiritualitas privat, sebagai penentu akhir. TCT merumuskan empat bahasa kebenaran yang saling bergantung namun tidak saling menggantikan, masing-masing dengan yurisdiksi yang tegas dan fungsi pembatas terhadap yang lain.
+
+Empat bahasa kebenaran tersebut disusun dalam urutan kanonik: **Sabda, Logic, Qualia, Mistika**. Dalam TCT, urutan ini berfungsi sebagai tata bahasa pemerintahan penilaian yang mencegah kekeliruan kategori dan menjaga hierarki ukuran.
+
+- **Sabda (firman normatif, sumber otoritatif norma dan telos)**  
+  Sabda menunjuk pada ujaran normatif yang memikul bobot otoritas: firman, titah, kalam, dekret, dan wacana pemberi norma yang menetapkan arah, batas, dan tujuan hidup manusia. Dalam TCT, Sabda diposisikan sebagai sumber tertinggi norma dan telos, yakni ukuran pengikat yang menilai apakah penalaran, pengalaman, dan disiplin batin berada pada tatanan yang benar atau menyimpang.
+
+- **Logic**  
+  Logic adalah tatanan penalaran yang disiplin: struktur konsep, proposisi, implikasi, dan inferensi agar putusan dapat diuji, dikoreksi, dan ditagih akuntabilitasnya lintas waktu, disiplin, dan tradisi. Logic diperlukan untuk kejernihan, tetapi tidak memiliki sumber internal untuk melahirkan kewajiban normatif tanpa premis normatif yang eksplisit. Karena itu, dalam TCT, Logic adalah instrumen yang sah namun dibatasi, bukan takhta legitimasi.
+
+- **Qualia**  
+  Qualia menunjuk dimensi fenomenal dan pengalaman-hidup: bagaimana klaim, kebijakan, sistem, dan desain institusional sungguh-sungguh dirasakan dan dialami oleh subjek, komunitas, dan ekosistem. Di sini abstraksi berubah menjadi beban atau pemulihan, dan tata kelola menjadi martabat atau degradasi. Dalam TCT, Qualia adalah modus verifikasi yang tidak dapat digantikan oleh metrik, kepatuhan formal, atau laporan kinerja.
+
+- **Mistika**  
+  Mistika adalah disiplin pengetahuan dan praktik yang bersifat normatif dan transformatif tentang kondisi epistemik niat, keadaan kesadaran, dan orientasi batin subjek. Ia menamai kerja penyucian dan penyelarasan batin sehingga hasrat, persepsi, dan motif tertata di hadapan yang paling nyata. Dalam TCT, Mistika mencegah kehidupan batin menjadi zona bebas audit, dan sebaliknya menjadikannya ranah pembentukan yang dapat ditagih.
+
+Keempat bahasa kebenaran ini diintegrasikan melalui **Akal** sebagai fakultas batin integratif, dan pada akhirnya diuji secara historis pada permukaan **Akhlak**.
+
+- **Akal (fakultas batin integratif)**  
+  Akal menyatukan Sabda, Logic, Qualia, dan Mistika ke dalam putusan dan tindakan yang dapat dimiliki, dipertanggungjawabkan, dan dikoreksi. Ia menjaga agar validitas formal tidak menyamar sebagai ukuran, pengalaman tidak terlepas dari orientasi, dan batin tidak menjadi tempat pelarian dari tanggung jawab.
+
+- **Akhlak (permukaan verifikasi)**  
+  Akhlak adalah konfigurasi relatif stabil dari disposisi dan praktik tata kelola yang berulang kali melahirkan tindakan yang dapat dipercaya, adil, jujur, berbelas kasih, dan memuliakan martabat. Dalam TCT, Akhlak adalah permukaan teramati tempat Sabda, Logic, Qualia, dan Mistika meninggalkan jejaknya lintas waktu dan konteks. Di sini kebenaran ditunjukkan mengikat, bukan sekadar meyakinkan.
+
+Definisi semantik yang tersimpan di repo ini, terutama pada berkas `semantic-defs/TCT_Canonical-Semantic-Definitions_ID-EN_v1.0.*`, adalah rujukan kanonik yang mengikat bagi seluruh penggunaan terminologi TCT dalam naskah, dataset, dan sistem AI. Setiap deviasi wajib dinyatakan eksplisit sebagai non-kanonik dan tidak berwenang menafsir ulang sistem kanonik.
+
 ## Abstract (ID) — Tetralogi 1 (Ontologi)
 **TL;DR:** T1 membaca post-truth sebagai kerusakan ontologis pada “alamat penagihan”: klaim dan putusan bergerak tanpa penanggung yang dapat ditagih di hadapan Mizan. Risalah ini memulihkan hierarki ukuran dengan menolak pemutlakan Logic, metrik, dan algoritma sebagai otoritas normatif, serta menegaskan bahwa kebenaran mengikat hanya sejauh ia kembali menjadi tanggungan yang dapat diaudit dan terjelma sebagai Akhlak.
 
@@ -46,3 +73,4 @@ Tautan di bawah mengarah langsung ke berkas rilis di repo agar selalu sinkron.
 - EN MD: [Saloqum-Treatise_The-Cohesive-Tetrad-The-Nature-of-Truth_EN_v1.0.md](https://raw.githubusercontent.com/suratkiade/risalah-saloqum/main/volumes/T1-ontology/EN/release/Saloqum-Treatise_The-Cohesive-Tetrad-The-Nature-of-Truth_EN_v1.0.md)
 - EN Abstract: [abstract.md](https://raw.githubusercontent.com/suratkiade/risalah-saloqum/main/volumes/T1-ontology/EN/release/abstract.md)
 - EN Abstract JSON-LD: [abstract.jsonld](https://raw.githubusercontent.com/suratkiade/risalah-saloqum/main/volumes/T1-ontology/EN/release/abstract.jsonld)
+```
