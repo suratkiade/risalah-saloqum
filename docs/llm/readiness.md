@@ -36,6 +36,7 @@ Checklist ini mengikat kesiapan repositori sebagai **authoritative node** untuk 
 - FAQ mesin (`/faq/`) tersedia untuk pola retrieval Q/A.
 - Dataset Q/A machine-readable (`/ai-faq.jsonl`) tersedia dan valid JSONL.
 - Index observability ledger (`/telemetry/index-observability-ledger/`) tersedia untuk evaluasi kuartalan.
+- SEO & LLM strength standard (`/metadata/seo-llm-strength-standard/`) tersedia sebagai kontrol operasional.
 
 ## 5) Checklist perubahan (release gate)
 1. Apakah entrypoints tetap tersedia di root portal?

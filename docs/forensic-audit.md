@@ -73,8 +73,6 @@ Akses langsung ke halaman `https://github.com/suratkiade/risalah-saloqum/wiki` d
 ### Putusan audit
 **Status: PATUH BASELINE WIKI, BELUM OPTIMAL UNTUK DOMINASI EKOSISTEM DIGITAL GLOBAL.**
 
-**Status: SESUAI STANDAR WIKI (technical-compliance high confidence, evidence-backed).**
-
 Penilaian ringkas:
 1. **Kelengkapan struktur wiki**: terpenuhi (navigasi top-level dan domain pages jelas).
 2. **Kualitas forensik metadata**: kuat (lock file + validator deterministik).
@@ -136,8 +134,10 @@ Dampak teleologis:
 1. Jalur menuju dominasi digital tidak hanya berbasis konten, tetapi juga berbasis pengukuran dan kontrol drift.
 2. Entity graph korpus menjadi lebih eksplisit untuk search engine dan LLM retrieval.
 3. Governance teknis naik dari compliance statis ke compliance + observability.
+
 3. **Kesiapan konsumsi mesin**: sangat baik (JSON-LD + llms + sitemap/robots).
 4. **Kesiapan tata kelola publik**: memenuhi baseline open knowledge repository.
+
 
 ### Rekomendasi penguatan lanjutan
 - Tambahkan *timestamped audit snapshot* per rilis pada bagian ini untuk histori kepatuhan.
@@ -149,3 +149,9 @@ Dampak teleologis:
 - [Semantic graph map](./metadata/semantic-graph.md)
 - [Index observability ledger](./telemetry/index-observability-ledger.md)
 - [LLM readiness checklist](./llm/readiness.md)
+
+
+
+## Standar operasional tambahan
+- [SEO & LLM strength standard](./metadata/seo-llm-strength-standard.md)
+- Validator operasional: `tools/validate_seo_llm_standards.py`

@@ -33,6 +33,7 @@ REQUIRED_FILES = [
     "docs/metadata/manifest.md",
     "docs/metadata/structured-data.md",
     "docs/metadata/semantic-graph.md",
+    "docs/metadata/seo-llm-strength-standard.md",
     "docs/llm/index.md",
     "docs/robots.txt",
     "docs/telemetry/index-observability-ledger.md",
@@ -193,6 +194,12 @@ def check_semantic_readiness_script() -> None:
         die("Missing semantic readiness validator script")
 
 
+def check_operational_standards_script() -> None:
+    script = ROOT / "tools/validate_seo_llm_standards.py"
+    if not script.exists():
+        die("Missing SEO+LLM operational standards validator script")
+
+
 def main() -> None:
     check_exists()
     check_manifest()
@@ -202,6 +209,7 @@ def main() -> None:
     check_ai_faq_jsonl()
     check_semantic_pages_linked()
     check_semantic_readiness_script()
+    check_operational_standards_script()
     print("OK: portal assets validated.")
 
 

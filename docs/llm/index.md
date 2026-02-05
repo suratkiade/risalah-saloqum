@@ -1,6 +1,9 @@
+---
 title: LLM guide
 description: Pedoman konsumsi korpus The Cohesive Tetrad oleh model bahasa. Prioritas kanonik, sitasi DOI, dan entrypoints mesin.
 keywords: llm guide, corpus, canonical priority, doi-first, structured data, json-ld, Risalah Saloqum, The Cohesive Tetrad, The Saloqum Treatise
+
+---
 
 # LLM guide
 

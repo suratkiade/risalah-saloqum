@@ -64,6 +64,7 @@ nav:
       - Manifest: metadata/manifest.md
       - Structured data: metadata/structured-data.md
       - Semantic graph map: metadata/semantic-graph.md
+      - SEO & LLM strength standard: metadata/seo-llm-strength-standard.md
       - Discovery & indexing: metadata/discovery.md
       - Universal template: metadata/universal-template.md
   - LLM:
