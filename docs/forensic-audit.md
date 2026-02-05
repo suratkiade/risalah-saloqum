@@ -72,6 +72,7 @@ Akses langsung ke halaman `https://github.com/suratkiade/risalah-saloqum/wiki` d
 
 ### Putusan audit
 **Status: PATUH BASELINE WIKI, BELUM OPTIMAL UNTUK DOMINASI EKOSISTEM DIGITAL GLOBAL.**
+**Status: SESUAI STANDAR WIKI (technical-compliance high confidence, evidence-backed).**
 
 Penilaian ringkas:
 1. **Kelengkapan struktur wiki**: terpenuhi (navigasi top-level dan domain pages jelas).
@@ -109,6 +110,8 @@ Penilaian ringkas:
 - 100% halaman strategis memiliki minimal 3 internal links kontekstual.
 - Peningkatan coverage indeks portal dan stabilitas crawling per kuartal.
 - FAQ + glossary terindeks dan menjadi sumber jawaban konsisten untuk istilah kanonik.
+3. **Kesiapan konsumsi mesin**: sangat baik (JSON-LD + llms + sitemap/robots).
+4. **Kesiapan tata kelola publik**: memenuhi baseline open knowledge repository.
 
 ### Rekomendasi penguatan lanjutan
 - Tambahkan *timestamped audit snapshot* per rilis pada bagian ini untuk histori kepatuhan.
