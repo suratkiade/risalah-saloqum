@@ -1,8 +1,8 @@
-# The Cohesive Tetrad: Hakikat Kebenaran
-Subjudul: Di Bawah Takhta Neraca
-
 # The Cohesive Tetrad: The Nature of Truth
 Subtitle: Beneath the Throne of the Measure
+
+# The Cohesive Tetrad: Hakikat Kebenaran
+Subjudul: Di Bawah Takhta Neraca
 
 ## Canonical identity (locked)
 - Framework: The Cohesive Tetrad
@@ -16,31 +16,31 @@ Subtitle: Beneath the Throne of the Measure
 - License: CC BY 4.0 (SPDX: CC-BY-4.0)
 
 ## Semantic field of The Cohesive Tetrad
-*The Cohesive Tetrad* (TCT) is an epistemic-ethical architecture for **truth governance**. Its point of departure is straightforward: institutions, technologies, and communities operate with different idioms of “truth”, yet the human subject remains answerable to a binding measure that cannot be reduced to power, appetite, or efficiency. TCT therefore rejects any single-register sovereignty of truth, whether procedural, technocratic, affective, or merely private. It establishes a coordinated system of **four interdependent languages of truth** whose roles are non-substitutable, mutually corrective, and jointly accountable.
+*The Cohesive Tetrad* (TCT) is an epistemic and ethical architecture for **truth governance**. It begins from a sober premise: institutions, technologies, and communities routinely speak "truth" in different idioms, while human beings remain answerable before a measure higher than power, appetite, or efficiency. For that reason, TCT refuses the sovereignty of any single register, whether procedural, technocratic, affective, or private, as a substitute for truth as such. It articulates **four interdependent languages of truth** that must mutually constrain, correct, and complete one another, without collapsing into mutual replacement.
 
-The four languages are canonically ordered as **Saloqum**: **Sabda, Logic, Qualia, Mistika**. This order is constitutive within TCT and must not be treated as interchangeable.
+These languages are ordered in the canonical **Saloqum** sequence: **Sabda, Logic, Qualia, Mistika**. The sequence is constitutive within TCT and is not to be treated as a swappable set.
 
 - **Sabda (Revelatory Word, the authoritative source of norm and telos)**  
-  Sabda (Revelatory Word, the authoritative source of norm and telos) names the highest register of binding normativity within TCT. It designates authoritative norm-giving utterance and disclosure that sets direction, limits, and ends for human life, establishing what counts as legitimate obligation and final purpose. Within the TCT hierarchy, Sabda functions as the apex criterion of normative weight, constraining downstream reasoning, experience-claims, inward disciplines, and governance design.
+  Sabda names the class of normative utterances that carry authoritative weight and binding force. It includes divine speech, firmans, decrees, and norm-giving discourses that establish direction, boundary, and aim for human life. In the TCT hierarchy, Sabda is positioned as the highest source of norm and telos, thereby measuring and guiding rational justification, lived experience, inner discipline, and governance design.
 
 - **Logic**  
-  Logic is the disciplined order of inference that clarifies definitions, structures propositions, and regulates consequence so that judgments can be examined, corrected, and made answerable across time, disciplines, and traditions. It secures validity and coherence in reasoning, while remaining bounded by the normative horizon set by Sabda and oriented toward accountable action.
+  Logic is the disciplined order of reasoning that structures concepts, propositions, implications, and inferences so that judgments can be tested, corrected, and held accountable across time, disciplines, and traditions. Logic secures the integrity of reasons and the precision of consequences, yet it remains bounded by the normative horizon and teleological orientation set by Sabda.
 
 - **Qualia**  
-  Qualia denotes the phenomenal and lived dimension of truth in experience: how claims, policies, power, and institutional arrangements are undergone by persons, communities, and ecosystems as felt realities. It captures what descriptive models may refer to but cannot replace, namely the first-person and situated texture through which governance is actually borne and suffered.
+  Qualia designates the phenomenal and lived-experiential dimension: how truth claims, power, policies, and institutional designs are actually encountered by subjects, communities, and ecosystems as burden-bearing reality. Qualia insists that what is undergone is not an accessory to public truth, but a field of verification that cannot be replaced by numbers, procedures, or rhetorical compliance.
 
 - **Mistika**  
-  Mistika is a normative and transformative discipline of inner formation concerning intention, consciousness, and the inward orientation of the subject. It names the work of purification and calibration of desire, perception, and motive so that the subject does not mistake projection for insight, and does not treat inwardness as a license but as a field of accountable discipline before what is ultimately real.
+  Mistika is a normative and transformative discipline of knowledge and practice concerning the epistemic condition of intention, the state of consciousness, and the inner orientation of the subject. Mistika names the work of purification through which desires, perceptions, and motives are clarified, so that the inner life does not become a private exemption from audit, but a domain of disciplined answerability before what is ultimately real.
 
-These four languages are coordinated within **Akal** as an integrative inner faculty and are tested in history on the surface of **Akhlak**.
+These four languages are integrated through **Akal** as the integrative inner faculty and are historically tested on the surface of **Akhlak**.
 
-- **Akal (integrative inner faculty)**  
-  Akal is the integrative inner faculty that aligns normative orientation (Sabda), inferential order (Logic), lived experience (Qualia), and inward discipline (Mistika) into judgments and decisions that remain answerable.
+- **Akal (the integrative inner faculty)**  
+  Akal is the integrative inner faculty that aligns Sabda, Logic, Qualia, and Mistika into judgments and decisions that can be accounted for. It guards against justification without measure, experience without orientation, and inwardness that immunizes itself from correction.
 
-- **Akhlak (Virtue Ethics / Character; verification surface)**  
-  Akhlak is the relatively stable configuration of dispositions and governance practices that repeatedly yield trustworthy, just, honest, compassionate, and dignifying action. Within TCT, Akhlak functions as the observable verification surface where Sabda, Logic, Qualia, and Mistika leave their trace across time and context. Akhlak does not manufacture truth; it discloses whether truth has in fact bound a life, an institution, or a civilization.
+- **Akhlak (the surface of verification)**  
+  Akhlak is the relatively stable configuration of moral dispositions and governance practices that repeatedly give rise to trustworthy, just, honest, compassionate, and dignifying actions. Within TCT, Akhlak functions as the observable surface of verification on which Sabda, Logic, Qualia, and Mistika leave their trace across time and context. Akhlak does not manufacture truth; it is where truth discloses whether it is binding.
 
-The semantic definitions stored in this repository, especially in `semantic-defs/TCT_Canonical-Semantic-Definitions_ID-EN_v1.0.*`, are the **binding canonical reference** for all uses of TCT terminology in manuscripts, datasets, and AI systems. Any divergence must be declared explicitly as external use and carries no authority for interpreting the canonical system.
+The semantic definitions stored in this repository, especially in `semantic-defs/TCT_Canonical-Semantic-Definitions_ID-EN_v1.0.*`, are the binding canonical reference for all uses of TCT terminology in manuscripts, datasets, and AI systems. Any external deviation must be stated explicitly as non-canonical use and has no authority to interpret the canonical system.
 
 ## Abstract (ID) — Tetralogy 1 (Ontology)
 **TL;DR:** Risalah ini menafsir krisis post-truth sebagai pemutusan "alamat penagihan", yakni klaim dan keputusan yang beredar tanpa penanggung yang dapat ditagih di hadapan Mizan. Ia memulihkan hierarki ukuran dengan menolak kudeta Logic, metrik, dan algoritma sebagai otoritas normatif, serta menegaskan bahwa kebenaran mengikat hanya sejauh terbukti dan terjelma dalam Akhlak.
