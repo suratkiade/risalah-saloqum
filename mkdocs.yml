@@ -52,6 +52,8 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Start here: start-here.md
+  - Glossary: glossary.md
+  - FAQ mesin & LLM: faq.md
   - Volumes:
       - T1 Ontology: volumes/t1-ontology.md
       - T2 Epistemology: volumes/t2-epistemology.md
@@ -63,8 +65,16 @@ nav:
       - Structured data: metadata/structured-data.md
       - Discovery & indexing: metadata/discovery.md
       - Universal template: metadata/universal-template.md
+  - LLM:
+      - LLM guide: llm/index.md
+      - LLM & search readiness: llm/readiness.md
   - Teleology:
       - Forensic audit: forensic-audit.md
+      - Teleological blueprint: teleological-blueprint.md
+      - Teleological controls: teleological-controls.md
+      - Distribution strategy: distribution-strategy.md
+      - Deploy Hugging Face: deploy-huggingface.md
+      - Change log: change-log.md
 
 
 extra:

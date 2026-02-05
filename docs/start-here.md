@@ -31,3 +31,12 @@ Direct release assets are available under:
 - /CORPUS.manifest.json
 - /sitemap.xml
 - /robots.txt
+
+
+## Semantic support pages
+- /glossary/
+- /faq/
+- /llm/readiness/
+
+## AI dataset export
+- /ai-faq.jsonl (repository root; machine-readable FAQ corpus)

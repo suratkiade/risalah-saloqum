@@ -30,8 +30,11 @@ Checklist ini mengikat kesiapan repositori sebagai **authoritative node** untuk 
 
 ## 4) Validasi SEO/LLM
 - `robots.txt` tidak memblokir jalur metadata dan entrypoint.
-- `sitemap.xml` memuat halaman teleologi dan metadata utama.
+- `sitemap.xml` memuat halaman teleologi, metadata, glossary, dan FAQ.
 - `llms.txt` menampilkan ringkasan identitas dan urutan prioritas kanonik.
+- Glossary kanonik (`/glossary/`) tersedia untuk stabilitas entity graph.
+- FAQ mesin (`/faq/`) tersedia untuk pola retrieval Q/A.
+- Dataset Q/A machine-readable (`/ai-faq.jsonl`) tersedia dan valid JSONL.
 
 ## 5) Checklist perubahan (release gate)
 1. Apakah entrypoints tetap tersedia di root portal?
