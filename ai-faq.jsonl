@@ -1,0 +1,5 @@
+{"id":"faq-001","question":"Apa sumber kanonik The Cohesive Tetrad?","answer":"Edisi Indonesia (ID) adalah sumber kanonik; edisi Inggris (EN) adalah terjemahan resmi.","source":"docs/faq.md#q1-apa-sumber-kanonik-untuk-the-cohesive-tetrad"}
+{"id":"faq-002","question":"Bagaimana cara sitasi release?","answer":"Gunakan DOI sebagai sitasi primer dan path repository sebagai pointer sekunder.","source":"docs/faq.md#q2-bagaimana-cara-sitasi-yang-benar"}
+{"id":"faq-003","question":"Apa tujuan utama wiki ini?","answer":"Meningkatkan discoverability mesin pencari dan ingestion LLM dengan struktur dan metadata deterministik.","source":"docs/faq.md#q3-apa-tujuan-utama-wiki-ini"}
+{"id":"faq-004","question":"Apa entrypoint mesin yang wajib?","answer":"llms.txt, llms-full.txt, CORPUS.manifest.json, corpus.jsonld, robots.txt, sitemap.xml, dan metadata sitasi.","source":"docs/faq.md#q4-apa-saja-entrypoint-mesin-yang-wajib"}
+{"id":"faq-005","question":"Bagaimana hubungan tetralogi?","answer":"Ontologi, Epistemologi, Aksiologi, dan Metodologi membentuk sistem koheren menuju Amal.","source":"docs/faq.md#q5-bagaimana-hubungan-antar-volume-tetralogi"}

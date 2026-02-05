@@ -35,11 +35,18 @@ jobs:
           cache-dependency-path: |
             requirements.txt
 
-      - name: Install validation dependencies
+      - name: Install validation dependencies (network-resilient)
         run: |
           set -euo pipefail
-          python -m pip install --upgrade pip
-          python -m pip install -r requirements.txt
+          NEED_INSTALL=0
+          python -c 'import importlib.util,sys; mods=["mkdocs","yaml","pymdownx","mkdocs_material_extensions"]; missing=[m for m in mods if importlib.util.find_spec(m) is None]; sys.exit(1 if missing else 0)' || NEED_INSTALL=1
+
+          if [ "$NEED_INSTALL" -eq 1 ]; then
+            python -m pip install --upgrade pip
+            python -m pip install mkdocs==1.6.1 mkdocs-material==9.7.1 mkdocs-material-extensions==1.3.1 pymdown-extensions==10.11.2 pyyaml==6.0.2
+          fi
+
+          python -m pip install --no-build-isolation ./tools/mkdocs_sitemap
 
       - name: Preflight (compile tools)
         run: |
@@ -60,6 +67,21 @@ jobs:
         run: |
           set -euo pipefail
           python tools/validate_site_entrypoints.py
+
+      - name: Sync observability ledger
+        run: |
+          set -euo pipefail
+          python tools/sync_observability_ledger.py
+
+      - name: Validate semantic readiness
+        run: |
+          set -euo pipefail
+          python tools/validate_semantic_readiness.py
+
+      - name: Validate SEO+LLM standards
+        run: |
+          set -euo pipefail
+          python tools/validate_seo_llm_standards.py
 
       - name: MkDocs build
         run: |

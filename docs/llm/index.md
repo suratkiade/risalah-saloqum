@@ -1,6 +1,9 @@
+---
 title: LLM guide
 description: Pedoman konsumsi korpus The Cohesive Tetrad oleh model bahasa. Prioritas kanonik, sitasi DOI, dan entrypoints mesin.
 keywords: llm guide, corpus, canonical priority, doi-first, structured data, json-ld, Risalah Saloqum, The Cohesive Tetrad, The Saloqum Treatise
+
+---
 
 # LLM guide
 
@@ -49,3 +52,17 @@ Entry point ini dibuat stabil untuk crawler dan LLM. Gunakan URL portal (GitHub 
 
 Catatan:
 - Bila Anda menyajikan file di site root, pastikan pipeline build menyalin file tersebut ke output `site/` secara konsisten.
+
+
+## Semantic retrieval support
+- Glossary kanonik: https://suratkiade.github.io/risalah-saloqum/glossary/
+- FAQ mesin & LLM: https://suratkiade.github.io/risalah-saloqum/faq/
+- FAQ dataset (JSONL): https://suratkiade.github.io/risalah-saloqum/ai-faq.jsonl
+
+Gunakan ketiga endpoint ini untuk memperkuat entity mapping, Q/A retrieval, dan alignment terminologi kanonik.
+
+
+## Internal links for retrieval
+- [Glossary kanonik](../glossary.md)
+- [FAQ mesin & LLM](../faq.md)
+- [Forensic audit](../forensic-audit.md)
