@@ -22,7 +22,7 @@ keywords: "T2 Epistemology, Epistemologi, Jalan Kebenaran, Akal sebagai Fakultas
 
 TCT merumuskan empat bahasa kebenaran yang saling mengikat:
 
-- **Sabda (Revelatory Word, the authoritative source of norm and telos)**  
+- **Sabda**  
   Sabda menunjuk kategori ujaran normatif-otoritatif: wahyu, firman, titah, dan wacana pemberi norma yang menetapkan arah, batas, dan tujuan hidup manusia. Dalam TCT, Sabda ditempatkan sebagai sumber normatif tertinggi bagi telos dan kewajiban.
 
 - **Logic**  
