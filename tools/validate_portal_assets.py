@@ -23,12 +23,20 @@ REQUIRED_FILES = [
     "CORPUS.manifest.json",
     "corpus.jsonld",
     "mkdocs.yml",
+    "ai-faq.jsonl",
     "docs/index.md",
+    "docs/start-here.md",
+    "docs/glossary.md",
+    "docs/faq.md",
+    "docs/ai-faq.jsonl",
     "docs/releases/index.md",
     "docs/metadata/manifest.md",
     "docs/metadata/structured-data.md",
+    "docs/metadata/semantic-graph.md",
+    "docs/metadata/seo-llm-strength-standard.md",
     "docs/llm/index.md",
     "docs/robots.txt",
+    "docs/telemetry/index-observability-ledger.md",
     ".github/workflows/pages.yml",
     ".github/workflows/validate-portal.yml",
     "tools/sync_portal_assets.py",
@@ -37,9 +45,11 @@ REQUIRED_FILES = [
 
 LOCK_PATH = ROOT / "CORPUS.lock.yaml"
 
+
 def die(msg: str) -> None:
     print(f"ERROR: {msg}")
     sys.exit(1)
+
 
 def check_exists() -> None:
     missing = []
@@ -49,6 +59,7 @@ def check_exists() -> None:
     if missing:
         die("Missing required files:\n- " + "\n- ".join(missing))
 
+
 def load_json(rel: str) -> dict:
     p = ROOT / rel
     try:
@@ -56,11 +67,13 @@ def load_json(rel: str) -> dict:
     except Exception as e:
         die(f"Invalid JSON in {rel}: {e}")
 
+
 def load_lock() -> dict:
     try:
         return yaml.safe_load(LOCK_PATH.read_text(encoding="utf-8"))
     except Exception as e:
         die(f"Invalid YAML in CORPUS.lock.yaml: {e}")
+
 
 def required_doi_urls(lock: dict) -> list[str]:
     urls: list[str] = []
@@ -70,6 +83,7 @@ def required_doi_urls(lock: dict) -> list[str]:
             if doi:
                 urls.append(f"https://doi.org/{doi}")
     return urls
+
 
 def check_manifest() -> None:
     lock = load_lock()
@@ -82,6 +96,7 @@ def check_manifest() -> None:
     expected_orcid = lock.get("corpus", {}).get("author", {}).get("orcid")
     if expected_orcid and author.get("orcid") != expected_orcid:
         die(f"CORPUS.manifest.json author.orcid must be {expected_orcid}")
+
 
 def check_jsonld() -> None:
     lock = load_lock()
@@ -102,6 +117,7 @@ def check_jsonld() -> None:
             if doi not in s:
                 die(f"corpus.jsonld must include DOI URL: {doi}")
 
+
 def check_llms() -> None:
     lock = load_lock()
     doi_urls = required_doi_urls(lock)
@@ -112,6 +128,7 @@ def check_llms() -> None:
             die(f"llms.txt must include DOI URL: {doi}")
         if doi not in llms_full:
             die(f"llms-full.txt must include DOI URL: {doi}")
+
 
 def check_local_links() -> None:
     md_files = list((ROOT / "docs").rglob("*.md"))
@@ -137,13 +154,64 @@ def check_local_links() -> None:
     if missing:
         die("Broken local markdown links:\n- " + "\n- ".join(missing))
 
+
+def check_ai_faq_jsonl() -> None:
+    root_lines = (ROOT / "ai-faq.jsonl").read_text(encoding="utf-8").strip().splitlines()
+    docs_lines = (ROOT / "docs/ai-faq.jsonl").read_text(encoding="utf-8").strip().splitlines()
+    if not root_lines:
+        die("ai-faq.jsonl must not be empty")
+    if root_lines != docs_lines:
+        die("docs/ai-faq.jsonl must match ai-faq.jsonl")
+
+    required_keys = {"id", "question", "answer", "source"}
+    for idx, line in enumerate(root_lines, start=1):
+        try:
+            obj = json.loads(line)
+        except Exception as e:
+            die(f"ai-faq.jsonl line {idx} invalid JSON: {e}")
+        missing = required_keys - set(obj.keys())
+        if missing:
+            die(f"ai-faq.jsonl line {idx} missing keys: {sorted(missing)}")
+        source = str(obj.get("source", ""))
+        if not source.startswith("docs/"):
+            die(f"ai-faq.jsonl line {idx} source must start with docs/: {source}")
+
+
+def check_semantic_pages_linked() -> None:
+    index_text = (ROOT / "docs/index.md").read_text(encoding="utf-8")
+    start_text = (ROOT / "docs/start-here.md").read_text(encoding="utf-8")
+    for required in ("glossary.md", "faq.md"):
+        if required not in index_text:
+            die(f"docs/index.md must reference {required}")
+    for required in ("/glossary/", "/faq/"):
+        if required not in start_text:
+            die(f"docs/start-here.md must reference {required}")
+
+
+def check_semantic_readiness_script() -> None:
+    script = ROOT / "tools/validate_semantic_readiness.py"
+    if not script.exists():
+        die("Missing semantic readiness validator script")
+
+
+def check_operational_standards_script() -> None:
+    script = ROOT / "tools/validate_seo_llm_standards.py"
+    if not script.exists():
+        die("Missing SEO+LLM operational standards validator script")
+
+
 def main() -> None:
     check_exists()
     check_manifest()
     check_jsonld()
     check_llms()
     check_local_links()
+    check_ai_faq_jsonl()
+    check_semantic_pages_linked()
+    check_semantic_readiness_script()
+    check_operational_standards_script()
     print("OK: portal assets validated.")
+
 
 if __name__ == "__main__":
     main()
