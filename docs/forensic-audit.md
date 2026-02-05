@@ -72,6 +72,7 @@ Akses langsung ke halaman `https://github.com/suratkiade/risalah-saloqum/wiki` d
 
 ### Putusan audit
 **Status: PATUH BASELINE WIKI, BELUM OPTIMAL UNTUK DOMINASI EKOSISTEM DIGITAL GLOBAL.**
+
 **Status: SESUAI STANDAR WIKI (technical-compliance high confidence, evidence-backed).**
 
 Penilaian ringkas:
@@ -110,6 +111,18 @@ Penilaian ringkas:
 - 100% halaman strategis memiliki minimal 3 internal links kontekstual.
 - Peningkatan coverage indeks portal dan stabilitas crawling per kuartal.
 - FAQ + glossary terindeks dan menjadi sumber jawaban konsisten untuk istilah kanonik.
+
+### Implementasi remediasi (putaran ini)
+Per putaran audit ini, beberapa gap prioritas sudah ditutup langsung pada repositori:
+- Ditambahkan `docs/glossary.md` untuk stabilisasi terminologi dan entity graph kanonik.
+- Ditambahkan `docs/faq.md` untuk retrieval Q/A oleh mesin pencari dan LLM.
+- Ditambahkan `ai-faq.jsonl` + `docs/ai-faq.jsonl` sebagai corpus Q/A machine-readable.
+- Validator `tools/validate_portal_assets.py` diperkuat untuk memverifikasi keberadaan aset semantik baru, validitas JSONL, sinkronisasi root↔docs, dan linking minimum halaman strategis.
+
+Dampak langsung:
+1. Meningkatkan peluang *semantic retrieval* berbasis definisi dan tanya-jawab.
+2. Memperkuat konsistensi ingestion data oleh sistem AI pihak ketiga.
+3. Menurunkan risiko drift konten SEO/LLM lewat validasi otomatis di pipeline.
 3. **Kesiapan konsumsi mesin**: sangat baik (JSON-LD + llms + sitemap/robots).
 4. **Kesiapan tata kelola publik**: memenuhi baseline open knowledge repository.
 
