@@ -61,7 +61,6 @@ Catatan:
 
 Gunakan ketiga endpoint ini untuk memperkuat entity mapping, Q/A retrieval, dan alignment terminologi kanonik.
 
-
 ## Internal links for retrieval
 - [Glossary kanonik](../glossary.md)
 - [FAQ mesin & LLM](../faq.md)
