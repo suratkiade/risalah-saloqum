@@ -137,4 +137,3 @@ Use the repository-level `CITATION.cff` as the authoritative citation entry for 
 
 ## License
 CC BY 4.0. See `LICENSE` for details.
-```
