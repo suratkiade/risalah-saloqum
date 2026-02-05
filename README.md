@@ -24,7 +24,7 @@ Canonical corpus repository. Public identity (titles, subtitles, DOIs, author, O
 
 The four languages of truth are ordered as **Saloqum**: **Sabda, Logic, Qualia, Mistika**. This order is canonical within TCT and is not interchangeable.
 
-- **Sabda (Revelatory Word, the authoritative source of norm and telos)**  
+- **Sabda**  
   Sabda (Revelatory Word, the authoritative source of norm and telos) is the **highest normative authority** that establishes binding norm and telos within an order of life. Canonically, Sabda is grounded at once in (1) **revelatory communication** as the originating source of normative authority and the establisher of telos, and (2) a **corpus of foundational principles** as the canonical form that gathers, codifies, and institutionalises revelatory content so that it is recognised as the final and binding reference. Sabda therefore sets direction, boundary, and ends, and functions as the apex criterion by which normative legitimacy, eligibility of judgement, and life-orientation are measured. Within TCT, Sabda is not a mere class of persuasive utterances, cultural narratives, or transient decrees; it is the binding normative reference that constrains all downstream reasoning, experience-claims, inward disciplines, and institutional designs.
 
 - **Logic**  
@@ -74,10 +74,10 @@ The following items are part of the locked public identity for discovery, citati
 - EN official translation: "The Cohesive Tetrad: The Languages of Truth" (The end of debate is the beginning of Amal)  
   DOI: 10.17605/OSF.IO/2SUDK
 
-## Abstracts (canonical, SEO and AI indexing)
+## Abstracts
 The following abstracts are repository-level discovery summaries. They are aligned to each Tetralogy volume and intended to be mirrored in each volume’s `abstract.md` and `abstract.jsonld` without identity drift.
 
-### Tetralogy 1 (Ontology) — Abstract (ID)
+### Tetralogy 1 (Ontology) - Abstract (ID)
 **TL;DR:** Risalah ini menafsir krisis post-truth sebagai pemutusan "alamat penagihan", yakni klaim dan keputusan yang beredar tanpa penanggung yang dapat ditagih di hadapan Mizan. Ia memulihkan hierarki ukuran dengan menolak kudeta Logic, metrik, dan algoritma sebagai otoritas normatif, serta menegaskan bahwa kebenaran mengikat hanya sejauh terbukti dan terjelma dalam Akhlak.
 
 <details><summary>Read abstract</summary>
@@ -88,7 +88,7 @@ The Cohesive Tetrad: Hakikat Kebenaran, Di Bawah Takhta Neraca merumuskan krisis
 
 </details>
 
-### Tetralogy 4 (Methodology) — Abstract (ID)
+### Tetralogy 4 (Methodology) - Abstract (ID)
 **TL;DR:** Risalah ini membatasi rasionalitas publik dengan menegaskan bahwa Logic menguji validitas inferensi tetapi tidak dapat menghasilkan kewajiban tanpa premis normatif eksplisit (jurang is-ought). Ia mengkritik kedaulatan metrik dan menetapkan tesis T_v ⇒ A^+ bahwa kebenaran mengikat hanya bila dapat diaudit sebagai Akhlak yang teramati lintas waktu dan konteks.
 
 <details><summary>Read abstract</summary>
