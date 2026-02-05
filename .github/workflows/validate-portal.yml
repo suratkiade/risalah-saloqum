@@ -35,11 +35,16 @@ jobs:
           cache-dependency-path: |
             requirements.txt
 
-      - name: Install validation deps
+      - name: Install validation deps (network-resilient)
         run: |
           set -euo pipefail
-          python -m pip install --upgrade pip
-          python -m pip install pyyaml==6.0.2
+          if python -c 'import importlib.util,sys; sys.exit(0 if importlib.util.find_spec("yaml") else 1)'
+          then
+            echo "PyYAML already available."
+          else
+            python -m pip install --upgrade pip
+            python -m pip install pyyaml==6.0.2
+          fi
 
       - name: Preflight (compile tools)
         run: |
@@ -50,6 +55,11 @@ jobs:
         run: |
           set -euo pipefail
           python tools/sync_portal_assets.py
+
+      - name: Sync observability ledger (deterministic)
+        run: |
+          set -euo pipefail
+          python tools/sync_observability_ledger.py
 
       - name: Report sync changes (do not fail)
         run: |
@@ -69,3 +79,13 @@ jobs:
         run: |
           set -euo pipefail
           python tools/validate_portal_assets.py
+
+      - name: Validate semantic readiness
+        run: |
+          set -euo pipefail
+          python tools/validate_semantic_readiness.py
+
+      - name: Validate SEO+LLM standards
+        run: |
+          set -euo pipefail
+          python tools/validate_seo_llm_standards.py

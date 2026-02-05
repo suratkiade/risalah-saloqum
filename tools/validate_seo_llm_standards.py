@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-
 """Validate operational SEO+LLM standards for strategic docs pages."""
 
 from __future__ import annotations

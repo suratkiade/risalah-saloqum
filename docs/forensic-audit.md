@@ -152,6 +152,8 @@ Dampak teleologis:
 ## Standar operasional tambahan
 - [SEO & LLM strength standard](./metadata/seo-llm-strength-standard.md)
 - Validator operasional: `tools/validate_seo_llm_standards.py`
+
+- Sumber metrik observability: `docs/telemetry/observability-metrics.csv` (sinkron via `tools/sync_observability_ledger.py`).
 - Sumber metrik observability: `docs/telemetry/observability-metrics.csv` (sinkron via `tools/sync_observability_ledger.py`).
 
 ## Standar operasional tambahan

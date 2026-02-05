@@ -78,7 +78,6 @@ nav:
       - Deploy Hugging Face: deploy-huggingface.md
       - Change log: change-log.md
       - Index observability ledger: telemetry/index-observability-ledger.md
-
 extra:
   social:
     - icon: fontawesome/brands/github
