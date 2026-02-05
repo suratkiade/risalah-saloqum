@@ -79,7 +79,6 @@ nav:
       - Change log: change-log.md
       - Index observability ledger: telemetry/index-observability-ledger.md
 
-
 extra:
   social:
     - icon: fontawesome/brands/github

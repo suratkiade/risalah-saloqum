@@ -110,7 +110,6 @@ Penilaian ringkas:
 - Peningkatan coverage indeks portal dan stabilitas crawling per kuartal.
 - FAQ + glossary terindeks dan menjadi sumber jawaban konsisten untuk istilah kanonik.
 
-
 ### Implementasi remediasi (putaran ini)
 Per putaran audit ini, beberapa gap prioritas sudah ditutup langsung pada repositori:
 - Ditambahkan `docs/glossary.md` untuk stabilisasi terminologi dan entity graph kanonik.
@@ -136,6 +135,10 @@ Dampak teleologis:
 2. Entity graph korpus menjadi lebih eksplisit untuk search engine dan LLM retrieval.
 3. Governance teknis naik dari compliance statis ke compliance + observability.
 
+3. **Kesiapan konsumsi mesin**: sangat baik (JSON-LD + llms + sitemap/robots).
+4. **Kesiapan tata kelola publik**: memenuhi baseline open knowledge repository.
+
+
 ### Rekomendasi penguatan lanjutan
 - Tambahkan *timestamped audit snapshot* per rilis pada bagian ini untuk histori kepatuhan.
 - Tambahkan *style lint* markdown (opsional) agar konsistensi heading/list lintas halaman makin ketat.
@@ -146,6 +149,7 @@ Dampak teleologis:
 - [Semantic graph map](./metadata/semantic-graph.md)
 - [Index observability ledger](./telemetry/index-observability-ledger.md)
 - [LLM readiness checklist](./llm/readiness.md)
+
 
 
 ## Standar operasional tambahan
