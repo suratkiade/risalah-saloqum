@@ -123,6 +123,19 @@ Dampak langsung:
 1. Meningkatkan peluang *semantic retrieval* berbasis definisi dan tanya-jawab.
 2. Memperkuat konsistensi ingestion data oleh sistem AI pihak ketiga.
 3. Menurunkan risiko drift konten SEO/LLM lewat validasi otomatis di pipeline.
+
+
+### Implementasi remediasi lanjutan (putaran ini)
+Fase lanjutan yang dieksekusi untuk mendekatkan telos “dominasi ekosistem digital global”:
+- Ditambahkan `docs/metadata/semantic-graph.md` sebagai peta relasi antardokumen (hasPart/isPartOf/about/mentions).
+- Ditambahkan `docs/telemetry/index-observability-ledger.md` untuk baseline monitoring coverage, CTR, dan posisi kueri kanonik.
+- Ditambahkan validator `tools/validate_semantic_readiness.py` untuk memeriksa kepadatan tautan internal halaman strategis, validitas anchor FAQ pada `ai-faq.jsonl`, dan kehadiran sinyal semantik di entrypoint.
+- Validator portal diperluas agar mengunci keberadaan artefak semantic graph dan observability ledger.
+
+Dampak teleologis:
+1. Jalur menuju dominasi digital tidak hanya berbasis konten, tetapi juga berbasis pengukuran dan kontrol drift.
+2. Entity graph korpus menjadi lebih eksplisit untuk search engine dan LLM retrieval.
+3. Governance teknis naik dari compliance statis ke compliance + observability.
 3. **Kesiapan konsumsi mesin**: sangat baik (JSON-LD + llms + sitemap/robots).
 4. **Kesiapan tata kelola publik**: memenuhi baseline open knowledge repository.
 
@@ -130,3 +143,9 @@ Dampak langsung:
 - Tambahkan *timestamped audit snapshot* per rilis pada bagian ini untuk histori kepatuhan.
 - Tambahkan *style lint* markdown (opsional) agar konsistensi heading/list lintas halaman makin ketat.
 - Jika akses jaringan CI memungkinkan, tambahkan *live probe* berkala ke URL wiki GitHub untuk mengikat audit lokal dan audit endpoint publik secara bersamaan.
+
+
+## Internal links (teleological control)
+- [Semantic graph map](./metadata/semantic-graph.md)
+- [Index observability ledger](./telemetry/index-observability-ledger.md)
+- [LLM readiness checklist](./llm/readiness.md)

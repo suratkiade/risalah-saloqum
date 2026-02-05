@@ -32,8 +32,10 @@ REQUIRED_FILES = [
     "docs/releases/index.md",
     "docs/metadata/manifest.md",
     "docs/metadata/structured-data.md",
+    "docs/metadata/semantic-graph.md",
     "docs/llm/index.md",
     "docs/robots.txt",
+    "docs/telemetry/index-observability-ledger.md",
     ".github/workflows/pages.yml",
     ".github/workflows/validate-portal.yml",
     "tools/sync_portal_assets.py",
@@ -185,6 +187,12 @@ def check_semantic_pages_linked() -> None:
             die(f"docs/start-here.md must reference {required}")
 
 
+def check_semantic_readiness_script() -> None:
+    script = ROOT / "tools/validate_semantic_readiness.py"
+    if not script.exists():
+        die("Missing semantic readiness validator script")
+
+
 def main() -> None:
     check_exists()
     check_manifest()
@@ -193,6 +201,7 @@ def main() -> None:
     check_local_links()
     check_ai_faq_jsonl()
     check_semantic_pages_linked()
+    check_semantic_readiness_script()
     print("OK: portal assets validated.")
 
 

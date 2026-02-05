@@ -63,6 +63,7 @@ nav:
   - Metadata:
       - Manifest: metadata/manifest.md
       - Structured data: metadata/structured-data.md
+      - Semantic graph map: metadata/semantic-graph.md
       - Discovery & indexing: metadata/discovery.md
       - Universal template: metadata/universal-template.md
   - LLM:
@@ -75,7 +76,7 @@ nav:
       - Distribution strategy: distribution-strategy.md
       - Deploy Hugging Face: deploy-huggingface.md
       - Change log: change-log.md
-
+      - Index observability ledger: telemetry/index-observability-ledger.md
 
 extra:
   social:
