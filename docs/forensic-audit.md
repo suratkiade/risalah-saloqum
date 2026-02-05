@@ -71,11 +71,45 @@ Akses langsung ke halaman `https://github.com/suratkiade/risalah-saloqum/wiki` d
 | Tata kelola kontribusi | Tersedia file governance standar | `CONTRIBUTING.md`, `SECURITY.md`, `LICENSE`, `CITATION.cff` tersedia | Lulus |
 
 ### Putusan audit
+**Status: PATUH BASELINE WIKI, BELUM OPTIMAL UNTUK DOMINASI EKOSISTEM DIGITAL GLOBAL.**
 **Status: SESUAI STANDAR WIKI (technical-compliance high confidence, evidence-backed).**
 
 Penilaian ringkas:
 1. **Kelengkapan struktur wiki**: terpenuhi (navigasi top-level dan domain pages jelas).
 2. **Kualitas forensik metadata**: kuat (lock file + validator deterministik).
+3. **Kesiapan konsumsi mesin**: baik (JSON-LD + llms + sitemap/robots sudah tersedia).
+4. **Kesenjangan strategis**: masih ada celah pada lapis SEO semantik, retrieval AI lintas dokumen, dan observabilitas performa index.
+
+### Celah lemah yang terdeteksi (SEO + AI discoverability)
+| ID | Celah | Dampak | Risiko |
+| --- | --- | --- | --- |
+| G-01 | Belum ada halaman glossary konsep kanonik (Ontologi, Epistemologi, Aksiologi, Metodologi, Amal) yang dijahit dengan anchor-link konsisten | Search engine dan LLM sulit membangun *entity graph* terminologi inti | Tinggi |
+| G-02 | Belum ada FAQ mesin (question-answer pairs) lintas topik utama | Peluang tampil sebagai rich answer/AI answer menurun | Tinggi |
+| G-03 | Belum ada internal-link policy berbasis prioritas (pillar → cluster → release) yang diverifikasi otomatis | *Topical authority* kurang terkonsolidasi | Tinggi |
+| G-04 | JSON-LD sudah ada, namun belum memetakan relasi granular antardokumen (mis. `hasPart`, `isBasedOn`, `mentions`) secara konsisten di seluruh halaman docs | Pemahaman konteks dokumen oleh crawler semantik dan LLM retrieval menjadi dangkal | Sedang-Tinggi |
+| G-05 | Tidak ada audit berkala terhadap CTR/coverage/indexing status halaman portal publik | Sulit membuktikan peningkatan dominasi distribusi digital secara kuantitatif | Sedang |
+| G-06 | Tidak ada skema *content freshness signal* (last reviewed, last major revision) pada halaman strategis | Mesin pencari berpotensi menilai konten kurang segar pada kueri kompetitif | Sedang |
+| G-07 | Belum ada *machine-readable Q/A corpus* (misalnya JSON/JSONL) untuk ingestion AI eksternal | Integrasi ke pipeline AI pihak ketiga kurang efisien | Sedang |
+
+### Rencana remediasi terikat (prioritas 30-60-90 hari)
+1. **30 hari (fondasi semantik)**
+   - Tambahkan halaman `docs/glossary.md` (definisi kanonik + alias + tautan lintas volume).
+   - Tambahkan `docs/faq.md` berbasis pertanyaan pengguna/mesin (format Q/A eksplisit).
+   - Terapkan pedoman internal-linking: setiap halaman cluster harus menaut ke 1 halaman pilar dan 2 halaman terkait.
+2. **60 hari (penguatan machine retrieval)**
+   - Perluas JSON-LD docs-level dengan relasi antardokumen (`hasPart`, `isPartOf`, `about`, `mentions`).
+   - Tambahkan artefak `ai-faq.jsonl` untuk ingestion sistem AI dan evaluasi retrieval.
+   - Tambahkan validator baru untuk memastikan minimal jumlah tautan internal strategis per halaman.
+3. **90 hari (observabilitas dominasi digital)**
+   - Tambahkan ledger metrik indeks (coverage, halaman terindeks, kueri utama, CTR, posisi rata-rata).
+   - Jalankan audit kuartalan “entity prominence” untuk istilah The Cohesive Tetrad.
+   - Publikasikan changelog SEO+AI per rilis untuk sinyal pemeliharaan aktif.
+
+### KPI keberhasilan (machine-first)
+- 100% halaman pilar memiliki JSON-LD valid + relasi antardokumen.
+- 100% halaman strategis memiliki minimal 3 internal links kontekstual.
+- Peningkatan coverage indeks portal dan stabilitas crawling per kuartal.
+- FAQ + glossary terindeks dan menjadi sumber jawaban konsisten untuk istilah kanonik.
 3. **Kesiapan konsumsi mesin**: sangat baik (JSON-LD + llms + sitemap/robots).
 4. **Kesiapan tata kelola publik**: memenuhi baseline open knowledge repository.
 
