@@ -22,7 +22,7 @@ keywords: "T4 Methodology, Metodologi, Bahasa Kebenaran, Languages of Truth, tru
 
 Empat bahasa kebenaran tersebut adalah **Sabda, Logic, Qualia, Mistika**. Keempatnya dipanggil untuk bekerja serentak, namun tunduk pada hierarki ukuran yang mencegah kekeliruan kategori.
 
-- **Sabda (firman normatif, sumber otoritatif norma dan telos)**  
+- **Sabda**  
   Sabda menunjuk pada ujaran normatif yang memikul bobot otoritas: firman, titah, kalam, dekret, dan wacana pemberi norma yang menetapkan arah, batas, dan tujuan. Dalam TCT, Sabda diposisikan sebagai sumber tertinggi norma dan telos, yakni ukuran pengikat yang memutuskan apakah pengetahuan, kebijakan, dan desain institusional bergerak di jalan yang sah.
 
 - **Logic**  
