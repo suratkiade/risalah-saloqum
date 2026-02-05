@@ -37,9 +37,11 @@ REQUIRED_FILES = [
     "docs/llm/index.md",
     "docs/robots.txt",
     "docs/telemetry/index-observability-ledger.md",
+    "docs/telemetry/observability-metrics.csv",
     ".github/workflows/pages.yml",
     ".github/workflows/validate-portal.yml",
     "tools/sync_portal_assets.py",
+    "tools/sync_observability_ledger.py",
     "tools/validate_portal_assets.py",
 ]
 

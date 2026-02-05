@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
+
+"""Validate operational SEO+LLM standards for strategic docs pages."""
+
+from __future__ import annotations
+
+import csv
 """
 Validate operational SEO+LLM standards for strategic docs pages.
 """
@@ -22,6 +28,8 @@ STRATEGIC = [
     DOCS / "forensic-audit.md",
 ]
 
+METRICS_CSV = DOCS / "telemetry" / "observability-metrics.csv"
+LEDGER_MD = DOCS / "telemetry" / "index-observability-ledger.md"
 
 def die(msg: str) -> None:
     print(f"ERROR: {msg}")
@@ -63,6 +71,9 @@ def check_required_assets() -> None:
         DOCS / "glossary.md",
         ROOT / "ai-faq.jsonl",
         DOCS / "metadata" / "semantic-graph.md",
+        DOCS / "metadata" / "seo-llm-strength-standard.md",
+        METRICS_CSV,
+        LEDGER_MD,
         DOCS / "telemetry" / "index-observability-ledger.md",
     ]
     missing = [str(p.relative_to(ROOT)) for p in required if not p.exists()]
@@ -70,6 +81,53 @@ def check_required_assets() -> None:
         die("Missing required SEO/LLM assets:\n- " + "\n- ".join(missing))
 
 
+def check_observability_metrics() -> None:
+    with METRICS_CSV.open("r", encoding="utf-8", newline="") as f:
+        rows = list(csv.DictReader(f))
+
+    if not rows:
+        die("docs/telemetry/observability-metrics.csv must have at least 1 data row")
+
+    required_cols = {
+        "period",
+        "indexed_pages",
+        "coverage_pct",
+        "top_canonical_query",
+        "avg_position",
+        "ctr_pct",
+        "crawl_errors",
+        "action_notes",
+    }
+    if set(rows[0].keys()) != required_cols:
+        die("observability metrics csv headers must match required schema")
+
+    last = rows[-1]
+    try:
+        int(last["indexed_pages"])
+        float(last["coverage_pct"])
+        float(last["avg_position"])
+        float(last["ctr_pct"])
+        int(last["crawl_errors"])
+    except ValueError as e:
+        die(f"latest observability row has invalid numeric values: {e}")
+
+    ledger = LEDGER_MD.read_text(encoding="utf-8")
+    for val in (
+        last["period"],
+        last["indexed_pages"],
+        last["coverage_pct"],
+        last["top_canonical_query"],
+        last["avg_position"],
+        last["ctr_pct"],
+        last["crawl_errors"],
+    ):
+        if str(val) not in ledger:
+            die(f"ledger is not synced with latest metrics value: {val}")
+
+
+def main() -> None:
+    check_required_assets()
+    check_observability_metrics()
 def main() -> None:
     check_required_assets()
     for page in STRATEGIC:

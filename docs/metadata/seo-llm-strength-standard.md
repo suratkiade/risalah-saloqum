@@ -22,6 +22,7 @@ Dokumen ini adalah standar operasional untuk memastikan portal **sangat kuat** p
 2. Observability ledger diperbarui kuartalan (`telemetry/index-observability-ledger.md`).
 3. Halaman pilar menautkan glossary, FAQ, dan readiness checklist.
 4. Terdapat release gate validator yang dieksekusi di CI.
+5. Ledger observability disinkronkan dari `telemetry/observability-metrics.csv` (single source of truth).
 
 ## C. Definisi status
 - **Baseline compliant**: seluruh hard gate (A) lolos.
@@ -33,3 +34,4 @@ Standar ini divalidasi oleh:
 - `tools/validate_portal_assets.py`
 - `tools/validate_semantic_readiness.py`
 - `tools/validate_seo_llm_standards.py`
+- `tools/sync_observability_ledger.py`
