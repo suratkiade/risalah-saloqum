@@ -110,6 +110,8 @@ Penilaian ringkas:
 - Peningkatan coverage indeks portal dan stabilitas crawling per kuartal.
 - FAQ + glossary terindeks dan menjadi sumber jawaban konsisten untuk istilah kanonik.
 
+codex/audit-forensic-wiki-for-standards-compliance-8wz5yj
+main
 ### Implementasi remediasi (putaran ini)
 Per putaran audit ini, beberapa gap prioritas sudah ditutup langsung pada repositori:
 - Ditambahkan `docs/glossary.md` untuk stabilisasi terminologi dan entity graph kanonik.
@@ -134,8 +136,11 @@ Dampak teleologis:
 1. Jalur menuju dominasi digital tidak hanya berbasis konten, tetapi juga berbasis pengukuran dan kontrol drift.
 2. Entity graph korpus menjadi lebih eksplisit untuk search engine dan LLM retrieval.
 3. Governance teknis naik dari compliance statis ke compliance + observability.
+codex/audit-forensic-wiki-for-standards-compliance-8wz5yj
+
 3. **Kesiapan konsumsi mesin**: sangat baik (JSON-LD + llms + sitemap/robots).
 4. **Kesiapan tata kelola publik**: memenuhi baseline open knowledge repository.
+main
 
 ### Rekomendasi penguatan lanjutan
 - Tambahkan *timestamped audit snapshot* per rilis pada bagian ini untuk histori kepatuhan.
@@ -152,9 +157,15 @@ Dampak teleologis:
 ## Standar operasional tambahan
 - [SEO & LLM strength standard](./metadata/seo-llm-strength-standard.md)
 - Validator operasional: `tools/validate_seo_llm_standards.py`
+codex/audit-forensic-wiki-for-standards-compliance-8wz5yj
+
+- Sumber metrik observability: `docs/telemetry/observability-metrics.csv` (sinkron via `tools/sync_observability_ledger.py`).
+
+- Audit forensik skrip Python lintas repo: `tools/audit_repo_scripts.py` (mengabaikan folder build/cache generated).
 - Sumber metrik observability: `docs/telemetry/observability-metrics.csv` (sinkron via `tools/sync_observability_ledger.py`).
 - Sumber metrik observability: `docs/telemetry/observability-metrics.csv` (sinkron via `tools/sync_observability_ledger.py`).
 
 ## Standar operasional tambahan
 - [SEO & LLM strength standard](./metadata/seo-llm-strength-standard.md)
 - Validator operasional: `tools/validate_seo_llm_standards.py`
+main

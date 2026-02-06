@@ -46,10 +46,10 @@ jobs:
             python -m pip install pyyaml==6.0.2
           fi
 
-      - name: Preflight (compile tools)
+      - name: Preflight script forensic audit
         run: |
           set -euo pipefail
-          python -m compileall tools
+          python tools/audit_repo_scripts.py
 
       - name: Validate against CORPUS.lock.yaml
         run: |

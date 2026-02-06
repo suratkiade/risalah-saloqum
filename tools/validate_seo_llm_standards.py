@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """Validate operational SEO+LLM standards for strategic docs pages."""
 
+codex/audit-forensic-wiki-for-standards-compliance-8wz5yj
+import csv
+
 codex/audit-forensic-wiki-for-standards-compliance-yxci2c
 import csv
 
@@ -13,6 +16,7 @@ Validate operational SEO+LLM standards for strategic docs pages.
 
 from __future__ import annotations
 
+main
 main
 import re
 import sys
@@ -34,8 +38,11 @@ STRATEGIC = [
 METRICS_CSV = DOCS / "telemetry" / "observability-metrics.csv"
 LEDGER_MD = DOCS / "telemetry" / "index-observability-ledger.md"
 
+codex/audit-forensic-wiki-for-standards-compliance-8wz5yj
+
 codex/audit-forensic-wiki-for-standards-compliance-yxci2c
  main
+main
 def die(msg: str) -> None:
     print(f"ERROR: {msg}")
     sys.exit(1)
@@ -79,9 +86,11 @@ def check_required_assets() -> None:
         DOCS / "metadata" / "seo-llm-strength-standard.md",
         METRICS_CSV,
         LEDGER_MD,
+codex/audit-forensic-wiki-for-standards-compliance-8wz5yj
+
 
         DOCS / "telemetry" / "index-observability-ledger.md",
-
+main
     ]
     missing = [str(p.relative_to(ROOT)) for p in required if not p.exists()]
     if missing:
@@ -135,9 +144,12 @@ def check_observability_metrics() -> None:
 def main() -> None:
     check_required_assets()
     check_observability_metrics()
+codex/audit-forensic-wiki-for-standards-compliance-8wz5yj
+
  
 def main() -> None:
     check_required_assets()
+ main
     for page in STRATEGIC:
         require_frontmatter_fields(page)
         check_internal_links(page)
