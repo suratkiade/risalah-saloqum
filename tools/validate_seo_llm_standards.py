@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """Validate operational SEO+LLM standards for strategic docs pages."""
 
+codex/audit-forensic-wiki-for-standards-compliance-yxci2c
+import csv
+
 from __future__ import annotations
 
 import csv
@@ -10,6 +13,7 @@ Validate operational SEO+LLM standards for strategic docs pages.
 
 from __future__ import annotations
 
+main
 import re
 import sys
 from pathlib import Path
@@ -30,6 +34,8 @@ STRATEGIC = [
 METRICS_CSV = DOCS / "telemetry" / "observability-metrics.csv"
 LEDGER_MD = DOCS / "telemetry" / "index-observability-ledger.md"
 
+codex/audit-forensic-wiki-for-standards-compliance-yxci2c
+ main
 def die(msg: str) -> None:
     print(f"ERROR: {msg}")
     sys.exit(1)
@@ -73,7 +79,9 @@ def check_required_assets() -> None:
         DOCS / "metadata" / "seo-llm-strength-standard.md",
         METRICS_CSV,
         LEDGER_MD,
+
         DOCS / "telemetry" / "index-observability-ledger.md",
+
     ]
     missing = [str(p.relative_to(ROOT)) for p in required if not p.exists()]
     if missing:
@@ -127,6 +135,7 @@ def check_observability_metrics() -> None:
 def main() -> None:
     check_required_assets()
     check_observability_metrics()
+ 
 def main() -> None:
     check_required_assets()
     for page in STRATEGIC:
