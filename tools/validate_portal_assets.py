@@ -42,7 +42,9 @@ REQUIRED_FILES = [
     ".github/workflows/validate-portal.yml",
     "tools/sync_portal_assets.py",
     "tools/sync_observability_ledger.py",
+codex/audit-forensic-wiki-for-standards-compliance-8wz5yj
     "tools/audit_repo_scripts.py",
+ main
     "tools/validate_portal_assets.py",
 ]
 

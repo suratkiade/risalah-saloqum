@@ -18,6 +18,9 @@ Ledger ini mengikat observabilitas performa indexing, crawling, dan discoverabil
 | Periode | Indexed pages | Coverage % | Top canonical query | Avg position | CTR | Crawl errors | Catatan aksi |
 | --- | ---: | ---: | --- | ---: | ---: | ---: | --- |
 | 2026-Q1 | 18 | 92.3 | The Cohesive Tetrad | 12.4 | 3.8 | 0 | Baseline kuartal awal setelah hardening semantic+LLM |
+codex/audit-forensic-wiki-for-standards-compliance-8wz5yj
+| 2026-Q1 | TBD | TBD | The Cohesive Tetrad | TBD | TBD | TBD | Baseline pengukuran awal |
+main
 
 ## Audit checklist observability
 1. Apakah semua halaman pilar masuk indeks publik?
